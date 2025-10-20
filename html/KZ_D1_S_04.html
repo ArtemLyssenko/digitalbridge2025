@@ -1,0 +1,261 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЖИ-агенттер дәуірі: чат-боттардан автономды суперқызметкерлерге — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>ЖИ-агенттер дәуірі: чат-боттардан автономды суперқызметкерлерге</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Кай-Фу Ли</span>
+      <span class="speaker-role"> — Sinovation Ventures және 01.ai компанияларының бас директоры</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Спикер чат-боттар мен құралдардан ойлау, жоспарлау және жадысы бар автономды ЖИ-агенттерге өтуді негіздеді. HR автоматтандыру мысалында көпагентті жүйелердің құндылығын көрсетті және Қазақстанға арналған туристік сайтты 5 минутта жасауды продемонстрациялады. Ашық модельдер мен on-prem орналастыруға, сондай-ақ өздерінің AI-командалары жоқ компаниялар үшін әріптестік пен енгізудің практикалық форматтарына басымдық берілді.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>Автономды ЖИ-агенттерге стратегиялық ауысуды және олардың өнімділік пен ЖІӨ-ге әсерін көрсету</li>
+<li>Көпагентті сценарийлерді және бизнес үшін практикалық құндылығын көрсету</li>
+<li>Қауіпсіздік пен икемділік үшін ашық модельдер мен жергілікті орналастыруды таңдауды негіздеу</li>
+<li>AI-инженерлері жоқ компанияларға арналған платформа мен ынтымақтастық форматтарын ұсыну</li>
+<li>Агенттердің тиімділік метрикаларын адамдарды алмастыру емес, бизнес-нәтижелер арқылы анықтау</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>ЖИ-агенттердің тиімділігін қалай өлшеу керек: экономикалық нәтижелер бойынша ма, әлде рөлдерді алмастыру бойынша ма?</li>
+<li>Нақты бизнеске көпагентті жүйелер үшін қандай архитектура және қандай кері байланыс қажет?</li>
+<li>Агенттердің автономиясының шектері қайда және контурда адамға қандай рөл қалады?</li>
+<li>Кәсіпорындар үшін ашық модельдер мен on-prem орналастырудың қандай тәуекелдері мен артықшылықтары бар?</li>
+<li>AI-командасы жоқ компаниялар агенттерді енгізуді қалай тез бастап, ауқымдай алады?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>Қазіргі модельдер болжаудан пайымдауға өтті: математикалық ойлау, код, жоспарлау және баяу ойлаудың аналогы.</li>
+<li>Эволюция: чат-боттар → құралдар → копилоттар → жадысы бар және қолданбаларға, құрылғыларға, деректерге қолжеткізуі бар автономды агенттер.</li>
+<li>Агенттер "суперқызметкерлер" ретінде: мақсаттарды қабылдайды, міндеттерді декомпозициялайды және оларды end-to-end орындайды.</li>
+<li>Екі класс агент бар: сценарийлік (жұмыс процестерінің) және ойлайтын (жаңа, анықталмаған міндеттерді шеше алатын).</li>
+<li>Көпагентті жүйелер тұтас функцияларды автоматтандыруға мүмкіндік береді (бес агент және кері байланыс ілмегі бар толық HR-контур мысалы).</li>
+<li>Агенттер ауқымданады, репликацияланады, 24/7 жұмыс істейді, көптілді; олардың жұмысының құны шамалар тәртібімен төмендейді.</li>
+<li>Агенттердің тиімділігін жасалған құн бойынша бағалау керек: пайдалылық, өсу, тиімділік; ауыстырылған қызметкерлер саны бойынша емес.</li>
+<li>Ашық модельдер мен жергілікті орналастыру деректер үстінен бақылау, ашықтық және икемділік береді (аналогиялар: Linux, Android).</li>
+<li>Демонстрация: ЖИ-агент Қазақстан туралы туристік сайтты 5 минутта үш тілде жасады, контент пен бейнелерді қоса.</li>
+<li>Бизнес үшін енгізудің үш форматы ұсынылды: платформада self-service, бірлескен әзірлеу және толық дайын жоба; Алио және Казахтелекоммен әріптестіктер қазірдің өзінде бар.</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+
+      <h2>Қорытындылар</h2>
+      <ul><li>ЖИ-агенттер автономды тапсырма орындаушылар фазасына өтуде және тұтас бизнес-функцияларды өлшенетін экономикалық әсермен автоматтандыра алады.</li>
+<li>Тұрақты енгізу үшін ашық модельдер, on-prem орналастыру және нәтижелер бойынша агенттерді жақсартатын кері байланыс контуры шешуші мәнге ие.</li>
+<li>Эмпатия мен бақылау үшін адам қатысуы сақталады, бірақ операциялық бөлік барған сайын көпагентті жүйелерге ығысады.</li>
+<li>Әріптестіктер мен енгізудің икемді форматтары өздерінің AI-командалары жоқ компаниялардың цифрлық трансформациясын жеделдетеді.</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>ЖИ-агенттерді енгізу бойынша қазақстандық әріптестермен (Алио және Казахтелеком) пилоттық жобаларды іске қосу.</li>
+<li>Платформаны өзара әрекеттесудің үш форматында ұсыну: self-service, бірлескен әзірлеу және толық дайын жоба.</li>
+<li>Жобаларды қауіпсіздік және деректердің суверендігі талаптарын сақтау үшін ашық модельдер мен жергілікті орналастыруға бағдарлау.</li>
+<li>Агенттердің үлесін бизнес-нәтижелер бойынша (пайдалылық, табыс өсімі, тиімділік) бағалау, ал персоналды алмастыру көрсеткіштері бойынша емес.</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>Пилот үшін 2–3 басым процесті таңдау (мысалы, рекрутинг/HR) және нысаналы KPI-ларды бекіту.</li>
+<li>Дереккөздер мен интеграцияларды дайындау: корпоративтік базалар, LinkedIn, пошта, күнтізбелер, брондау сервистері.</li>
+<li>Стекті анықтау: базалық ашық LLM, on-prem/жеке бұлт инфрақұрылымы, қолжеткізу және лог жүргізу саясаты.</li>
+<li>Көпагентті архитектура мен кері байланыс ілмегін жобалау (сапаны бағалау, нәтижелер бойынша оқыту).</li>
+<li>Стейкхолдерлерді тарту үшін жедел демонстрациялық кейс өткізу (бірнеше тілде сайт/контент генерациясы).</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>Sequoia Capital-дың ЖИ-агенттер туралы жарияланымы</li>
+<li>Linux (ашық экожүйенің мысалы)</li>
+<li>Android және iPhone (ашық және жабық экожүйелерді салыстыру)</li>
+<li>LinkedIn (рекрутинг сценарийінде түйіндеме көзі)</li>
+<li>Корпоративтік дерекқорлар (компанияның ішкі дереккөздері)</li>
+<li>Booking.com (агент тапсырмаларында брондау сервисінің мысалы)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөзі негізінде жасанды интеллект технологиялары арқылы дайындалған. Мәтінде қателіктер болуы мүмкін және ол ресми стенограмма болып табылмайды.
+  </div>
+</body>
+</html>

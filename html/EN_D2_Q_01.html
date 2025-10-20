@@ -1,0 +1,271 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI after ChatGPT: the stack, distribution, and the economics of the new cycle — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>AI after ChatGPT: the stack, distribution, and the economics of the new cycle</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Unknown speaker</span>
+      <span class="speaker-role"> — venture investor and partner of an AI fund (per session data)</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The session examined where value is created in the AI stack: foundational models as the 'OS' and the rapidly growing application layer. It highlighted the key role of distribution as the fourth pillar of the AI business (alongside data, compute, and talent) and how the current cycle differs from the dot-com era: infrastructure is immediately saturated, open source accelerates commoditization, and revenue is concentrated in inference. Investment flows, capital concentration, the risk of overvaluation, and a practical framework for implementing AI in processes were discussed. Kazakhstan was highlighted as a market with data, GPU clusters, and nascent AI companies.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Explain the architecture of the AI stack and the role of the application layer in creating value</li>
+<li>Show why distribution has become a critical growth factor for AI companies</li>
+<li>Compare the current AI cycle with the dot-com era and dispel/confirm concerns about a bubble</li>
+<li>Analyze the economics of infrastructure (R&D vs. inference) and valuation dynamics amid capital concentration</li>
+<li>Provide a practical framework for selecting processes for AI automation in companies</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Is there a bubble in AI, and how does the current cycle differ from the dot-com era?</li>
+<li>Where exactly is the main value created: in the models or in the application layer?</li>
+<li>Why has distribution become the fourth critical pillar of the AI business, and how do you build it?</li>
+<li>What are the risks and constraints around data, infrastructure, and the commoditization of models?</li>
+<li>How should companies choose processes for automation, and why do 95% of pilots fail?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI stack: cloud/GPU clusters → foundational models (as the 'OS') → application layer (AI applications and UX), where most new value is concentrated today.</li>
+<li>The three basic pillars of AI (data, compute, talent) are complemented by a fourth—distribution; without partners, integrators, and scaling channels, there will be no growth.</li>
+<li>Differences from the dot-com era: infrastructure is immediately loaded, the primary demand is for inference (≈80% of capacity), open source accelerates innovation and commoditization, and major players are already monetizing AI.</li>
+<li>The speed of the cycle is unprecedented: from the launch of ChatGPT to multibillion-dollar AI companies—2–3 years; model costs are plummeting as quality rises.</li>
+<li>Valuations of foundational-model companies and infrastructure projects are fueled by capital concentration and 'big checks'; late-stage competition plays out on round pricing.</li>
+<li>Risk: the model market resembles 'blockbusters'—expensive R&D and a short monetization window; commoditization and a shortage of unique data intensify the pressure.</li>
+<li>In a market correction, demand for AI products may even increase (cost optimization) while R&D slows; the application layer will remain the revenue driver.</li>
+<li>95% of corporate AI pilots deliver no financial impact: going from demo to reliable agentic systems takes 6–12 months of engineering; context and handling of corner cases are required.</li>
+<li>Process selection framework: clear rules and structure; a single source of truth (CRM/codebase, etc.); many examples/cases for training and exception handling.</li>
+<li>Economics: open source does not mean 'free'; TCO is comparable to commercial solutions, while internal support and infrastructure risks remain with the company.</li></ul>
+
+      <h2>Quotes</h2>
+      
+
+      <h2>Conclusions</h2>
+      <ul><li>Value and hypergrowth have shifted to the application layer, but without durable distribution even the best products struggle to scale.</li>
+<li>The current AI cycle is structurally different from the dot-com era: infrastructure is saturated, open source accelerates technology diffusion, and inference dominates costs.</li>
+<li>Even in a market correction, demand for applied AI will persist or grow; risks are higher for capital-intensive R&D bets without revenue.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Focus investment and product efforts on the application layer while simultaneously building out distribution channels.</li>
+<li>Use the three-criteria framework to select business processes for AI automation.</li>
+<li>Anchor markets for near-term scaling: coding assistants, legal services, search/shopping with transactional scenarios.</li>
+<li>Send participants the session materials and slides for subsequent application of the framework.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Map the company's processes against the three criteria (structure, single source of truth, set of cases) and select 2–3 candidates for AI automation.</li>
+<li>Form a distribution strategy: reseller partners, integrators, preinstalls/SDKs, agreements with devices and clouds.</li>
+<li>Build the context layer (knowledge base, retrieval, policies) and a 6–12 month plan for agentic scenarios with corner cases in mind.</li>
+<li>Assess the TCO of open source versus commercial solutions: infrastructure, support, SLAs, and talent-dependency risks.</li>
+<li>Use GPU clusters (e.g., DGX) and local/cloud quotas efficiently, separating R&D and inference workloads.</li>
+<li>Deploy pilot metrics: quality, cost of inference, time to result, conversion to business metrics; stop pilots without ROI.</li>
+<li>Prepare a data strategy: lawful sources, licensing, enrichment with proprietary datasets for differentiation.</li>
+<li>Plan finances with capital concentration in mind: options for early rounds, consortia, and strategic investments for the sake of distribution.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Vaswani et al. (2017) — Attention Is All You Need (transformers)</li>
+<li>MIT study: 95% of AI pilots in corporations deliver no financial impact (mentioned in the session)</li>
+<li>Mary Meeker — Internet Trends / The Internet Report</li>
+<li>DeepSeek (announcements and impact on the GPU/NVIDIA market)</li>
+<li>Perplexity AI (search/assistant, distribution deals with Samsung, SCPi mentioned as SCPI)</li>
+<li>OpenAI / ChatGPT (consumer AI application, shopping scenarios)</li>
+<li>Anthropic — Claude (coding use case)</li>
+<li>Higgs Field (Kazakhstani unicorn; video from text and proprietary models)</li>
+<li>Kazakhtelecom and DGX clusters; Ministry of Digital Development of the Republic of Kazakhstan</li>
+<li>Scale AI (datasets; acquisition by Meta mentioned)</li>
+<li>Reddit (data licensing)</li>
+<li>Glean, Cursor, Harvi, Lovable (application layer examples)</li>
+<li>Cisco TelePresence (historical context of remote work)</li>
+<li>Project Stargate (Oracle, OpenAI, Microsoft — infrastructure initiative)</li>
+<li>G42 / MGX (large funds and big checks in AI)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

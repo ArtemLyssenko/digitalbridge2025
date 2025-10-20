@@ -1,0 +1,311 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Анимация және арт — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>Анимация және арт</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Альберт Асқарұлы</span>
+      <span class="speaker-role"> — KEME Studio компаниясының CEO-сы және продюсері</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ринат Ахмедияров</span>
+      <span class="speaker-role"> — Қазақстандық автор, манга-суретші, иллюстратор және Künsai Studio мен Kazakh Manga-ның негізін қалаушы</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Магира Тлеубердина</span>
+      <span class="speaker-role"> — Цифрлық суретші, комикс авторы</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Камиля Жакиянова</span>
+      <span class="speaker-role"> — Фон суретшісі/иллюстратор/аниматор</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Канат Нурканов</span>
+      <span class="speaker-role"> — GLITCH ANIMATION LAB компаниясының CEO-сы</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Панель Қазақстандағы комикс пен анимация сахнасының қазіргі жағдайын талқылады: самиздат пен жеке брендтерден бастап, ресімделген индустрияның жетіспеуіне дейін. Қатысушылар жедел өсімдегі цифрлық инфрақұрылым мен әлеуметтік желілердің рөліне, фольклормен ғана шектелетін клишеден тыс «мәдени кодты» іздеуге және экспорттық әлеуетке назар аударды. Сондай-ақ кірудің практикалық маршруттарын (портфолио, агенттіктер, Behance) көтеріп, ЖИ рөлін абайлап бағалады: концепттер үшін пайдалы, бірақ ұзақ мерзімді брендке зиян.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>Қазақстандағы комикс пен анимация индустриясының қазіргі жағдайы мен перспективаларын бағалау</li>
+<li>Нарыққа шығу және экспорттың жұмыс істейтін модельдерін табу (самиздат, платформалар, агенттіктер)</li>
+<li>Контентте фольклордан бөлек қазақстандық «мәдени код» элементтерін айқындау</li>
+<li>Жаңадан бастаушыларға практикалық кеңестермен бөлісу: портфолио, медиялық бедел, комьюнити</li>
+<li>Контент өндіруде ЖИ-ды қолданудың орынды сценарийлерін талқылау</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>Өсу тек фольклорға ғана сүйенуі керек пе, әлде өзге тақырыптық бағыттар бар ма?</li>
+<li>Комиксті және анимацияны Қазақстанда қалай танымал ету және оларды экспортқа қалай шығару керек?</li>
+<li>Мамандыққа кірістің нақты жолдары қандай: алғашқы клиенттер мен жобаларды қайдан іздеу керек?</li>
+<li>Интроверт суретші тапсырыстарды қалай таба алады және желідегі қатысуын қалай құра алады?</li>
+<li>ЖИ анимация жасауға көмектесе ме: қашан орынды және қандай құралдарды қолданған жөн?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>Қазақстандық сахна ерте кезеңде тұр: мықты жеке кейстер бар, бірақ ресімделген индустрия мен тұрақты сұраныс аз.</li>
+<li>Цифрлық инфрақұрылым (әлеуметтік желілер, платформалар, төлемдер) аудиторияға және дистрибуцияға жолды қысқартады; автордың жеке бренді сатылымға тікелей ықпал етеді.</li>
+<li>Фольклор — тіректердің бірі ғана; мәдени кодты заманауилық арқылы ашуға болады: 2000-жылдардағы посткеңестік эстетика, қалалық контекст, тілдік күн тәртібі және т.б.</li>
+<li>Самиздат мүмкін: манга/комиксті жеке өндіру сюжеттерді сынауға және фан-база жинауға мүмкіндік береді (мысал: «Бескунар» сатылымдары, «Мирген» шығарылымы).</li>
+<li>Комикс ірі экранизацияға кіреберіс ретінде: «алдымен жариялау — кейін бейімдеу» моделі тәуекелдерді төмендетеді (жапон-корей мектебі).</li>
+<li>Тапсырыс алудың жұмыс істейтін арналары: Behance/ArtStation/Instagram-дағы портфолио, ауыздан-ауызға таралу, агенттіктер мен продакшн-студиялар, кейс-жобалар (TikTok Live, киноға арналған VFX).</li>
+<li>Комьюнити мен білім беру кадр ағынын күшейтеді: курстар, мектептердегі диджитал-арт бағдарламалары, өзара ұсыныстар және тәлімгерлік.</li>
+<li>Интроверттер контенттің көлемі мен сапасы есебінен масштабтала алады: «материал көп болса — сені елемеу мүмкін емес».</li>
+<li>ЖИ нүктелік тұрғыда пайдалы (референстер, жылдам концепттер), бірақ брендтер үшін «фастфуд-контент» ретінде аудиторияның ұзақ мерзімді сеніміне зиян келтіреді; «қолмен» жасалған сапаға инвестиция жасаған дұрыс.</li>
+<li>Экспорт міндетті: жергілікті нарық шағын, бірақ комикс пен анимацияға қызығушылық тренді өсіп келеді; сыртқы платформаларда белсенді көріну маңызды.</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+  <blockquote>“Ең бастысы — жасайтын адам соған қатты сеніп, сол іспен шын жануы керек.” — <span class="author">Магира Тлеубердина</span></blockquote>
+
+
+  <blockquote>“Тәжірибе әрдайым бірінші орында: компаниялар алдымен портфолиоға қарайды.” — <span class="author">Камиля Жакиянова</span></blockquote>
+
+
+  <blockquote>“Біз Жапония да, Америка да емеспіз — бізде өз тарихымыз бен заманауи мәдениетіміз бар, мұны брендке айналдыруға болады.” — <span class="author">Ринат Ахмедияров</span></blockquote>
+
+
+  <blockquote>“Материал көп болғанда — сені елемеу мүмкін емес.” — <span class="author">Ринат Ахмедияров</span></blockquote>
+
+
+  <blockquote>“Контентке сұраныс бар. Тек адамдар Қазақстанда да контент бар екенін білмейді.” — <span class="author">Ринат Ахмедияров</span></blockquote>
+
+
+      <h2>Қорытындылар</h2>
+      <ul><li>Өсім комьюнити мен білім берудің қолдауымен самиздат, күшті портфолио және экспортқа бағытталудың үйлесімі арқылы мүмкін.</li>
+<li>Егер мақсат — ұзақ мерзімді бренд пен аудитория сенімі болса, ЖИ-ды креативті қолдың орнын басатын емес, көмекші құрал ретінде қолданған жөн.</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>Қазақстандық манга/комикстерді жариялау және кейінгі бейімдеу үшін статистика жинау мақсатында Perfect Q (Weekly Perfect) авторлық платформасын іске қосу.</li>
+<li>Білім беру бастамаларын жалғастыру: анимация/иллюстрация курстары және мектептердегі диджитал-арт бағдарламалары.</li>
+<li>Экспортқа фокус: портфолионы жүйелі түрде халықаралық платформаларға жариялау және шетелдік агенттіктер/брендтермен жұмыс істеу.</li>
+<li>Фольклормен қатар жаңа жанрларда (мелодрама, хоррор, постапок эстетикасы) жергілікті «мәдени кодты» дамыту.</li>
+<li>Жаңа авторлардың жобаларға кіруін жеделдету үшін комьюнити мен өзара ұсыныстарды кеңейту.</li>
+<li>Кең аудиторияны комикс оқуға тарту үшін жаппай цифрлық сервистермен интеграцияларды зерттеу (операторлық қосымшалар, дейликтер).</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>Perfect Q командасы: сайтты ашу және авторлардан өтінім қабылдауды іске қосу; бейімдеулерді питчингке шығару үшін тайтлдардың танымалдық метрикаларын баптау.</li>
+<li>Kimia Studio және серіктестер: жаңа оқырмандарды тарту үшін операторлық қосымшамен пилотты пысықтау («бөлімді оқы — бонус ал» форматы).</li>
+<li>Камиля: анимация/иллюстрация курсын жаңарту және кеңейту, портфолио мен жұмыспен қамтуға арналған модуль қосу.</li>
+<li>Канат: кейстер талдауын жариялау (TikTok Live, «Закладка» үшін VFX) және агенттіктер/брендтермен өзара әрекеттесу бойынша чек-лист даярлау.</li>
+<li>Комьюнити: ай сайын офлайн/онлайн митаптарды іске қосу және редакторлар мен продюсерлерге арналған қазақстандық комикстердің ортақ каталогын жасау.</li>
+<li>Интроверт авторлар үшін: жариялау жоспары (көлем/ритм), платформалар жиынтығы (Behance/ArtStation/Twitter), және ең аз қажет желілік байланыс бойынша нұсқаулық.</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>Комикстер мен жобалар: «Бескунар», «Лунный ритм», «Мирген», «Ермек Батыр», «Алтын Адам»</li>
+<li>Платформалар: TikTok (TikTok Live және Gifts қоса), Instagram, Behance, ArtStation, Dribbble, Vimeo, Twitter</li>
+<li>Интеграциялар идеясы: оператордың «Изи» қосымшасы (дейликтер/бонустар)</li>
+<li>Студиялар мен брендтер: Marvel, DC, Dark Horse, Kazakhfilm, Kimia Studio, TOSCON</li>
+<li>Білім/нарық: CalArts (бағдар ретінде), Comic Con</li>
+<li>ЖИ-құралдар: Hixfield AI, Midjourney (Gen-6), Pinterest/ArtStation (AI арқылы оқытуға қарсы протестер контексті)</li>
+<li>Кейстер: «Закладка» фильмі үшін VFX (Ирина Кайратовна), OYUFEST үшін промо-анимация</li>
+<li>IP референстері: Chainsaw Man, Frieren</li>
+<li>Мәдени кодтың үлгісі ретінде музыканттар: Скриптонит, Аяуа</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөздеріне негізделген жасанды интеллект технологияларының көмегімен дайындалды. Мәтінде аздаған қателер немесе дәлсіздіктер болуы мүмкін және ол ресми стенограмма болып табылмайды. Фактілер мен мәліметтерді растау үшін форумның ресми материалдарына жүгіну ұсынылады.
+  </div>
+</body>
+</html>

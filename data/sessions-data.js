@@ -6,7 +6,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 9,
-    "fileName": "RU_3_октября_Quantum_hall_9_Gitex Центральная Азия и Кавказ х AI Everything Казахстан.html",
+    "fileName": "RU_D2_Q_09.html",
     "speakers": [
       "Руперт Адам"
     ],
@@ -19,7 +19,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 9,
-    "fileName": "KZ_3_октября_Quantum_hall_9_Gitex Центральная Азия и Кавказ х AI Everything Казахстан.html",
+    "fileName": "KZ_D2_Q_09.html",
     "speakers": [
       "Руперт Адам"
     ],
@@ -32,7 +32,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 9,
-    "fileName": "EN_3_октября_Quantum_hall_9_Gitex Центральная Азия и Кавказ х AI Everything Казахстан.html",
+    "fileName": "EN_D2_Q_09.html",
     "speakers": [
       "Rupert Adam"
     ],
@@ -45,7 +45,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 8,
-    "fileName": "RU_3_октября_Quantum_hall_8_Латинская Америка как новый центр Финтех и ИИ-инноваций_роль государства, корпораций и венчурного капитала.html",
+    "fileName": "RU_D2_Q_08.html",
     "speakers": [
       "Михаил Батарев"
     ],
@@ -58,7 +58,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 8,
-    "fileName": "KZ_3_октября_Quantum_hall_8_Латинская Америка как новый центр Финтех и ИИ-инноваций_роль государства, корпораций и венчурного капитала.html",
+    "fileName": "KZ_D2_Q_08.html",
     "speakers": [
       "Михаил Батарев"
     ],
@@ -71,7 +71,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 8,
-    "fileName": "EN_3_октября_Quantum_hall_8_Латинская Америка как новый центр Финтех и ИИ-инноваций_роль государства, корпораций и венчурного капитала.html",
+    "fileName": "EN_D2_Q_08.html",
     "speakers": [
       "Михаил Батарев"
     ],
@@ -84,7 +84,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 10,
-    "fileName": "RU_3_октября_Vision_hall_10_Keynote speech_Обзор экосистемы TON, поддержка региональных проектов.html",
+    "fileName": "RU_D2_V_10.html",
     "speakers": [
       "Югова Анастасия"
     ],
@@ -97,7 +97,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 10,
-    "fileName": "KZ_3_октября_Vision_hall_10_Keynote speech_Обзор экосистемы TON, поддержка региональных проектов.html",
+    "fileName": "KZ_D2_V_10.html",
     "speakers": [
       "Анастасия Югова"
     ],
@@ -110,7 +110,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 10,
-    "fileName": "EN_3_октября_Vision_hall_10_Keynote speech_Обзор экосистемы TON, поддержка региональных проектов.html",
+    "fileName": "EN_D2_V_10.html",
     "speakers": [
       "Yugova Anastasia"
     ],
@@ -123,7 +123,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "RU_3_октября_Vision_hall_9_Keynote speech_Предпринимательство в эпоху искусственного интелекта - обзор текущих возможностей для основателей стартапов.html",
+    "fileName": "RU_D2_V_09.html",
     "speakers": [
       "Алексей Бондарев"
     ],
@@ -136,7 +136,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "KZ_3_октября_Vision_hall_9_Keynote speech_Предпринимательство в эпоху искусственного интелекта - обзор текущих возможностей для основателей стартапов.html",
+    "fileName": "KZ_D2_V_09.html",
     "speakers": [
       "Алексей Бондарев"
     ],
@@ -149,48 +149,48 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "EN_3_октября_Vision_hall_9_Keynote speech_Предпринимательство в эпоху искусственного интелекта - обзор текущих возможностей для основателей стартапов.html",
+    "fileName": "EN_D2_V_09.html",
     "speakers": [
       "Alexey Bondarev"
     ],
     "original_session_title": "Keynote speech_Предпринимательство в эпоху искусственного интелекта - обзор текущих возможностей для основателей стартапов"
   },
   {
-    "session_title": "От первых чеков к созданию венчурной экосистемы",
+    "session_title": "Series A как точка зрелости: роль фаундеров, капитала и экосистемы",
     "language": "ru",
     "id": "68f006f1a0af425c8a9ba29a",
     "day": 2,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "RU_3_октября_Vision_hall_8_Keynote speech_От первых чеков к созданию венчурной экосистемы.html",
+    "fileName": "RU_D2_V_08.html",
     "speakers": [
-      "Мурат Абдрахманов"
+      "Оратор 1"
     ],
     "original_session_title": "Keynote speech_От первых чеков к созданию венчурной экосистемы"
   },
   {
-    "session_title": "Алғашқы чектерден венчурлік экожүйе құруға дейін",
+    "session_title": "Series A жетілу нүктесі ретінде: негізін қалаушылардың, капиталдың және экожүйенің рөлі",
     "language": "kz",
     "id": "68f0074ba0af425c8a9ba29b",
     "day": 2,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "KZ_3_октября_Vision_hall_8_Keynote speech_От первых чеков к созданию венчурной экосистемы.html",
+    "fileName": "KZ_D2_V_08.html",
     "speakers": [
-      "Мұрат Абдрахманов"
+      "Спикер 1"
     ],
     "original_session_title": "Keynote speech_От первых чеков к созданию венчурной экосистемы"
   },
   {
-    "session_title": "From the First Checks to Building a Venture Ecosystem",
+    "session_title": "Series A as a maturity milestone: the role of founders, capital, and the ecosystem",
     "language": "en",
     "id": "68f0079fa0af425c8a9ba29c",
     "day": 2,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "EN_3_октября_Vision_hall_8_Keynote speech_От первых чеков к созданию венчурной экосистемы.html",
+    "fileName": "EN_D2_V_08.html",
     "speakers": [
-      "Murat Abdrakhmanov"
+      "Speaker 1"
     ],
     "original_session_title": "Keynote speech_От первых чеков к созданию венчурной экосистемы"
   },
@@ -201,7 +201,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "RU_3_октября_Vision_hall_6_Keynote speech_Цифровая инклюзия в мире, ориентированном на искуственный интелект.html",
+    "fileName": "RU_D2_V_06.html",
     "speakers": [
       "Акинсанми Тити"
     ],
@@ -214,7 +214,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "KZ_3_октября_Vision_hall_6_Keynote speech_Цифровая инклюзия в мире, ориентированном на искуственный интелект.html",
+    "fileName": "KZ_D2_V_06.html",
     "speakers": [
       "Акинсанми Тити"
     ],
@@ -227,7 +227,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "EN_3_октября_Vision_hall_6_Keynote speech_Цифровая инклюзия в мире, ориентированном на искуственный интелект.html",
+    "fileName": "EN_D2_V_06.html",
     "speakers": [
       "Акинсанми Тити"
     ],
@@ -240,7 +240,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "RU_3_октября_Vision_hall_5_Keynote speech_AI in travel_как по-новому мы открываем мир.html",
+    "fileName": "RU_D2_V_05.html",
     "speakers": [
       "Дударов"
     ],
@@ -253,7 +253,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "KZ_3_октября_Vision_hall_5_Keynote speech_AI in travel_как по-новому мы открываем мир.html",
+    "fileName": "KZ_D2_V_05.html",
     "speakers": [
       "Дударов"
     ],
@@ -266,7 +266,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "EN_3_октября_Vision_hall_5_Keynote speech_AI in travel_как по-новому мы открываем мир.html",
+    "fileName": "EN_D2_V_05.html",
     "speakers": [
       "Dudarov"
     ],
@@ -279,7 +279,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "RU_3_октября_Vision_hall_4_Keynote speech_AI Platform - создание, обучение и адаптация ИИ-агента за 15 минут для человека без опыта разработки.html",
+    "fileName": "RU_D2_V_04.html",
     "speakers": [
       "Рамиль Мухоряпов"
     ],
@@ -292,7 +292,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "KZ_3_октября_Vision_hall_4_Keynote speech_AI Platform - создание, обучение и адаптация ИИ-агента за 15 минут для человека без опыта разработки.html",
+    "fileName": "KZ_D2_V_04.html",
     "speakers": [
       "Рамиль Мухоряпов"
     ],
@@ -305,7 +305,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "EN_3_октября_Vision_hall_4_Keynote speech_AI Platform - создание, обучение и адаптация ИИ-агента за 15 минут для человека без опыта разработки.html",
+    "fileName": "EN_D2_V_04.html",
     "speakers": [
       "Рамиль Мухоряпов"
     ],
@@ -318,7 +318,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "RU_3_октября_Vision_hall_3_Keynote speech_Трансформация HR в эпоху искусственного интелекта.html",
+    "fileName": "RU_D2_V_03.html",
     "speakers": [
       "Роберт Фергюсон Аббанат"
     ],
@@ -331,7 +331,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "KZ_3_октября_Vision_hall_3_Keynote speech_Трансформация HR в эпоху искусственного интелекта.html",
+    "fileName": "KZ_D2_V_03.html",
     "speakers": [
       "Роберт Фергюсон Аббанат"
     ],
@@ -344,7 +344,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "EN_3_октября_Vision_hall_3_Keynote speech_Трансформация HR в эпоху искусственного интелекта.html",
+    "fileName": "EN_D2_V_03.html",
     "speakers": [
       "Robert Ferguson Abbanat"
     ],
@@ -357,7 +357,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "RU_3_октября_Vision_hall_2_Keynote speech_А что, если бы криптовалюта могла оплатить ваш утренний кофе.html",
+    "fileName": "RU_D2_V_02.html",
     "speakers": [
       "Мазурка Зенг"
     ],
@@ -370,7 +370,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "KZ_3_октября_Vision_hall_2_Keynote speech_А что, если бы криптовалюта могла оплатить ваш утренний кофе.html",
+    "fileName": "KZ_D2_V_02.html",
     "speakers": [
       "Мазурка Зенг"
     ],
@@ -383,7 +383,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "EN_3_октября_Vision_hall_2_Keynote speech_А что, если бы криптовалюта могла оплатить ваш утренний кофе.html",
+    "fileName": "EN_D2_V_02.html",
     "speakers": [
       "Мазурка Зенг"
     ],
@@ -396,7 +396,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "RU_3_октября_Vision_hall_1_Keynote speech_Настоящая причина провалов ИИ в бизнесе_внедрение, а не модели.html",
+    "fileName": "RU_D2_V_01.html",
     "speakers": [
       "Дильшат Утешев"
     ],
@@ -409,7 +409,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "KZ_3_октября_Vision_hall_1_Keynote speech_Настоящая причина провалов ИИ в бизнесе_внедрение, а не модели.html",
+    "fileName": "KZ_D2_V_01.html",
     "speakers": [
       "Ділшат Үтешев"
     ],
@@ -422,7 +422,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "EN_3_октября_Vision_hall_1_Keynote speech_Настоящая причина провалов ИИ в бизнесе_внедрение, а не модели.html",
+    "fileName": "EN_D2_V_01.html",
     "speakers": [
       "Dilshat Uteshev"
     ],
@@ -435,7 +435,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "RU_3_октября_Unity_hall_7_ ИИ & Deep Tech Инновации Кореи_ Формирование будущего корейско-казахстанского венчурного сотрудничества.html",
+    "fileName": "RU_D2_U_07.html",
     "speakers": [
       "Дэхи Ли"
     ],
@@ -448,7 +448,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "KZ_3_октября_Unity_hall_7_ ИИ & Deep Tech Инновации Кореи_ Формирование будущего корейско-казахстанского венчурного сотрудничества.html",
+    "fileName": "KZ_D2_U_07.html",
     "speakers": [
       "Дэхи Ли"
     ],
@@ -461,7 +461,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "EN_3_октября_Unity_hall_7_ ИИ & Deep Tech Инновации Кореи_ Формирование будущего корейско-казахстанского венчурного сотрудничества.html",
+    "fileName": "EN_D2_U_07.html",
     "speakers": [
       "Daehee Lee"
     ],
@@ -474,7 +474,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "RU_3_октября_Singularity_hall_7_Здравоохранение 2030 переход от импортозависимости к глобальному экспорту — что мы должны построить уже сегодня.html",
+    "fileName": "RU_D2_S_07.html",
     "speakers": [
       "Досжан Жусупов",
       "Ербол Оспанов",
@@ -492,7 +492,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "KZ_3_октября_Singularity_hall_7_Здравоохранение 2030 переход от импортозависимости к глобальному экспорту — что мы должны построить уже сегодня.html",
+    "fileName": "KZ_D2_S_07.html",
     "speakers": [
       "Досжан Жүсіпов",
       "Ербол Оспанов",
@@ -510,7 +510,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "EN_3_октября_Singularity_hall_7_Здравоохранение 2030 переход от импортозависимости к глобальному экспорту — что мы должны построить уже сегодня.html",
+    "fileName": "EN_D2_S_07.html",
     "speakers": [
       "Досжан Жусупов",
       "Ербол Оспанов",
@@ -528,7 +528,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "RU_2_октября_Singularity_hall_7_Телеком как платформа цифрового будущего.html",
+    "fileName": "RU_D1_S_07.html",
     "speakers": [
       "Таир Исмаилов",
       "Дамир Сейсембеков",
@@ -545,7 +545,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "RU_3_октября_Singularity_hall_6_Аппаратный каркас инноваций от чипов до роботов в эпоху генеративной нации.html",
+    "fileName": "RU_D2_S_06.html",
     "speakers": [
       "Елизавета Голубева",
       "Хок Сюй",
@@ -562,7 +562,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "KZ_3_октября_Singularity_hall_6_Аппаратный каркас инноваций от чипов до роботов в эпоху генеративной нации.html",
+    "fileName": "KZ_D2_S_06.html",
     "speakers": [
       "Елизавета Голубева",
       "Хок Сюй",
@@ -579,7 +579,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "EN_3_октября_Singularity_hall_6_Аппаратный каркас инноваций от чипов до роботов в эпоху генеративной нации.html",
+    "fileName": "EN_D2_S_06.html",
     "speakers": [
       "Елизавета Голубева",
       "Хок Сюй",
@@ -596,7 +596,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "KZ_2_октября_Singularity_hall_7_Телеком как платформа цифрового будущего.html",
+    "fileName": "KZ_D1_S_07.html",
     "speakers": [
       "Таир Исмаилов",
       "Дамир Сейсембеков",
@@ -613,7 +613,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "EN_2_октября_Singularity_hall_7_Телеком как платформа цифрового будущего.html",
+    "fileName": "EN_D1_S_07.html",
     "speakers": [
       "Таир Исмаилов",
       "Дамир Сейсембеков",
@@ -630,7 +630,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "RU_2_октября_Singularity_hall_5_Цифровая трансформация опыт Кыргызской Республики.html",
+    "fileName": "RU_D1_S_05.html",
     "speakers": [
       "Министр цифрового развития КР (имя не названо)"
     ],
@@ -643,7 +643,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "KZ_2_октября_Singularity_hall_5_Цифровая трансформация опыт Кыргызской Республики.html",
+    "fileName": "KZ_D1_S_05.html",
     "speakers": [
       "Қырғыз Республикасының Цифрлық даму министрі (аты аталмаған)"
     ],
@@ -656,7 +656,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "EN_2_октября_Singularity_hall_5_Цифровая трансформация опыт Кыргызской Республики.html",
+    "fileName": "EN_D1_S_05.html",
     "speakers": [
       "Minister of Digital Development of the Kyrgyz Republic (name not specified)"
     ],
@@ -669,9 +669,9 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "RU_2_октября_Singularity_hall_4_Агент ИИ Ускоряя новую экономику.html",
+    "fileName": "RU_D1_S_04.html",
     "speakers": [
-      "Кай-Фу Ли"
+      "Докладчик (имя не указано)"
     ],
     "original_session_title": "Агент ИИ Ускоряя новую экономику"
   },
@@ -682,9 +682,9 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "KZ_2_октября_Singularity_hall_4_Агент ИИ Ускоряя новую экономику.html",
+    "fileName": "KZ_D1_S_04.html",
     "speakers": [
-      "Кай-Фу Ли"
+      "Баяндаушы (аты көрсетілмеген)"
     ],
     "original_session_title": "Агент ИИ Ускоряя новую экономику"
   },
@@ -695,9 +695,9 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "EN_2_октября_Singularity_hall_4_Агент ИИ Ускоряя новую экономику.html",
+    "fileName": "EN_D1_S_04.html",
     "speakers": [
-      "Kai-Fu Lee"
+      "Speaker (name not specified)"
     ],
     "original_session_title": "Агент ИИ Ускоряя новую экономику"
   },
@@ -708,7 +708,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "RU_2_октября_Singularity_hall_3_Стремление к созданию нации искусственного интеллекта.html",
+    "fileName": "RU_D1_S_03.html",
     "speakers": [
       "Пол Ким"
     ],
@@ -721,7 +721,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "KZ_2_октября_Singularity_hall_3_Стремление к созданию нации искусственного интеллекта.html",
+    "fileName": "KZ_D1_S_03.html",
     "speakers": [
       "Пол Ким"
     ],
@@ -734,7 +734,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "EN_2_октября_Singularity_hall_3_Стремление к созданию нации искусственного интеллекта.html",
+    "fileName": "EN_D1_S_03.html",
     "speakers": [
       "Pol Kim"
     ],
@@ -747,7 +747,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "RU_2_октября_Singularity_hall_2_Solana Интернет-рынки капитала.html",
+    "fileName": "RU_D1_S_02.html",
     "speakers": [
       "Лили Лю"
     ],
@@ -760,7 +760,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "KZ_2_октября_Singularity_hall_2_Solana Интернет-рынки капитала.html",
+    "fileName": "KZ_D1_S_02.html",
     "speakers": [
       "Лили Лю"
     ],
@@ -773,7 +773,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "EN_2_октября_Singularity_hall_2_Solana Интернет-рынки капитала.html",
+    "fileName": "EN_D1_S_02.html",
     "speakers": [
       "Lily Liu"
     ],
@@ -786,7 +786,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "RU_2_октября_Singularity_hall_1_ Развитие GovTech и применение ИИ вызовы и решения для государственного сектора.html",
+    "fileName": "RU_D1_S_01.html",
     "speakers": [
       "Асет Абдуалиев",
       "Евгений Глотов",
@@ -804,7 +804,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "KZ_2_октября_Singularity_hall_1_ Развитие GovTech и применение ИИ вызовы и решения для государственного сектора.html",
+    "fileName": "KZ_D1_S_01.html",
     "speakers": [
       "Әсет Абдуәлиев",
       "Евгений Глотов",
@@ -822,7 +822,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "EN_2_октября_Singularity_hall_1_ Развитие GovTech и применение ИИ вызовы и решения для государственного сектора.html",
+    "fileName": "EN_D1_S_01.html",
     "speakers": [
       "Асет Абдуалиев",
       "Евгений Глотов",
@@ -840,7 +840,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "RU_2_октября_Generative_hall_2_Следующий этап развития криптоиндустрии Fireside Chat с CZ о рыночных трендах, искусственном интеллекте и глобальном сотрудничестве.html",
+    "fileName": "RU_D1_G_02.html",
     "speakers": [
       "Жаслан Мадиев",
       "Чанпэн Чжао"
@@ -854,7 +854,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "KZ_2_октября_Generative_hall_2_Следующий этап развития криптоиндустрии Fireside Chat с CZ о рыночных трендах, искусственном интеллекте и глобальном сотрудничестве.html",
+    "fileName": "KZ_D1_G_02.html",
     "speakers": [
       "Жаслан Мадиев",
       "Чанпэн Чжао"
@@ -868,7 +868,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "EN_2_октября_Generative_hall_2_Следующий этап развития криптоиндустрии Fireside Chat с CZ о рыночных трендах, искусственном интеллекте и глобальном сотрудничестве.html",
+    "fileName": "EN_D1_G_02.html",
     "speakers": [
       "Zhaslan Madiev",
       "Chanpen Zhao"
@@ -882,7 +882,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "RU_4_октября_Vision_hall_6_Возможно и стоит ли встраивать национальный код в инструменты ИИ.html",
+    "fileName": "RU_D3_V_06.html",
     "speakers": [
       "Курмангалиева Бикеш",
       "Утеулина Айжан",
@@ -898,7 +898,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "KZ_4_октября_Vision_hall_6_Возможно и стоит ли встраивать национальный код в инструменты ИИ.html",
+    "fileName": "KZ_D3_V_06.html",
     "speakers": [
       "Бикеш Құрманғалиева",
       "Айжан Өтеулина",
@@ -914,7 +914,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 6,
-    "fileName": "EN_4_октября_Vision_hall_6_Возможно и стоит ли встраивать национальный код в инструменты ИИ.html",
+    "fileName": "EN_D3_V_06.html",
     "speakers": [
       "Kurmangaliyeva Bikesh",
       "Uteulina Aizhan",
@@ -930,7 +930,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "RU_4_октября_Vision_hall_5_Применение ИИ в семейной экономике.html",
+    "fileName": "RU_D3_V_05.html",
     "speakers": [
       "Беркинбаев Олжас",
       "Ибрагимова Ляззат",
@@ -946,7 +946,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "KZ_4_октября_Vision_hall_5_Применение ИИ в семейной экономике.html",
+    "fileName": "KZ_D3_V_05.html",
     "speakers": [
       "Беркінбаев Олжас",
       "Ибрагимова Ләззат",
@@ -961,7 +961,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "EN_4_октября_Vision_hall_5_Применение ИИ в семейной экономике.html",
+    "fileName": "EN_D3_V_05.html",
     "speakers": [
       "Berkinbayev Olzhas",
       "Ibragimova Lyazzat",
@@ -976,7 +976,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "RU_4_октября_Vision_hall_4_TechnoWomen Central Asia ИИ для семейной экономики.html",
+    "fileName": "RU_D3_V_04.html",
     "speakers": [
       "Жулдызай Искакова",
       "Шужеева Азиза",
@@ -995,7 +995,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "KZ_4_октября_Vision_hall_4_TechnoWomen Central Asia ИИ для семейной экономики.html",
+    "fileName": "KZ_D3_V_04.html",
     "speakers": [
       "Жұлдызай Исқақова",
       "Шужеева Әзиза",
@@ -1014,7 +1014,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "EN_4_октября_Vision_hall_4_TechnoWomen Central Asia ИИ для семейной экономики.html",
+    "fileName": "EN_D3_V_04.html",
     "speakers": [
       "Zhuldyzai Iskakova",
       "Shuzheeva Aziza",
@@ -1033,7 +1033,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "RU_4_октября_Unity_hall_8_Арт и симуляция профессии будущего в геймдеве и образовании.html",
+    "fileName": "RU_D3_U_08.html",
     "speakers": [
       "Давид Туганов",
       "Сергей (фамилия не указана)",
@@ -1048,7 +1048,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "KZ_4_октября_Unity_hall_8_Арт и симуляция профессии будущего в геймдеве и образовании.html",
+    "fileName": "KZ_D3_U_08.html",
     "speakers": [
       "Давид Туганов",
       "Сергей (тегі көрсетілмеген)",
@@ -1063,7 +1063,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "EN_4_октября_Unity_hall_8_Арт и симуляция профессии будущего в геймдеве и образовании.html",
+    "fileName": "EN_D3_U_08.html",
     "speakers": [
       "David Tuganov",
       "Sergey (last name not specified)",
@@ -1078,7 +1078,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "RU_4_октября_Quantum_hall_7_AMANAT and AI.html",
+    "fileName": "RU_D3_Q_07.html",
     "speakers": [
       "Даулет Карибек",
       "Екатерина Смышляева",
@@ -1097,7 +1097,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "KZ_4_октября_Quantum_hall_7_AMANAT and AI.html",
+    "fileName": "KZ_D3_Q_07.html",
     "speakers": [
       "Дәулет Қарибек",
       "Екатерина Смышляева",
@@ -1116,7 +1116,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "EN_4_октября_Quantum_hall_7_AMANAT and AI.html",
+    "fileName": "EN_D3_Q_07.html",
     "speakers": [
       "Daulet Karibek",
       "Ekaterina Smyshlyaeva",
@@ -1135,7 +1135,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "RU_4_октября_Vision_hall_9_Человеческий капитал в эпоху перемен.html",
+    "fileName": "RU_D3_V_09.html",
     "speakers": [
       "Балжан Мырзабаева",
       "Канат Ахметгалиев",
@@ -1152,7 +1152,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "KZ_4_октября_Vision_hall_9_Человеческий капитал в эпоху перемен.html",
+    "fileName": "KZ_D3_V_09.html",
     "speakers": [
       "Балжан Мырзабаева",
       "Қанат Ахметғалиев",
@@ -1169,7 +1169,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 9,
-    "fileName": "EN_4_октября_Vision_hall_9_Человеческий капитал в эпоху перемен.html",
+    "fileName": "EN_D3_V_09.html",
     "speakers": [
       "Balzhan Myrzabayeva",
       "Kanat Kozhakhmet",
@@ -1186,7 +1186,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "RU_4_октября_Unity_hall_7_Разработка и оперирование игровым продуктом в 2025 году.html",
+    "fileName": "RU_D3_U_07.html",
     "speakers": [
       "Антон Андрейченко"
     ],
@@ -1199,7 +1199,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "KZ_4_октября_Unity_hall_7_Разработка и оперирование игровым продуктом в 2025 году.html",
+    "fileName": "KZ_D3_U_07.html",
     "speakers": [
       "Антон Андрейченко"
     ],
@@ -1212,7 +1212,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 7,
-    "fileName": "EN_4_октября_Unity_hall_7_Разработка и оперирование игровым продуктом в 2025 году.html",
+    "fileName": "EN_D3_U_07.html",
     "speakers": [
       "Anton Andreychenko"
     ],
@@ -1225,7 +1225,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "RU_4_октября_Quantum_hall_6_От данных к доходу будущее цифровых экосистем.html",
+    "fileName": "RU_D3_Q_06.html",
     "speakers": [
       "Тажикенов Мади",
       "Дэн Герман",
@@ -1243,7 +1243,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "KZ_4_октября_Quantum_hall_6_От данных к доходу будущее цифровых экосистем.html",
+    "fileName": "KZ_D3_Q_06.html",
     "speakers": [
       "Мәди Тәжікенов",
       "Дэн Герман",
@@ -1261,7 +1261,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "EN_4_октября_Quantum_hall_6_От данных к доходу будущее цифровых экосистем.html",
+    "fileName": "EN_D3_Q_06.html",
     "speakers": [
       "Tazhikenov Madi",
       "Den German",
@@ -1279,7 +1279,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "RU_4_октября_Vision_hall_8_ИИ пишет лучше наю Почему будущее журналистики решается прямо сейчас.html",
+    "fileName": "RU_D3_V_08.html",
     "speakers": [
       "Наталья Абрамова",
       "Ораз Аршат",
@@ -1295,7 +1295,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "KZ_4_октября_Vision_hall_8_ИИ пишет лучше наю Почему будущее журналистики решается прямо сейчас.html",
+    "fileName": "KZ_D3_V_08.html",
     "speakers": [
       "Наталья Абрамова",
       "Ораз Аршат",
@@ -1311,7 +1311,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 8,
-    "fileName": "EN_4_октября_Vision_hall_8_ИИ пишет лучше наю Почему будущее журналистики решается прямо сейчас.html",
+    "fileName": "EN_D3_V_08.html",
     "speakers": [
       "Natalya Abramova",
       "Oraz Arshat",
@@ -1327,7 +1327,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "RU_4_октября_Unity_hall_6_Геймдев в Узбекистане.html",
+    "fileName": "RU_D3_U_06.html",
     "speakers": [
       "Акмал Салихов"
     ],
@@ -1340,7 +1340,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "KZ_4_октября_Unity_hall_6_Геймдев в Узбекистане.html",
+    "fileName": "KZ_D3_U_06.html",
     "speakers": [
       "Акмал Салихов"
     ],
@@ -1353,7 +1353,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "EN_4_октября_Unity_hall_6_Геймдев в Узбекистане.html",
+    "fileName": "EN_D3_U_06.html",
     "speakers": [
       "Akmal Salikhov"
     ],
@@ -1366,7 +1366,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "RU_4_октября_Vision_hall_7_Как содать AI-стартапы.html",
+    "fileName": "RU_D3_V_07.html",
     "speakers": [
       "Пол Ким"
     ],
@@ -1379,7 +1379,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "KZ_4_октября_Vision_hall_7_Как содать AI-стартапы.html",
+    "fileName": "KZ_D3_V_07.html",
     "speakers": [
       "Пол Ким"
     ],
@@ -1392,7 +1392,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "EN_4_октября_Vision_hall_7_Как содать AI-стартапы.html",
+    "fileName": "EN_D3_V_07.html",
     "speakers": [
       "Pol Kim"
     ],
@@ -1405,7 +1405,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "RU_4_октября_Unity_hall_5_Анимация и Арт.html",
+    "fileName": "RU_D3_U_05.html",
     "speakers": [
       "Альберт Асқарұлы",
       "Ринат Ахмедияров",
@@ -1422,7 +1422,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "KZ_4_октября_Unity_hall_5_Анимация и Арт.html",
+    "fileName": "KZ_D3_U_05.html",
     "speakers": [
       "Альберт Асқарұлы",
       "Ринат Ахмедияров",
@@ -1439,7 +1439,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "EN_4_октября_Unity_hall_5_Анимация и Арт.html",
+    "fileName": "EN_D3_U_05.html",
     "speakers": [
       "Albert Asqaruly",
       "Rinat Akhmediyarov",
@@ -1456,7 +1456,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "RU_4_октября_Quantum_hall_5_Инвестиции в ИИ и креатив новые модели и новые герои.html",
+    "fileName": "RU_D3_Q_05.html",
     "speakers": [
       "Андрей Зузин",
       "Ариджит Бхаттачарья",
@@ -1473,7 +1473,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "KZ_4_октября_Quantum_hall_5_Инвестиции в ИИ и креатив новые модели и новые герои.html",
+    "fileName": "KZ_D3_Q_05.html",
     "speakers": [
       "Андрей Зузин",
       "Ариджит Бхаттачарья",
@@ -1490,7 +1490,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "EN_4_октября_Quantum_hall_5_Инвестиции в ИИ и креатив новые модели и новые герои.html",
+    "fileName": "EN_D3_Q_05.html",
     "speakers": [
       "Andrey Zuzin",
       "Arijit Bhattacharya",
@@ -1507,7 +1507,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "RU_4_октября_Unity_hall_4_Киберспорт - тренды, бизнес, потенциал.html",
+    "fileName": "RU_D3_U_04.html",
     "speakers": [
       "Алишер Каирбеков",
       "Евгений Богатырев",
@@ -1524,7 +1524,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "KZ_4_октября_Unity_hall_4_Киберспорт - тренды, бизнес, потенциал.html",
+    "fileName": "KZ_D3_U_04.html",
     "speakers": [
       "Әлішер Қайырбеков",
       "Евгений Богатырев",
@@ -1541,7 +1541,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "EN_4_октября_Unity_hall_4_Киберспорт - тренды, бизнес, потенциал.html",
+    "fileName": "EN_D3_U_04.html",
     "speakers": [
       "Alisher Kairbekov",
       "Evgeny Bogatyrev",
@@ -1558,7 +1558,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "RU_4_октября_Quantum_hall_4_ИИ и города повествование, пространство и общество.html",
+    "fileName": "RU_D3_Q_04.html",
     "speakers": [
       "Индира Махметова",
       "Жулдыз Саулебекова",
@@ -1575,7 +1575,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "KZ_4_октября_Quantum_hall_4_ИИ и города повествование, пространство и общество.html",
+    "fileName": "KZ_D3_Q_04.html",
     "speakers": [
       "Индира Махметова",
       "Жұлдыз Сәулебекова",
@@ -1592,7 +1592,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "EN_4_октября_Quantum_hall_4_ИИ и города повествование, пространство и общество.html",
+    "fileName": "EN_D3_Q_04.html",
     "speakers": [
       "Indira Makhmetova",
       "Zhuldyz Saulebekova",
@@ -1609,7 +1609,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "RU_4_октября_Quantum_hall_3_Роботы без границ глобальные инновации отвечают амбициям Казахстана.html",
+    "fileName": "RU_D3_Q_03.html",
     "speakers": [
       "Мурзахметов Асылбек",
       "Баян Конирбаев",
@@ -1626,7 +1626,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "KZ_4_октября_Quantum_hall_3_Роботы без границ глобальные инновации отвечают амбициям Казахстана.html",
+    "fileName": "KZ_D3_Q_03.html",
     "speakers": [
       "Мырзахметов Асылбек",
       "Баян Қонырбаев",
@@ -1643,7 +1643,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "EN_4_октября_Quantum_hall_3_Роботы без границ глобальные инновации отвечают амбициям Казахстана.html",
+    "fileName": "EN_D3_Q_03.html",
     "speakers": [
       "Asylbek Murzakhmetov",
       "Bayan Konirbayev",
@@ -1660,7 +1660,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "RU_4_октября_Unity_hall_3_Стратегия успеха для инди-студий.html",
+    "fileName": "RU_D3_U_03.html",
     "speakers": [
       "Марика",
       "Лев Тарасов",
@@ -1678,7 +1678,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "KZ_4_октября_Unity_hall_3_Стратегия успеха для инди-студий.html",
+    "fileName": "KZ_D3_U_03.html",
     "speakers": [
       "Марика",
       "Лев Тарасов",
@@ -1696,7 +1696,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "EN_4_октября_Unity_hall_3_Стратегия успеха для инди-студий.html",
+    "fileName": "EN_D3_U_03.html",
     "speakers": [
       "Marika",
       "Lev Tarasov",
@@ -1714,7 +1714,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "RU_4_октября_Vision_hall_3_ИИ в креативных индустриях искусство, музыка и повествование в новом прочтении.html",
+    "fileName": "RU_D3_V_03.html",
     "speakers": [
       "Юлдус Бахтиозина",
       "Модератор (имя не указано)"
@@ -1728,7 +1728,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "KZ_4_октября_Vision_hall_3_ИИ в креативных индустриях искусство, музыка и повествование в новом прочтении.html",
+    "fileName": "KZ_D3_V_03.html",
     "speakers": [
       "Юлдус Бахтиёзина",
       "Модератор (аты көрсетілмеген)"
@@ -1742,7 +1742,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "EN_4_октября_Vision_hall_3_ИИ в креативных индустриях искусство, музыка и повествование в новом прочтении.html",
+    "fileName": "EN_D3_V_03.html",
     "speakers": [
       "Yuldus Bakhtiozina",
       "Moderator (name not specified)"
@@ -1756,7 +1756,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "RU_4_октября_Vision_hall_2_Корпоративная культура зачем она нужна бизнесу и когда о ней стоит задуматься.html",
+    "fileName": "RU_D3_V_02.html",
     "speakers": [
       "Ксения Торопова",
       "Бейбит Бактыгалиев",
@@ -1774,7 +1774,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "KZ_4_октября_Vision_hall_2_Корпоративная культура зачем она нужна бизнесу и когда о ней стоит задуматься.html",
+    "fileName": "KZ_D3_V_02.html",
     "speakers": [
       "Ксения Торопова",
       "Бейбіт Бақтығалиев",
@@ -1792,7 +1792,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "EN_4_октября_Vision_hall_2_Корпоративная культура зачем она нужна бизнесу и когда о ней стоит задуматься.html",
+    "fileName": "EN_D3_V_02.html",
     "speakers": [
       "Ksenia Toropova",
       "Beibit Baktygaliev",
@@ -1810,7 +1810,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "RU_4_октября_Unity_hall_2_Тренды, стратегии развития. AI и GameDev.html",
+    "fileName": "RU_D3_U_02.html",
     "speakers": [
       "Акмал Салихов",
       "Артем Слесаренко",
@@ -1828,7 +1828,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "KZ_4_октября_Unity_hall_2_Тренды, стратегии развития. AI и GameDev.html",
+    "fileName": "KZ_D3_U_02.html",
     "speakers": [
       "Акмал Салихов",
       "Артем Слесаренко",
@@ -1846,7 +1846,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "EN_4_октября_Unity_hall_2_Тренды, стратегии развития. AI и GameDev.html",
+    "fileName": "EN_D3_U_02.html",
     "speakers": [
       "Akmal Salikhov",
       "Artem Slesarenko",
@@ -1864,7 +1864,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "RU_4_октября_Quantum_hall_2_Beyond Sound ИИ, ARVRXR и будущее пользовательского опыта.html",
+    "fileName": "RU_D3_Q_02.html",
     "speakers": [
       "Алмагуль Менлибаева",
       "Юлдус Бахтиозина",
@@ -1881,7 +1881,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "KZ_4_октября_Quantum_hall_2_Beyond Sound ИИ, ARVRXR и будущее пользовательского опыта.html",
+    "fileName": "KZ_D3_Q_02.html",
     "speakers": [
       "Алмагүл Менлібаева",
       "Юлдуз Бахтиозина",
@@ -1898,7 +1898,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "EN_4_октября_Quantum_hall_2_Beyond Sound ИИ, ARVRXR и будущее пользовательского опыта.html",
+    "fileName": "EN_D3_Q_02.html",
     "speakers": [
       "Almagul Menlibayeva",
       "Yuldus Bakhtiozina",
@@ -1915,7 +1915,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "RU_4_октября_Unity_hall_1_Keynote speech.html",
+    "fileName": "RU_D3_U_01.html",
     "speakers": [
       "Давид Туганов",
       "Лев Тарасов",
@@ -1933,7 +1933,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "KZ_4_октября_Unity_hall_1_Keynote speech.html",
+    "fileName": "KZ_D3_U_01.html",
     "speakers": [
       "Давид Туғанов",
       "Лев Тарасов",
@@ -1951,7 +1951,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "EN_4_октября_Unity_hall_1_Keynote speech.html",
+    "fileName": "EN_D3_U_01.html",
     "speakers": [
       "David Tuganov",
       "Lev Tarasov",
@@ -1969,7 +1969,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "RU_4_октября_Vision_hall_1_Гендерные предубеждения и регулирование сфере ИИ.html",
+    "fileName": "RU_D3_V_01.html",
     "speakers": [
       "Асем",
       "Юлдашева Ильмира",
@@ -1987,7 +1987,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "KZ_4_октября_Vision_hall_1_Гендерные предубеждения и регулирование сфере ИИ.html",
+    "fileName": "KZ_D3_V_01.html",
     "speakers": [
       "Әсем",
       "Юлдашева Ильмира",
@@ -2005,7 +2005,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "EN_4_октября_Vision_hall_1_Гендерные предубеждения и регулирование сфере ИИ.html",
+    "fileName": "EN_D3_V_01.html",
     "speakers": [
       "Asem",
       "Ilmira Yuldasheva",
@@ -2023,7 +2023,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "RU_4_октября_Quantum_hall_1_ИИ в креативных индустриях творческий процесс, изменения в профессиях, этика, права и восприятие обществом.html",
+    "fileName": "RU_D3_Q_01.html",
     "speakers": [
       "Айка Алеми",
       "Шолпан Махмудова",
@@ -2040,7 +2040,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "KZ_4_октября_Quantum_hall_1_ИИ в креативных индустриях творческий процесс, изменения в профессиях, этика, права и восприятие обществом.html",
+    "fileName": "KZ_D3_Q_01.html",
     "speakers": [
       "Айка Алеми",
       "Шолпан Махмудова",
@@ -2057,7 +2057,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "EN_4_октября_Quantum_hall_1_ИИ в креативных индустриях творческий процесс, изменения в профессиях, этика, права и восприятие обществом.html",
+    "fileName": "EN_D3_Q_01.html",
     "speakers": [
       "Aika Alemi",
       "Sholpan Makhmudova",
@@ -2074,7 +2074,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "RU_4_октября_Generative_hall_8_Контент, созданный ИИ фильмы, телевидение, музыка.html",
+    "fileName": "RU_D3_G_08.html",
     "speakers": [
       "Олександр Петренко",
       "Дэвид Джанк",
@@ -2092,7 +2092,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "KZ_4_октября_Generative_hall_8_Контент, созданный ИИ фильмы, телевидение, музыка.html",
+    "fileName": "KZ_D3_G_08.html",
     "speakers": [
       "Олександр Петренко",
       "Дэвид Джанк",
@@ -2110,7 +2110,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "EN_4_октября_Generative_hall_8_Контент, созданный ИИ фильмы, телевидение, музыка.html",
+    "fileName": "EN_D3_G_08.html",
     "speakers": [
       "Oleksandr Petrenko",
       "David Jank",
@@ -2128,7 +2128,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "RU_4_октября_Generative_hall_7_Церемония награждения.html",
+    "fileName": "RU_D3_G_07.html",
     "speakers": [
       "Арсен Томский",
       "Руслан Есенбаев",
@@ -2144,7 +2144,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "KZ_4_октября_Generative_hall_7_Церемония награждения.html",
+    "fileName": "KZ_D3_G_07.html",
     "speakers": [
       "Арсен Томский",
       "Руслан Есенбаев",
@@ -2160,7 +2160,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "EN_4_октября_Generative_hall_7_Церемония награждения.html",
+    "fileName": "EN_D3_G_07.html",
     "speakers": [
       "Arsen Tomsky",
       "Ruslan Esenbayev",
@@ -2176,7 +2176,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "RU_4_октября_Generative_hall_6_Unitree - Интеллектуальный робот и лидер отрасли.html",
+    "fileName": "RU_D3_G_06.html",
     "speakers": [
       "Ирвинг Чен"
     ],
@@ -2189,7 +2189,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "KZ_4_октября_Generative_hall_6_Unitree - Интеллектуальный робот и лидер отрасли.html",
+    "fileName": "KZ_D3_G_06.html",
     "speakers": [
       "Ирвинг Чен"
     ],
@@ -2202,7 +2202,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "EN_4_октября_Generative_hall_6_Unitree - Интеллектуальный робот и лидер отрасли.html",
+    "fileName": "EN_D3_G_06.html",
     "speakers": [
       "Irving Chen"
     ],
@@ -2215,7 +2215,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "RU_4_октября_Generative_hall_5_Дроны и искусственный интеллект от безопасности до логистики и инфраструктуры.html",
+    "fileName": "RU_D3_G_05.html",
     "speakers": [
       "Дмитрий Иванов",
       "Дархан Ахмедиев",
@@ -2231,7 +2231,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "KZ_4_октября_Generative_hall_5_Дроны и искусственный интеллект от безопасности до логистики и инфраструктуры.html",
+    "fileName": "KZ_D3_G_05.html",
     "speakers": [
       "Дмитрий Иванов",
       "Дархан Ахмедиев",
@@ -2247,7 +2247,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "EN_4_октября_Generative_hall_5_Дроны и искусственный интеллект от безопасности до логистики и инфраструктуры.html",
+    "fileName": "EN_D3_G_05.html",
     "speakers": [
       "Dmitry Ivanov",
       "Darkhan Akhmediev",
@@ -2263,7 +2263,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "RU_4_октября_Generative_hall_4_Креатив как капитал как создавать и масштабировать креативные проекты в эпоху ИИ.html",
+    "fileName": "RU_D3_G_04.html",
     "speakers": [
       "Эрнар Курмашев",
       "Алмас Жали",
@@ -2282,7 +2282,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "KZ_4_октября_Generative_hall_4_Креатив как капитал как создавать и масштабировать креативные проекты в эпоху ИИ.html",
+    "fileName": "KZ_D3_G_04.html",
     "speakers": [
       "Ернар Құрмашев",
       "Алмас Жали",
@@ -2301,7 +2301,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "EN_4_октября_Generative_hall_4_Креатив как капитал как создавать и масштабировать креативные проекты в эпоху ИИ.html",
+    "fileName": "EN_D3_G_04.html",
     "speakers": [
       "Ernar Kurmashev",
       "Almas Zhali",
@@ -2320,7 +2320,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "RU_4_октября_Generative_hall_3_Поколение GPT как жить и мыслить в эпоху ИИ.html",
+    "fileName": "RU_D3_G_03.html",
     "speakers": [
       "Толкын Нурушева",
       "Арман Нурушев",
@@ -2338,7 +2338,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "KZ_4_октября_Generative_hall_3_Поколение GPT как жить и мыслить в эпоху ИИ.html",
+    "fileName": "KZ_D3_G_03.html",
     "speakers": [
       "Толқын Нұрушева",
       "Арман Нұрушев",
@@ -2356,7 +2356,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "EN_4_октября_Generative_hall_3_Поколение GPT как жить и мыслить в эпоху ИИ.html",
+    "fileName": "EN_D3_G_03.html",
     "speakers": [
       "Tolkyn Nurusheva",
       "Arman Nurushev",
@@ -2374,7 +2374,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "RU_4_октября_Generative_hall_2_Пленарное заседание DB GN с участием Премьер-министра.html",
+    "fileName": "RU_D3_G_02.html",
     "speakers": [
       "Олжас Абайевич Бектенов",
       "Роман Линейцев",
@@ -2393,7 +2393,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "KZ_4_октября_Generative_hall_2_Пленарное заседание DB GN с участием Премьер-министра.html",
+    "fileName": "KZ_D3_G_02.html",
     "speakers": [
       "Олжас Абайұлы Бектенов",
       "Роман Линейцев",
@@ -2412,7 +2412,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "EN_4_октября_Generative_hall_2_Пленарное заседание DB GN с участием Премьер-министра.html",
+    "fileName": "EN_D3_G_02.html",
     "speakers": [
       "Olzhas Abayevich Bektenov",
       "Roman Lineytsev",
@@ -2431,7 +2431,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "RU_4_октября_Generative_hall_1_Keynote speech и Q&AWylsacom.html",
+    "fileName": "RU_D3_G_01.html",
     "speakers": [
       "Wylsacom"
     ],
@@ -2444,7 +2444,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "KZ_4_октября_Generative_hall_1_Keynote speech и Q&AWylsacom.html",
+    "fileName": "KZ_D3_G_01.html",
     "speakers": [
       "Вилсаком"
     ],
@@ -2457,7 +2457,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "EN_4_октября_Generative_hall_1_Keynote speech и Q&AWylsacom.html",
+    "fileName": "EN_D3_G_01.html",
     "speakers": [
       "Wylsacom"
     ],
@@ -2470,7 +2470,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "RU_3_октября_Vision_hall_7_YCombinator истории казахстанских основателей.html",
+    "fileName": "RU_D2_V_07.html",
     "speakers": [
       "Нурдаулет Базылбеков",
       "Динмухаммед Майлыбай",
@@ -2487,7 +2487,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "KZ_3_октября_Vision_hall_7_YCombinator истории казахстанских основателей.html",
+    "fileName": "KZ_D2_V_07.html",
     "speakers": [
       "Нұрдәулет Базылбеков",
       "Дінмұхаммед Майлыбай",
@@ -2504,7 +2504,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 7,
-    "fileName": "EN_3_октября_Vision_hall_7_YCombinator истории казахстанских основателей.html",
+    "fileName": "EN_D2_V_07.html",
     "speakers": [
       "Nurdaulet Bazylbekov",
       "Dinmukhamed Mailybay",
@@ -2521,7 +2521,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "RU_3_октября_Unity_hall_8_ИИ-стартапы от посевной стадии до масштабирования.html",
+    "fileName": "RU_D2_U_08.html",
     "speakers": [
       "Чингиз Даулетбаев",
       "Жан Карсыбаев",
@@ -2538,7 +2538,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "KZ_3_октября_Unity_hall_8_ИИ-стартапы от посевной стадии до масштабирования.html",
+    "fileName": "KZ_D2_U_08.html",
     "speakers": [
       "Шыңғыс Дәулетбаев",
       "Жан Қарсыбаев",
@@ -2555,7 +2555,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 8,
-    "fileName": "EN_3_октября_Unity_hall_8_ИИ-стартапы от посевной стадии до масштабирования.html",
+    "fileName": "EN_D2_U_08.html",
     "speakers": [
       "Chingiz Dauletbayev",
       "Zhan Karsybayev",
@@ -2572,7 +2572,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "RU_3_октября_Singularity_hall_3_AI, Big Tech & Banking трансформация финансового ландшафта.html",
+    "fileName": "RU_D2_S_03.html",
     "speakers": [
       "Александр Шенко",
       "Аскар Намазбаев",
@@ -2590,7 +2590,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "KZ_3_октября_Singularity_hall_3_AI, Big Tech & Banking трансформация финансового ландшафта.html",
+    "fileName": "KZ_D2_S_03.html",
     "speakers": [
       "Александр Шенко",
       "Асқар Намазбаев",
@@ -2608,7 +2608,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "EN_3_октября_Singularity_hall_3_AI, Big Tech & Banking трансформация финансового ландшафта.html",
+    "fileName": "EN_D2_S_03.html",
     "speakers": [
       "Aleksandr Shenko",
       "Askar Namazbaev",
@@ -2626,7 +2626,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "RU_3_октября_Singularity_hall_2_ИИ и другие новые технологии как они могут способствовать росту бизнеса в телеком-секторе.html",
+    "fileName": "RU_D2_S_02.html",
     "speakers": [
       "Абылай Джумагельдинов",
       "Баян Конирбаев",
@@ -2643,7 +2643,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "KZ_3_октября_Singularity_hall_2_ИИ и другие новые технологии как они могут способствовать росту бизнеса в телеком-секторе.html",
+    "fileName": "KZ_D2_S_02.html",
     "speakers": [
       "Абылай Жұмагелдинов",
       "Баян Қонырбаев",
@@ -2660,7 +2660,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "EN_3_октября_Singularity_hall_2_ИИ и другие новые технологии как они могут способствовать росту бизнеса в телеком-секторе.html",
+    "fileName": "EN_D2_S_02.html",
     "speakers": [
       "Abylai Dzhumageldinov",
       "Bayan Konirbaev",
@@ -2677,7 +2677,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "RU_3_октября_Singularity_hall_1_Высшее образование в эпоху BigTech и искусственного интеллекта новые модели подготовки кадров.html",
+    "fileName": "RU_D2_S_01.html",
     "speakers": [
       "Ерболат Саурықов",
       "Альтаир Ахметов",
@@ -2694,7 +2694,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "KZ_3_октября_Singularity_hall_1_Высшее образование в эпоху BigTech и искусственного интеллекта новые модели подготовки кадров.html",
+    "fileName": "KZ_D2_S_01.html",
     "speakers": [
       "Ерболат Саурықов",
       "Альтаир Ахметов",
@@ -2711,7 +2711,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "EN_3_октября_Singularity_hall_1_Высшее образование в эпоху BigTech и искусственного интеллекта новые модели подготовки кадров.html",
+    "fileName": "EN_D2_S_01.html",
     "speakers": [
       "Yerbolat Saurykov",
       "Altair Akhmetov",
@@ -2728,7 +2728,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "RU_3_октября_Unity_hall_4_ИИ как мост могут ли стартапы и корпорации рассчитывать на общее будущее.html",
+    "fileName": "RU_D2_U_04.html",
     "speakers": [
       "Ануар Лензат",
       "Алибек Султангазин",
@@ -2746,7 +2746,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "KZ_3_октября_Unity_hall_4_ИИ как мост могут ли стартапы и корпорации рассчитывать на общее будущее.html",
+    "fileName": "KZ_D2_U_04.html",
     "speakers": [
       "Ануар Лензат",
       "Әлібек Сұлтанғазин",
@@ -2764,7 +2764,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "EN_3_октября_Unity_hall_4_ИИ как мост могут ли стартапы и корпорации рассчитывать на общее будущее.html",
+    "fileName": "EN_D2_U_04.html",
     "speakers": [
       "Anuar Lenzat",
       "Alibek Sultangazin",
@@ -2782,7 +2782,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "RU_3_октября_Unity_hall_3_Series A как точка зрелости роль фаундеров, капитала и экосистемы.html",
+    "fileName": "RU_D2_U_03.html",
     "speakers": [
       "Елжан Кушекбаев",
       "Мурат Абдрахманов",
@@ -2799,7 +2799,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "KZ_3_октября_Unity_hall_3_Series A как точка зрелости роль фаундеров, капитала и экосистемы.html",
+    "fileName": "KZ_D2_U_03.html",
     "speakers": [
       "Елжан Күшекбаев",
       "Мұрат Абдрахманов",
@@ -2816,7 +2816,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "EN_3_октября_Unity_hall_3_Series A как точка зрелости роль фаундеров, капитала и экосистемы.html",
+    "fileName": "EN_D2_U_03.html",
     "speakers": [
       "Elzhan Kushekbayev",
       "Murat Abdrakhmanov",
@@ -2833,7 +2833,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "RU_3_октября_Unity_hall_2_Создавая будущее посевное финансирование для ИИ-инноваторов.html",
+    "fileName": "RU_D2_U_02.html",
     "speakers": [
       "Павел",
       "Адиль",
@@ -2851,7 +2851,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "KZ_3_октября_Unity_hall_2_Создавая будущее посевное финансирование для ИИ-инноваторов.html",
+    "fileName": "KZ_D2_U_02.html",
     "speakers": [
       "Павел",
       "Әділ",
@@ -2869,7 +2869,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "EN_3_октября_Unity_hall_2_Создавая будущее посевное финансирование для ИИ-инноваторов.html",
+    "fileName": "EN_D2_U_02.html",
     "speakers": [
       "Pavel",
       "Adil",
@@ -2887,7 +2887,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "RU_3_октября_Unity_hall_1_От первого питча до первого чека путь основателя и инвестора.html",
+    "fileName": "RU_D2_U_01.html",
     "speakers": [
       "Айдана Бергазденова",
       "Адильбек Камиев",
@@ -2905,7 +2905,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "KZ_3_октября_Unity_hall_1_От первого питча до первого чека путь основателя и инвестора.html",
+    "fileName": "KZ_D2_U_01.html",
     "speakers": [
       "Айдана Бергазденова",
       "Адильбек Камиев",
@@ -2923,7 +2923,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "EN_3_октября_Unity_hall_1_От первого питча до первого чека путь основателя и инвестора.html",
+    "fileName": "EN_D2_U_01.html",
     "speakers": [
       "Aidana Bergazdenova",
       "Adilbek Kamiev",
@@ -2941,7 +2941,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "RU_3_октября_Quantum_hall_7_Европейская модель развития ИИ баланс инноваций, регулирования и устойчивости.html",
+    "fileName": "RU_D2_Q_07.html",
     "speakers": [
       "Сабит Суханов",
       "Мари - Лаур Ретуро",
@@ -2957,7 +2957,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "KZ_3_октября_Quantum_hall_7_Европейская модель развития ИИ баланс инноваций, регулирования и устойчивости.html",
+    "fileName": "KZ_D2_Q_07.html",
     "speakers": [
       "Сәбит Суханов",
       "Мари-Лор Ретуро",
@@ -2973,7 +2973,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 7,
-    "fileName": "EN_3_октября_Quantum_hall_7_Европейская модель развития ИИ баланс инноваций, регулирования и устойчивости.html",
+    "fileName": "EN_D2_Q_07.html",
     "speakers": [
       "Sabit Sukhanov",
       "Mari - Laur Returo",
@@ -2989,7 +2989,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "RU_3_октября_Quantum_hall_4_Инновационный рывок Китая как государство и корпорации строят глобальную экосистему искусственного интеллекта.html",
+    "fileName": "RU_D2_Q_04.html",
     "speakers": [
       "Ляззат Боранкулова",
       "Сюй Тяньмэн",
@@ -3007,7 +3007,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "KZ_3_октября_Quantum_hall_4_Инновационный рывок Китая как государство и корпорации строят глобальную экосистему искусственного интеллекта.html",
+    "fileName": "KZ_D2_Q_04.html",
     "speakers": [
       "Ләззат Боранқұлова",
       "Сюй Тяньмэн",
@@ -3025,7 +3025,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "EN_3_октября_Quantum_hall_4_Инновационный рывок Китая как государство и корпорации строят глобальную экосистему искусственного интеллекта.html",
+    "fileName": "EN_D2_Q_04.html",
     "speakers": [
       "Lyazzat Borankulova",
       "Xu Tianmeng",
@@ -3043,7 +3043,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "RU_3_октября_Quantum_hall_3_Центральная Азия на пересечении глобальных потоков формирование единой региональной экосистемы для развития ИИ-стартапов.html",
+    "fileName": "RU_D2_Q_03.html",
     "speakers": [
       "Магжан Мадиев",
       "Раджабов Жахонгир",
@@ -3061,7 +3061,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "KZ_3_октября_Quantum_hall_3_Центральная Азия на пересечении глобальных потоков формирование единой региональной экосистемы для развития ИИ-стартапов.html",
+    "fileName": "KZ_D2_Q_03.html",
     "speakers": [
       "Мағжан Мәдиев",
       "Раджабов Жахонгир",
@@ -3079,7 +3079,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "EN_3_октября_Quantum_hall_3_Центральная Азия на пересечении глобальных потоков формирование единой региональной экосистемы для развития ИИ-стартапов.html",
+    "fileName": "EN_D2_Q_03.html",
     "speakers": [
       "Magzhan Madiev",
       "Rajabov Jakhongir",
@@ -3097,7 +3097,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "RU_3_октября_Quantum_hall_2_США как лидер глобальной ИИ-экосистемы что ждет стартапы в новой технологической гонке.html",
+    "fileName": "RU_D2_Q_02.html",
     "speakers": [
       "Асет Абдуалиев",
       "Галым Иманбаев",
@@ -3115,7 +3115,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "KZ_3_октября_Quantum_hall_2_США как лидер глобальной ИИ-экосистемы что ждет стартапы в новой технологической гонке.html",
+    "fileName": "KZ_D2_Q_02.html",
     "speakers": [
       "Әсет Абдуәлиев",
       "Ғалым Иманбаев",
@@ -3133,7 +3133,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "EN_3_октября_Quantum_hall_2_США как лидер глобальной ИИ-экосистемы что ждет стартапы в новой технологической гонке.html",
+    "fileName": "EN_D2_Q_02.html",
     "speakers": [
       "Aset Abdualiyev",
       "Galym Imanbayev",
@@ -3151,7 +3151,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "RU_3_октября_Quantum_hall_1_Keynote+ Q&A Тренды ИИ из Силиконовой долины.html",
+    "fileName": "RU_D2_Q_01.html",
     "speakers": [
       "Неизвестный спикер"
     ],
@@ -3164,7 +3164,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "KZ_3_октября_Quantum_hall_1_Keynote+ Q&A Тренды ИИ из Силиконовой долины.html",
+    "fileName": "KZ_D2_Q_01.html",
     "speakers": [
       "Белгісіз спикер"
     ],
@@ -3177,7 +3177,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "EN_3_октября_Quantum_hall_1_Keynote+ Q&A Тренды ИИ из Силиконовой долины.html",
+    "fileName": "EN_D2_Q_01.html",
     "speakers": [
       "Unknown speaker"
     ],
@@ -3190,7 +3190,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "RU_3_октября_Generative_hall_4_Суперприложения, созданные в Казахстане.html",
+    "fileName": "RU_D2_G_04.html",
     "speakers": [
       "Виталий",
       "Тимур Турлов",
@@ -3206,7 +3206,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "KZ_3_октября_Generative_hall_4_Суперприложения, созданные в Казахстане.html",
+    "fileName": "KZ_D2_G_04.html",
     "speakers": [
       "Виталий",
       "Тимур Турлов",
@@ -3222,7 +3222,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 4,
-    "fileName": "EN_3_октября_Generative_hall_4_Суперприложения, созданные в Казахстане.html",
+    "fileName": "EN_D2_G_04.html",
     "speakers": [
       "Vitaliy",
       "Timur Turlov",
@@ -3238,7 +3238,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "RU_3_октября_Generative_hall_3_Fireside Chat Kaspi сегодня и в будущем.html",
+    "fileName": "RU_D2_G_03.html",
     "speakers": [
       "Виталий Волянюк",
       "Михаил Ломтадзе"
@@ -3252,7 +3252,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "KZ_3_октября_Generative_hall_3_Fireside Chat Kaspi сегодня и в будущем.html",
+    "fileName": "KZ_D2_G_03.html",
     "speakers": [
       "Виталий Волянюк",
       "Михаил Ломтадзе"
@@ -3266,7 +3266,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 3,
-    "fileName": "EN_3_октября_Generative_hall_3_Fireside Chat Kaspi сегодня и в будущем.html",
+    "fileName": "EN_D2_G_03.html",
     "speakers": [
       "Vitaliy Volyanyuk",
       "Mikhail Lomtadze"
@@ -3280,7 +3280,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "RU_3_октября_Generative_hall_2_Как увеличить капитализацию реального бизнеса благодаря IT.html",
+    "fileName": "RU_D2_G_02.html",
     "speakers": [
       "Виталий Волянюк",
       "Аскар Байтасов"
@@ -3294,7 +3294,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "KZ_3_октября_Generative_hall_2_Как увеличить капитализацию реального бизнеса благодаря IT.html",
+    "fileName": "KZ_D2_G_02.html",
     "speakers": [
       "Виталий Волянюк",
       "Асқар Байтасов"
@@ -3308,7 +3308,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 2,
-    "fileName": "EN_3_октября_Generative_hall_2_Как увеличить капитализацию реального бизнеса благодаря IT.html",
+    "fileName": "EN_D2_G_02.html",
     "speakers": [
       "Vitaly Volianiuk",
       "Askar Baitasov"
@@ -3322,7 +3322,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "RU_3_октября_Generative_hall_1_Стратегии в венчурной экосистеме Центральной Азии зачем покупать стартапы.html",
+    "fileName": "RU_D2_G_01.html",
     "speakers": [
       "Мурат Абдрахманов",
       "Тимур Турлов",
@@ -3340,7 +3340,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "KZ_3_октября_Generative_hall_1_Стратегии в венчурной экосистеме Центральной Азии зачем покупать стартапы.html",
+    "fileName": "KZ_D2_G_01.html",
     "speakers": [
       "Мұрат Абдрахманов",
       "Тимур Турлов",
@@ -3358,7 +3358,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "EN_3_октября_Generative_hall_1_Стратегии в венчурной экосистеме Центральной Азии зачем покупать стартапы.html",
+    "fileName": "EN_D2_G_01.html",
     "speakers": [
       "Murat Abdrakhmanov",
       "Timur Turlov",
@@ -3376,7 +3376,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 11,
-    "fileName": "RU_3_октября_Vision_hall_11_Глобальные акселераторы наводя мосты, создавая единорогов.html",
+    "fileName": "RU_D2_V_11.html",
     "speakers": [
       "Мухаммад Махмудов",
       "Ольга Скороходова",
@@ -3393,7 +3393,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 11,
-    "fileName": "KZ_3_октября_Vision_hall_11_Глобальные акселераторы наводя мосты, создавая единорогов.html",
+    "fileName": "KZ_D2_V_11.html",
     "speakers": [
       "Мұхаммад Махмудов",
       "Ольга Скороходова",
@@ -3410,7 +3410,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Vision hall",
     "order": 11,
-    "fileName": "EN_3_октября_Vision_hall_11_Глобальные акселераторы наводя мосты, создавая единорогов.html",
+    "fileName": "EN_D2_V_11.html",
     "speakers": [
       "Mukhammad Makhmudov",
       "Olga Skorokhodova",
@@ -3427,7 +3427,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "RU_3_октября_Unity_hall_6_Женщины в венчурном капитале невидимое преимущество инвестиции в ИИ для формирования будущего.html",
+    "fileName": "RU_D2_U_06.html",
     "speakers": [
       "Жанар Калиева",
       "Дана",
@@ -3444,7 +3444,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "KZ_3_октября_Unity_hall_6_Женщины в венчурном капитале невидимое преимущество инвестиции в ИИ для формирования будущего.html",
+    "fileName": "KZ_D2_U_06.html",
     "speakers": [
       "Жанар Қалиева",
       "Дана",
@@ -3461,7 +3461,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 6,
-    "fileName": "EN_3_октября_Unity_hall_6_Женщины в венчурном капитале невидимое преимущество инвестиции в ИИ для формирования будущего.html",
+    "fileName": "EN_D2_U_06.html",
     "speakers": [
       "Zhanar Kaliyeva",
       "Dana",
@@ -3478,7 +3478,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "RU_3_октября_Quantum_hall_6_Масштабирование искусственного интеллекта соединяем Центральную Азию и Ближний Восток и Северную Африку.html",
+    "fileName": "RU_D2_Q_06.html",
     "speakers": [
       "Эссам Аль Рагад",
       "Талал Альхатал",
@@ -3496,7 +3496,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "KZ_3_октября_Quantum_hall_6_Масштабирование искусственного интеллекта соединяем Центральную Азию и Ближний Восток и Северную Африку.html",
+    "fileName": "KZ_D2_Q_06.html",
     "speakers": [
       "Әссам әл-Рагад",
       "Талал Әлхатал",
@@ -3514,7 +3514,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 6,
-    "fileName": "EN_3_октября_Quantum_hall_6_Масштабирование искусственного интеллекта соединяем Центральную Азию и Ближний Восток и Северную Африку.html",
+    "fileName": "EN_D2_Q_06.html",
     "speakers": [
       "Essam Al Ragad",
       "Talal Alhatal",
@@ -3532,7 +3532,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "RU_3_октября_Quantum_hall_5_Стартап-экосистема в Восточной Азии.html",
+    "fileName": "RU_D2_Q_05.html",
     "speakers": [
       "Шугыла Сагынбекова",
       "Джеён Пак",
@@ -3549,7 +3549,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "KZ_3_октября_Quantum_hall_5_Стартап-экосистема в Восточной Азии.html",
+    "fileName": "KZ_D2_Q_05.html",
     "speakers": [
       "Шұғыла Сағынбекова",
       "Джеён Пак",
@@ -3566,7 +3566,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "EN_3_октября_Quantum_hall_5_Стартап-экосистема в Восточной Азии.html",
+    "fileName": "EN_D2_Q_05.html",
     "speakers": [
       "Shugyla Sagynbekova",
       "Dzheyon Pak",
@@ -3583,7 +3583,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "RU_3_октября_Unity_hall_5_Стимулирование инноваций через институциональный капитал $1 млрд Фондов фондов Казахстана как модель для венчурных экосистем развивающихся рынков.html",
+    "fileName": "RU_D2_U_05.html",
     "speakers": [
       "Назгуль Байтемирова",
       "Аскар Билисбеков",
@@ -3601,7 +3601,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "KZ_3_октября_Unity_hall_5_Стимулирование инноваций через институциональный капитал $1 млрд Фондов фондов Казахстана как модель для венчурных экосистем развивающихся рынков.html",
+    "fileName": "KZ_D2_U_05.html",
     "speakers": [
       "Назгүл Байтемірова",
       "Асқар Білісбеков",
@@ -3619,7 +3619,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "EN_3_октября_Unity_hall_5_Стимулирование инноваций через институциональный капитал $1 млрд Фондов фондов Казахстана как модель для венчурных экосистем развивающихся рынков.html",
+    "fileName": "EN_D2_U_05.html",
     "speakers": [
       "Nazgul Baitemirova",
       "Askar Bilisbekov",
@@ -3637,7 +3637,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 10,
-    "fileName": "RU_3_октября_Generative_hall_10_Fireside chat AI в спорте тренировки, эффективность и мировая аудитория.html",
+    "fileName": "RU_D2_G_10.html",
     "speakers": [
       "Сол Кэмпбелл",
       "Талгат Досанов"
@@ -3651,7 +3651,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 10,
-    "fileName": "KZ_3_октября_Generative_hall_10_Fireside chat AI в спорте тренировки, эффективность и мировая аудитория.html",
+    "fileName": "KZ_D2_G_10.html",
     "speakers": [
       "Сол Кэмпбелл",
       "Талгат Досанов"
@@ -3665,7 +3665,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 10,
-    "fileName": "EN_3_октября_Generative_hall_10_Fireside chat AI в спорте тренировки, эффективность и мировая аудитория.html",
+    "fileName": "EN_D2_G_10.html",
     "speakers": [
       "Sol Campbell",
       "Talgat Dosanov"
@@ -3679,7 +3679,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 9,
-    "fileName": "RU_3_октября_Generative_hall_9_Fireside chat Масштабирование с пользой в эпоху ИИ.html",
+    "fileName": "RU_D2_G_09.html",
     "speakers": [
       "Эльмира Обри",
       "Арсен Томский"
@@ -3693,7 +3693,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 9,
-    "fileName": "KZ_3_октября_Generative_hall_9_Fireside chat Масштабирование с пользой в эпоху ИИ.html",
+    "fileName": "KZ_D2_G_09.html",
     "speakers": [
       "Эльмира Обри",
       "Арсен Томский"
@@ -3707,7 +3707,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 9,
-    "fileName": "EN_3_октября_Generative_hall_9_Fireside chat Масштабирование с пользой в эпоху ИИ.html",
+    "fileName": "EN_D2_G_09.html",
     "speakers": [
       "Elmira Obri",
       "Arsen Tomsky"
@@ -3721,7 +3721,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "RU_3_октября_Generative_hall_8_Fireside chat AI-будущее что за горизонтом.html",
+    "fileName": "RU_D2_G_08.html",
     "speakers": [
       "Ник Давыдов",
       "Ведущий (имя не указано)"
@@ -3735,7 +3735,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "KZ_3_октября_Generative_hall_8_Fireside chat AI-будущее что за горизонтом.html",
+    "fileName": "KZ_D2_G_08.html",
     "speakers": [
       "Ник Давыдов",
       "Жүргізуші (аты көрсетілмеген)"
@@ -3749,7 +3749,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 8,
-    "fileName": "EN_3_октября_Generative_hall_8_Fireside chat AI-будущее что за горизонтом.html",
+    "fileName": "EN_D2_G_08.html",
     "speakers": [
       "Nik Davydov",
       "Host (name not specified)"
@@ -3763,7 +3763,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "RU_3_октября_Generative_hall_7_Как локальным диджитал-сервисам успешно конкурировать с мировым Big Tech.html",
+    "fileName": "RU_D2_G_07.html",
     "speakers": [
       "Тимур Шалекенов",
       "Виталий"
@@ -3777,7 +3777,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "KZ_3_октября_Generative_hall_7_Как локальным диджитал-сервисам успешно конкурировать с мировым Big Tech.html",
+    "fileName": "KZ_D2_G_07.html",
     "speakers": [
       "Тимур Шалекенов",
       "Виталий"
@@ -3791,7 +3791,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 7,
-    "fileName": "EN_3_октября_Generative_hall_7_Как локальным диджитал-сервисам успешно конкурировать с мировым Big Tech.html",
+    "fileName": "EN_D2_G_07.html",
     "speakers": [
       "Timur Shalekenov",
       "Vitaly"
@@ -3805,7 +3805,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "RU_3_октября_Generative_hall_6_Первый Единорог из Казахстана.html",
+    "fileName": "RU_D2_G_06.html",
     "speakers": [
       "Алекс Машрабов",
       "Виталий Волянюк"
@@ -3819,7 +3819,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "KZ_3_октября_Generative_hall_6_Первый Единорог из Казахстана.html",
+    "fileName": "KZ_D2_G_06.html",
     "speakers": [
       "Алекс Машрабов",
       "Виталий Волянюк"
@@ -3833,7 +3833,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 6,
-    "fileName": "EN_3_октября_Generative_hall_6_Первый Единорог из Казахстана.html",
+    "fileName": "EN_D2_G_06.html",
     "speakers": [
       "Aleks Mashrabov",
       "Vitalii Volianiuk"
@@ -3847,7 +3847,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "RU_3_октября_Generative_hall_5_Venture Mindset для Казахстана.html",
+    "fileName": "RU_D2_G_05.html",
     "speakers": [
       "Виталий Волянюк",
       "Стребулаев Илья"
@@ -3861,7 +3861,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "KZ_3_октября_Generative_hall_5_Venture Mindset для Казахстана.html",
+    "fileName": "KZ_D2_G_05.html",
     "speakers": [
       "Виталий Волянюк",
       "Стребулаев Илья"
@@ -3875,7 +3875,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Generative hall",
     "order": 5,
-    "fileName": "EN_3_октября_Generative_hall_5_Venture Mindset для Казахстана.html",
+    "fileName": "EN_D2_G_05.html",
     "speakers": [
       "Vitaliy Volyanyuk",
       "Ilya Strebulaev"
@@ -3889,7 +3889,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "RU_2_октября_Vision_hall_5_AI-Sana драйвер ИИ-трансформации высшего образования.html",
+    "fileName": "RU_D1_V_05.html",
     "speakers": [
       "Саясат Нурбек",
       "Есекеев Куанышбек",
@@ -3908,7 +3908,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "KZ_2_октября_Vision_hall_5_AI-Sana драйвер ИИ-трансформации высшего образования.html",
+    "fileName": "KZ_D1_V_05.html",
     "speakers": [
       "Саясат Нұрбек",
       "Есекеев Қуанышбек",
@@ -3927,7 +3927,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 5,
-    "fileName": "EN_2_октября_Vision_hall_5_AI-Sana драйвер ИИ-трансформации высшего образования.html",
+    "fileName": "EN_D1_V_05.html",
     "speakers": [
       "Sayasat Nurbek",
       "Yesekeyev Kuanyshbek",
@@ -3946,7 +3946,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "RU_2_октября_Vision_hall_4_Право ИИ.html",
+    "fileName": "RU_D1_V_04.html",
     "speakers": [
       "Екатерина Смышляева",
       "Дмитрий Емелев",
@@ -3964,7 +3964,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "KZ_2_октября_Vision_hall_4_Право ИИ.html",
+    "fileName": "KZ_D1_V_04.html",
     "speakers": [
       "Екатерина Смышляева",
       "Дмитрий Емелев",
@@ -3982,7 +3982,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 4,
-    "fileName": "EN_2_октября_Vision_hall_4_Право ИИ.html",
+    "fileName": "EN_D1_V_04.html",
     "speakers": [
       "Ekaterina Smyshlyayeva",
       "Dmitry Emelev",
@@ -4000,7 +4000,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "RU_2_октября_Vision_hall_3_ИИ Будущее обучения.html",
+    "fileName": "RU_D1_V_03.html",
     "speakers": [
       "Асылбек Ахметжанов",
       "Болат Башеев",
@@ -4019,7 +4019,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "KZ_2_октября_Vision_hall_3_ИИ Будущее обучения.html",
+    "fileName": "KZ_D1_V_03.html",
     "speakers": [
       "Асылбек Ахметжанов",
       "Болат Башеев",
@@ -4038,7 +4038,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 3,
-    "fileName": "EN_2_октября_Vision_hall_3_ИИ Будущее обучения.html",
+    "fileName": "EN_D1_V_03.html",
     "speakers": [
       "Asylbek Akhmetzhanov",
       "Bolat Basheev",
@@ -4057,7 +4057,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "RU_2_октября_Vision_hall_2_Масштабный ИИ как корпоративные инновации формируют будущее внедрения искусственного интеллекта.html",
+    "fileName": "RU_D1_V_02.html",
     "speakers": [
       "Темирлан Зиналабдин",
       "Ноа Леффлер",
@@ -4075,7 +4075,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "KZ_2_октября_Vision_hall_2_Масштабный ИИ как корпоративные инновации формируют будущее внедрения искусственного интеллекта.html",
+    "fileName": "KZ_D1_V_02.html",
     "speakers": [
       "Темірлан Зиналабдин",
       "Ноа Леффлер",
@@ -4093,7 +4093,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Vision hall",
     "order": 2,
-    "fileName": "EN_2_октября_Vision_hall_2_Масштабный ИИ как корпоративные инновации формируют будущее внедрения искусственного интеллекта.html",
+    "fileName": "EN_D1_V_02.html",
     "speakers": [
       "Temirlan Zinalabdin",
       "Noa Leffler",
@@ -4105,13 +4105,13 @@ const DIGITALBRIDGE_SESSIONS = [
     "original_session_title": "Масштабный ИИ как корпоративные инновации формируют будущее внедрения искусственного интеллекта"
   },
   {
-    "session_title": "Инфраструктура CryptoCity: Цифровые активы, платежи и регулирование в городской технологии",
+    "session_title": "Казахстан как евразийский криптохаб: регулирование, стейблкоины и Криптоград Алатау",
     "language": "ru",
     "id": "68f21ac934e7fb2e419c4a5d",
     "day": 1,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "RU_2_октября_Vision_hall_1_Инфраструктура CryptoCity Цифровые активы, платежи и регулирование в городской технологии.html",
+    "fileName": "RU_D1_V_01.html",
     "speakers": [
       "Абдимур (НБ РК)",
       "Тилектес Адамбеков",
@@ -4125,13 +4125,13 @@ const DIGITALBRIDGE_SESSIONS = [
     "original_session_title": "Инфраструктура CryptoCity Цифровые активы, платежи и регулирование в городской технологии"
   },
   {
-    "session_title": "CryptoCity инфрақұрылымы: Қалалық технологиядағы цифрлық активтер, төлемдер және реттеу",
+    "session_title": "Еуразиялық криптохаб ретіндегі Қазақстан: реттеу, стейблкоиндар және Криптоқала Алатау",
     "language": "kz",
     "id": "68f21b9134e7fb2e419c4a5e",
     "day": 1,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "KZ_2_октября_Vision_hall_1_Инфраструктура CryptoCity Цифровые активы, платежи и регулирование в городской технологии.html",
+    "fileName": "KZ_D1_V_01.html",
     "speakers": [
       "Абдимур (ҚР ҰБ)",
       "Тілектес Адамбеков",
@@ -4145,13 +4145,13 @@ const DIGITALBRIDGE_SESSIONS = [
     "original_session_title": "Инфраструктура CryptoCity Цифровые активы, платежи и регулирование в городской технологии"
   },
   {
-    "session_title": "CryptoCity Infrastructure: Digital Assets, Payments, and Regulation in Urban Technology",
+    "session_title": "Kazakhstan as a Eurasian crypto hub: regulation, stablecoins, and Криптоград Алатау",
     "language": "en",
     "id": "68f21c7134e7fb2e419c4a5f",
     "day": 1,
     "hall": "Vision hall",
     "order": 1,
-    "fileName": "EN_2_октября_Vision_hall_1_Инфраструктура CryptoCity Цифровые активы, платежи и регулирование в городской технологии.html",
+    "fileName": "EN_D1_V_01.html",
     "speakers": [
       "Abdimur (НБ РК)",
       "Tilektes Adambekov",
@@ -4171,7 +4171,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "RU_2_октября_Unity_hall_5_Сила выбора Человеческое развитие на перепутье искусственного интеллекта.html",
+    "fileName": "RU_D1_U_05.html",
     "speakers": [
       "Катаржина Ваверня",
       "Педро Консейсао",
@@ -4189,7 +4189,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "KZ_2_октября_Unity_hall_5_Сила выбора Человеческое развитие на перепутье искусственного интеллекта.html",
+    "fileName": "KZ_D1_U_05.html",
     "speakers": [
       "Катажина Ваверня",
       "Педро Консейсау",
@@ -4207,7 +4207,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 5,
-    "fileName": "EN_2_октября_Unity_hall_5_Сила выбора Человеческое развитие на перепутье искусственного интеллекта.html",
+    "fileName": "EN_D1_U_05.html",
     "speakers": [
       "Katarzhina Vavernya",
       "Pedro Konseysao",
@@ -4225,7 +4225,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "RU_2_октября_Unity_hall_4_Влияние искусственного интеллекта на будущее космических инициатив.html",
+    "fileName": "RU_D1_U_04.html",
     "speakers": [
       "Марк Лемин",
       "Аманат Умбетбаев",
@@ -4241,7 +4241,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "KZ_2_октября_Unity_hall_4_Влияние искусственного интеллекта на будущее космических инициатив.html",
+    "fileName": "KZ_D1_U_04.html",
     "speakers": [
       "Марк Лемин",
       "Аманат Үмбетбаев",
@@ -4257,7 +4257,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 4,
-    "fileName": "EN_2_октября_Unity_hall_4_Влияние искусственного интеллекта на будущее космических инициатив.html",
+    "fileName": "EN_D1_U_04.html",
     "speakers": [
       "Mark Lemin",
       "Amanat Umbetbayev",
@@ -4273,7 +4273,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "RU_2_октября_Quantum_hall_5_Digital Regions регионы как драйверы Generative Nation.html",
+    "fileName": "RU_D1_Q_05.html",
     "speakers": [
       "Асем Болатжан",
       "Аида Дусова",
@@ -4290,7 +4290,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "KZ_2_октября_Quantum_hall_5_Digital Regions регионы как драйверы Generative Nation.html",
+    "fileName": "KZ_D1_Q_05.html",
     "speakers": [
       "Әсем Болатжан",
       "Аида Дусова",
@@ -4307,7 +4307,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 5,
-    "fileName": "EN_2_октября_Quantum_hall_5_Digital Regions регионы как драйверы Generative Nation.html",
+    "fileName": "EN_D1_Q_05.html",
     "speakers": [
       "Asem Bolatzhan",
       "Aida Dusova",
@@ -4324,7 +4324,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "RU_2_октября_Quantum_hall_4_DPI на основе искусственного интеллекта создание инклюзивной и интеллектуальной общественной инфраструктуры.html",
+    "fileName": "RU_D1_Q_04.html",
     "speakers": [
       "Азамат Баймен",
       "Адилет Жумаева",
@@ -4342,7 +4342,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "KZ_2_октября_Quantum_hall_4_DPI на основе искусственного интеллекта создание инклюзивной и интеллектуальной общественной инфраструктуры.html",
+    "fileName": "KZ_D1_Q_04.html",
     "speakers": [
       "Азамат Баймен",
       "Адилет Жұмаева",
@@ -4360,7 +4360,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 4,
-    "fileName": "EN_2_октября_Quantum_hall_4_DPI на основе искусственного интеллекта создание инклюзивной и интеллектуальной общественной инфраструктуры.html",
+    "fileName": "EN_D1_Q_04.html",
     "speakers": [
       "Azamat Baimen",
       "Adilet Zhumayeva",
@@ -4378,7 +4378,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "RU_2_октября_Unity_hall_3_Мобильные данные в меняющемся мире новые метрики для эффективного управления.html",
+    "fileName": "RU_D1_U_03.html",
     "speakers": [
       "Максат Турлубаев",
       "Тревор Монро",
@@ -4394,7 +4394,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "KZ_2_октября_Unity_hall_3_Мобильные данные в меняющемся мире новые метрики для эффективного управления.html",
+    "fileName": "KZ_D1_U_03.html",
     "speakers": [
       "Мақсат Турлубаев",
       "Тревор Монро",
@@ -4410,7 +4410,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 3,
-    "fileName": "EN_2_октября_Unity_hall_3_Мобильные данные в меняющемся мире новые метрики для эффективного управления.html",
+    "fileName": "EN_D1_U_03.html",
     "speakers": [
       "Maksat Turlubaev",
       "Trevor Monroe",
@@ -4426,7 +4426,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "RU_2_октября_Unity_hall_2_ИИ против ИИ.html",
+    "fileName": "RU_D1_U_02.html",
     "speakers": [
       "Бакыт Жексембай",
       "Шолпан Саймова",
@@ -4444,7 +4444,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "KZ_2_октября_Unity_hall_2_ИИ против ИИ.html",
+    "fileName": "KZ_D1_U_02.html",
     "speakers": [
       "Бақыт Жексембай",
       "Шолпан Саймова",
@@ -4462,7 +4462,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 2,
-    "fileName": "EN_2_октября_Unity_hall_2_ИИ против ИИ.html",
+    "fileName": "EN_D1_U_02.html",
     "speakers": [
       "Bakyt Zheksembai",
       "Sholpan Saimova",
@@ -4480,7 +4480,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "RU_2_октября_Unity_hall_1_AI для дипломатии лидеры как строители мостов.html",
+    "fileName": "RU_D1_U_01.html",
     "speakers": [
       "Лаура Саламат",
       "Екатерина Смолякова",
@@ -4498,7 +4498,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "KZ_2_октября_Unity_hall_1_AI для дипломатии лидеры как строители мостов.html",
+    "fileName": "KZ_D1_U_01.html",
     "speakers": [
       "Лаура Саламат",
       "Екатерина Смолякова",
@@ -4516,7 +4516,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Unity hall",
     "order": 1,
-    "fileName": "EN_2_октября_Unity_hall_1_AI для дипломатии лидеры как строители мостов.html",
+    "fileName": "EN_D1_U_01.html",
     "speakers": [
       "Laura Salamat",
       "Ekaterina Smolyakova",
@@ -4534,7 +4534,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "RU_2_октября_Quantum_hall_3_Связывая академию, инновации и общество Локализация искусственного интеллекта для выхода на глобальный уровень.html",
+    "fileName": "RU_D1_Q_03.html",
     "speakers": [
       "Прадип Кхосла",
       "Эльмира Обри",
@@ -4550,7 +4550,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "KZ_2_октября_Quantum_hall_3_Связывая академию, инновации и общество Локализация искусственного интеллекта для выхода на глобальный уровень.html",
+    "fileName": "KZ_D1_Q_03.html",
     "speakers": [
       "Прадип Хосла",
       "Эльмира Обри",
@@ -4566,7 +4566,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 3,
-    "fileName": "EN_2_октября_Quantum_hall_3_Связывая академию, инновации и общество Локализация искусственного интеллекта для выхода на глобальный уровень.html",
+    "fileName": "EN_D1_Q_03.html",
     "speakers": [
       "Pradeep Khosla",
       "Elmira Obri",
@@ -4582,7 +4582,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "RU_2_октября_Quantum_hall_2_EnergyTech AI.html",
+    "fileName": "RU_D1_Q_02.html",
     "speakers": [
       "Ильяс Бакытжан Нассенулы",
       "Нигматьянов Артур",
@@ -4599,7 +4599,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "KZ_2_октября_Quantum_hall_2_EnergyTech AI.html",
+    "fileName": "KZ_D1_Q_02.html",
     "speakers": [
       "Ілияс Бақытжан Нәсенұлы",
       "Артур Ниғматьянов",
@@ -4616,7 +4616,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 2,
-    "fileName": "EN_2_октября_Quantum_hall_2_EnergyTech AI.html",
+    "fileName": "EN_D1_Q_02.html",
     "speakers": [
       "Ilyas Bakytzhan Nassenuly",
       "Nigmatyanov Artur",
@@ -4633,7 +4633,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "RU_2_октября_Quantum_hall_1_ Искусственный интеллект и жизненный цикл инноваций синергия институтов развития Казахстана.html",
+    "fileName": "RU_D1_Q_01.html",
     "speakers": [
       "Жолдыхан Санат",
       "Ашкин Арман",
@@ -4651,7 +4651,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "KZ_2_октября_Quantum_hall_1_ Искусственный интеллект и жизненный цикл инноваций синергия институтов развития Казахстана.html",
+    "fileName": "KZ_D1_Q_01.html",
     "speakers": [
       "Жолдыхан Санат",
       "Ашкин Арман",
@@ -4669,7 +4669,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Quantum hall",
     "order": 1,
-    "fileName": "EN_2_октября_Quantum_hall_1_ Искусственный интеллект и жизненный цикл инноваций синергия институтов развития Казахстана.html",
+    "fileName": "EN_D1_Q_01.html",
     "speakers": [
       "Zholdykhan Sanat",
       "Ashkin Arman",
@@ -4687,7 +4687,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "RU_2_октября_Generative_hall_1_Стратегии цифровизации как правительства и бизнес формируют будущее с помощью ИИ.html",
+    "fileName": "RU_D1_G_01.html",
     "speakers": [
       "Олаф Дж. Грот",
       "Багдат Мусин",
@@ -4706,7 +4706,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "KZ_2_октября_Generative_hall_1_Стратегии цифровизации как правительства и бизнес формируют будущее с помощью ИИ.html",
+    "fileName": "KZ_D1_G_01.html",
     "speakers": [
       "Олаф Дж. Грот",
       "Бағдат Мусин",
@@ -4725,7 +4725,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 1,
     "hall": "Generative hall",
     "order": 1,
-    "fileName": "EN_2_октября_Generative_hall_1_Стратегии цифровизации как правительства и бизнес формируют будущее с помощью ИИ.html",
+    "fileName": "EN_D1_G_01.html",
     "speakers": [
       "Olaf J. Grot",
       "Bagdat Musin",
@@ -4744,7 +4744,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "RU_4_октября_Singularity_hall_7_Международные соревнования по программированию и искусственному интеллекту путь в мир возможностей.html",
+    "fileName": "RU_D3_S_07.html",
     "speakers": [
       "Данабек Калиаждаров",
       "Темирлан Сатылханов",
@@ -4761,7 +4761,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "KZ_4_октября_Singularity_hall_7_Международные соревнования по программированию и искусственному интеллекту путь в мир возможностей.html",
+    "fileName": "KZ_D3_S_07.html",
     "speakers": [
       "Данабек Қалиаждаров",
       "Темірлан Сатылханов",
@@ -4778,7 +4778,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 7,
-    "fileName": "EN_4_октября_Singularity_hall_7_Международные соревнования по программированию и искусственному интеллекту путь в мир возможностей.html",
+    "fileName": "EN_D3_S_07.html",
     "speakers": [
       "Danabek Kaliazhdarov",
       "Temirlan Satylkhanov",
@@ -4795,7 +4795,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "RU_4_октября_Singularity_hall_6_ИИ в образовании от персонализации до оценки знаний.html",
+    "fileName": "RU_D3_S_06.html",
     "speakers": [
       "Аскар Максатулы",
       "Аскар Болат",
@@ -4811,7 +4811,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "KZ_4_октября_Singularity_hall_6_ИИ в образовании от персонализации до оценки знаний.html",
+    "fileName": "KZ_D3_S_06.html",
     "speakers": [
       "Асқар Мақсатұлы",
       "Асқар Болат",
@@ -4827,7 +4827,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 6,
-    "fileName": "EN_4_октября_Singularity_hall_6_ИИ в образовании от персонализации до оценки знаний.html",
+    "fileName": "EN_D3_S_06.html",
     "speakers": [
       "Askar Maksatuly",
       "Askar Bolat",
@@ -4843,7 +4843,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "RU_4_октября_Singularity_hall_5_AI for Public  GOOD.html",
+    "fileName": "RU_D3_S_05.html",
     "speakers": [
       "Лаура",
       "Ибрагим Ташим",
@@ -4859,7 +4859,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "KZ_4_октября_Singularity_hall_5_AI for Public  GOOD.html",
+    "fileName": "KZ_D3_S_05.html",
     "speakers": [
       "Лаура",
       "Ибрагим Ташим",
@@ -4875,7 +4875,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "EN_4_октября_Singularity_hall_5_AI for Public  GOOD.html",
+    "fileName": "EN_D3_S_05.html",
     "speakers": [
       "Laura",
       "Ibragim Tashim",
@@ -4891,7 +4891,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "RU_4_октября_Singularity_hall_4_Учиться по-новому как TikTok формирует культуру знаний и навыков будущего.html",
+    "fileName": "RU_D3_S_04.html",
     "speakers": [
       "Юлия Кушнир",
       "Нина Нурамбекова",
@@ -4907,7 +4907,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "KZ_4_октября_Singularity_hall_4_Учиться по-новому как TikTok формирует культуру знаний и навыков будущего.html",
+    "fileName": "KZ_D3_S_04.html",
     "speakers": [
       "Юлия Кушнир",
       "Нина Нұрамбекова",
@@ -4923,7 +4923,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "EN_4_октября_Singularity_hall_4_Учиться по-новому как TikTok формирует культуру знаний и навыков будущего.html",
+    "fileName": "EN_D3_S_04.html",
     "speakers": [
       "Yulia Kushnir",
       "Nina Nurambekova",
@@ -4939,7 +4939,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "RU_4_октября_Singularity_hall_3_EdTech и ИИ создание глобальных образовательных платформ будущего.html",
+    "fileName": "RU_D3_S_03.html",
     "speakers": [
       "Лаура",
       "Аскар Болат",
@@ -4956,7 +4956,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "KZ_4_октября_Singularity_hall_3_EdTech и ИИ создание глобальных образовательных платформ будущего.html",
+    "fileName": "KZ_D3_S_03.html",
     "speakers": [
       "Лаура",
       "Асқар Болат",
@@ -4973,7 +4973,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 3,
-    "fileName": "EN_4_октября_Singularity_hall_3_EdTech и ИИ создание глобальных образовательных платформ будущего.html",
+    "fileName": "EN_D3_S_03.html",
     "speakers": [
       "Laura",
       "Askar Bolat",
@@ -4990,7 +4990,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "RU_4_октября_Singularity_hall_2_Keynot speech.html",
+    "fileName": "RU_D3_S_02.html",
     "speakers": [
       "Николя Садирак",
       "Олаф Дж. Грот",
@@ -5005,7 +5005,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "KZ_4_октября_Singularity_hall_2_Keynot speech.html",
+    "fileName": "KZ_D3_S_02.html",
     "speakers": [
       "Николя Садирак",
       "Олаф Дж. Грот",
@@ -5020,7 +5020,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 2,
-    "fileName": "EN_4_октября_Singularity_hall_2_Keynot speech.html",
+    "fileName": "EN_D3_S_02.html",
     "speakers": [
       "Nikolya Sadirak",
       "Olaf J. Grot",
@@ -5035,7 +5035,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "RU_4_октября_Singularity_hall_1_ИИ Образование для всех как воспитать Илона Маска.html",
+    "fileName": "RU_D3_S_01.html",
     "speakers": [
       "Алмас Ордабаев",
       "Рауан Кенжехан",
@@ -5052,7 +5052,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "KZ_4_октября_Singularity_hall_1_ИИ Образование для всех как воспитать Илона Маска.html",
+    "fileName": "KZ_D3_S_01.html",
     "speakers": [
       "Алмас Ордабаев",
       "Рауан Кенжехан",
@@ -5069,7 +5069,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 3,
     "hall": "Singularity hall",
     "order": 1,
-    "fileName": "EN_4_октября_Singularity_hall_1_ИИ Образование для всех как воспитать Илона Маска.html",
+    "fileName": "EN_D3_S_01.html",
     "speakers": [
       "Almas Ordabayev",
       "Rauan Kenzhekhan",
@@ -5086,7 +5086,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 8,
-    "fileName": "RU_3_октября_Singularity_hall_8_Цифровая трансформация корпораций.html",
+    "fileName": "RU_D2_S_08.html",
     "speakers": [
       "Елдан Абдрашим",
       "Меирбек Мукатов",
@@ -5103,7 +5103,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 8,
-    "fileName": "KZ_3_октября_Singularity_hall_8_Цифровая трансформация корпораций.html",
+    "fileName": "KZ_D2_S_08.html",
     "speakers": [
       "Елдан Абдрашим",
       "Мейірбек Мұқатов",
@@ -5120,7 +5120,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 8,
-    "fileName": "EN_3_октября_Singularity_hall_8_Цифровая трансформация корпораций.html",
+    "fileName": "EN_D2_S_08.html",
     "speakers": [
       "Yeldan Abdrashim",
       "Meirbek Mukatov",
@@ -5137,7 +5137,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 10,
-    "fileName": "EN_3_октября_Quantum_hall_10_ИИ в образовании.html",
+    "fileName": "EN_D2_Q_10.html",
     "speakers": [
       "Piter Norvig"
     ],
@@ -5150,7 +5150,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 10,
-    "fileName": "RU_3_октября_Quantum_hall_10_ИИ в образовании.html",
+    "fileName": "RU_D2_Q_10.html",
     "speakers": [
       "Питер Норвиг"
     ],
@@ -5163,7 +5163,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Quantum hall",
     "order": 10,
-    "fileName": "KZ_3_октября_Quantum_hall_10_ИИ в образовании.html",
+    "fileName": "KZ_D2_Q_10.html",
     "speakers": [
       "Питер Норвиг"
     ],
@@ -5176,7 +5176,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "RU_3_октября_Singularity_hall_5_Инструменты роста бизнеса как BigTech видит применение ИИ.html",
+    "fileName": "RU_D2_S_05.html",
     "speakers": [
       "Сергей Сорокин",
       "Александр Боришевич",
@@ -5193,7 +5193,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "KZ_3_октября_Singularity_hall_5_Инструменты роста бизнеса как BigTech видит применение ИИ.html",
+    "fileName": "KZ_D2_S_05.html",
     "speakers": [
       "Сергей Сорокин",
       "Александр Боришевич",
@@ -5210,7 +5210,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 5,
-    "fileName": "EN_3_октября_Singularity_hall_5_Инструменты роста бизнеса как BigTech видит применение ИИ.html",
+    "fileName": "EN_D2_S_05.html",
     "speakers": [
       "Sergey Sorokin",
       "Aleksandr Borishevich",
@@ -5227,7 +5227,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "RU_3_октября_Singularity_hall_4_Стейблкоины и будущее цифровых финансов.html",
+    "fileName": "RU_D2_S_04.html",
     "speakers": [
       "Айдана Каскырбек",
       "Павел Христолюбов",
@@ -5245,7 +5245,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "KZ_3_октября_Singularity_hall_4_Стейблкоины и будущее цифровых финансов.html",
+    "fileName": "KZ_D2_S_04.html",
     "speakers": [
       "Айдана Қасқырбек",
       "Павел Христолюбов",
@@ -5263,7 +5263,7 @@ const DIGITALBRIDGE_SESSIONS = [
     "day": 2,
     "hall": "Singularity hall",
     "order": 4,
-    "fileName": "EN_3_октября_Singularity_hall_4_Стейблкоины и будущее цифровых финансов.html",
+    "fileName": "EN_D2_S_04.html",
     "speakers": [
       "Aidana Kaskyrbek",
       "Pavel Khristolyubov",

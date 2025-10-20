@@ -1,0 +1,335 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИИ в образовании: от персонализации до оценки знаний — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>ИИ в образовании: от персонализации до оценки знаний</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Саясат Нурбек</span>
+      <span class="speaker-role"> — Министр науки и высшего образования Республики Казахстан</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Есекеев Куанышбек</span>
+      <span class="speaker-role"> — Помощник Президента РК</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Олаф Дж. Грот</span>
+      <span class="speaker-role"> — Основатель и CEO Cambrian Futures</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Пол Ким</span>
+      <span class="speaker-role"> — Заместитель декана и технический директор Стэнфордской высшей школы образования</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Шаддик Гевин</span>
+      <span class="speaker-role"> — Проректор Колледжа физических наук и инженерии Кардиффского университета</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Пегор Папазян</span>
+      <span class="speaker-role"> — Главный директор по развитию в TUMO</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Назар Джумаев (MJ)</span>
+      <span class="speaker-role"> — Модератор Q&A, участник дискуссии</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Сессия сфокусирована на том, как Казахстан превращает ИИ в ядро образовательной и экономической стратегии: создан Нацсовет по ИИ и объявлен новый университет ИИ; запущена масштабная программа «Айсана» с сотнями тысяч обученных студентов и преподавателей; заключено партнерство с OpenAI для пилота ChatGPT for Education и открывается кампус Кардиффа в Астане. Обсуждены сдвиг от передачи знаний к менторству, новые модели оценивания, этика и критическое мышление, а также отраслевые кейсы применения ИИ и роль страны как регионального хаба.</p>
+
+      <h2>Цели</h2>
+      <ul><li>Интегрировать ИИ во все уровни образования и переосмыслить роль учителя как ментора/коуча</li>
+<li>Сформировать национальную экосистему ИИ: университет ИИ, Нацсовет, инфраструктура и партнерства</li>
+<li>Массово повысить ИИ-грамотность граждан и подготовить кадры (от пользователей до экспертов)</li>
+<li>Перестроить оценивание и учебные траектории под AG-эра (персонализация, проектность, метакомпетенции)</li>
+<li>Использовать ИИ для ускорения экономического роста и позиционировать РК как региональный хаб талантов</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Какой путь позволит Казахстану максимизировать выгоды от ИИ и избежать зависимости от «когнитивных супердержав»?</li>
+<li>Поменяет ли ИИ фундаментально природу университетского образования и оценивания?</li>
+<li>Как развивать у школьников и студентов критическое мышление и навык задавать вопросы в эпоху ИИ?</li>
+<li>Как валидировать знания и управлять рисками галлюцинаций и ненадежных данных в ИИ-инструментах?</li>
+<li>Насколько своевременно масштабировать ИИ-инициативы при неполной цифровизации текущих госпроцессов?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>Создан Национальный совет по ИИ при Президенте; первая сессия посвящена человеческому капиталу и образованию; объявлен новый университет по ИИ.</li>
+<li>Программа «Айсана»: обучено >442 тыс. студентов и 55% ППС; в ноябре стартует отбор 100 тыс. студентов; наработки и исходники планируется открыть публично.</li>
+<li>Партнерство с OpenAI: пилот ChatGPT for Education в нескольких вузах; «джарвис» для преподавателей и ИИ-наставник для студентов.</li>
+<li>Кардиффский университет открыл кампус в Астане: магистратура по ИИ с января, ежегодно 300 грантов, центр переподготовки «From Zero to Hero» (емкость ~2,5 тыс./год).</li>
+<li>TUMO-подход: проектное и прикладное обучение с «виртуальным одноклассником» (цифровой близнец), где мотивация — главный двигатель.</li>
+<li>Необходим пересмотр оценивания: от проверки запоминания к задачам на принятие решений, создание инсайтов и применение ИИ с пониманием ограничений (галлюцинации, промптинг).</li>
+<li>Инфраструктура: «Казахтелеком» объявил о добавлении почти 2 экзафлопс; суммарно около 4 экзафлопс; планируются квоты вычислительных мощностей для вузов.</li>
+<li>Стратегия страны: строить «сетевой эффект» (студенты, профессора, стартапы, корпорации) и связывать НИОКР ИИ с сильными активами РК (агро, уран, логистика, энергосеть).</li>
+<li>Смена парадигмы BG→AG: от «обучения» к «менторству и коучингу», развитие метакомпетенций в ИИ и демократизация ИИ-грамотности для всех граждан.</li>
+<li>Этика и роль человека: курс на симбиоз человека и ИИ; учитель трансформируется в коуча/гида; критически важно воспитание навыка задавать качественные вопросы.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+  <blockquote>“ИИ — это суперсила.” — <span class="author">Саясат Нурбек</span></blockquote>
+
+
+  <blockquote>“Не используйте слово «обучение». Используйте слово «менторство» и коучинг.” — <span class="author">Пол Ким</span></blockquote>
+
+
+  <blockquote>“Не стоит быть чьей-то пешкой: заимствуйте у США и Китая, но не становитесь зависимыми.” — <span class="author">Олаф Дж. Грот</span></blockquote>
+
+
+  <blockquote>“Мы стремимся к симбиозу человека и ИИ, а не к устранению человека.” — <span class="author">Олаф Дж. Грот</span></blockquote>
+
+
+  <blockquote>“Надо бежать в эту революцию — ранняя адаптация даст Казахстану шанс снять сливки.” — <span class="author">Саясат Нурбек</span></blockquote>
+
+
+  <blockquote>“Мотивация — это золотая монета образования.” — <span class="author">Пегор Папазян</span></blockquote>
+
+
+      <h2>Выводы</h2>
+      <ul><li>Казахстан берет курс на раннее и массовое внедрение ИИ в образование, соединяя международные партнерства, инфраструктуру и открытые ресурсы.</li>
+<li>Образование переходит от трансляции знаний к менторству, персонализации и проектности; оценивание и компетенции пересматриваются под AG-эпоху.</li>
+<li>Ставка на сетевой эффект и привязку ИИ к сильным отраслям РК позволяет стране претендовать на роль регионального хаба без стратегической зависимости.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Пилотировать специализированный ChatGPT for Education от OpenAI в ряде казахстанских университетов.</li>
+<li>Открыть кампус Кардиффского университета в Астане и запустить магистратуру по ИИ с января.</li>
+<li>Развивать центр переподготовки «From Zero to Hero» и расширять доступное ИИ-обучение для граждан.</li>
+<li>Выделить квоты вычислительных ресурсов (вкл. мощности «Казахтелекома») для вузов и проектов «Айсаны».</li>
+<li>Публично открыть курсы, шаблоны и исходные коды «Айсаны» для широкой аудитории (включая школьников).</li>
+<li>Учредить новый университет по искусственному интеллекту и продолжить работу Нацсовета по ИИ с фокусом на образование и кадры.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Сформировать рабочую группу по обновлению оценивания и стандартов с учетом ИИ (промптинг, валидация, антигаллюцинации).</li>
+<li>Завершить сертификацию оставшейся части ППС и внедрить «цифрового Джарвиса» для преподавателей в пилотных вузах.</li>
+<li>Провести отбор 100 тыс. студентов в ноябре и масштабировать проектную разработку ИИ-агентов в вузах.</li>
+<li>Развернуть централизованный доступ к суперкомпьютерным ресурсам и распределить квоты между университетами.</li>
+<li>Опубликовать методические материалы по ИИ-наставникам и этике (вкл. использование цифровых аватаров и согласий).</li>
+<li>Запустить серию общефедеральных курсов по ИИ-грамотности для граждан (модель «Elements of AI»), включая школьников.</li>
+<li>Синхронизировать отраслевые дорожные карты применения ИИ (агро, уран, логистика, здравоохранение) с учебными программами.</li>
+<li>Организовать набор международных студентов и экспертов для усиления сетевого эффекта в «Cardiff Kazakhstan» и «Айсана».</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>OpenAI: ChatGPT for Education (пилот в Казахстане)</li>
+<li>Программа «Айсана» (нац.платформа ИИ-обучения)</li>
+<li>Cardiff University Kazakhstan (кампус в Астане, магистратура по ИИ)</li>
+<li>TUMO (модель проектного обучения; «виртуальный одноклассник»)</li>
+<li>Проект SMILE (инициатива Пола Кима по формированию вопросов)</li>
+<li>Thomas Kuhn — The Structure of Scientific Revolutions</li>
+<li>Olaf — «Solomon’s Code» и «Effect of Remobilization» (упомянутые книги)</li>
+<li>«Elements of AI» (нац.курс Финляндии по ИИ-грамотности)</li>
+<li>Казахтелеком: объявление о суперкомпьютерах (~4 экзафлопс совокупно)</li>
+<li>Coursera (команда перешла в OpenAI для образовательных продуктов)</li>
+<li>Huawei: учебные курсы для студентов в рамках «Айсаны»</li>
+<li>Google и Telegram (присутствие на мероприятии, платформенные экосистемы)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой. Для подтверждения фактов и деталей рекомендуется обращаться к официальным материалам форума.
+  </div>
+</body>
+</html>

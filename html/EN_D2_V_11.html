@@ -1,0 +1,304 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Session: Global Accelerators: Building Bridges, Creating Unicorns — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Panel Session: Global Accelerators: Building Bridges, Creating Unicorns</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Mukhammad Makhmudov</span>
+      <span class="speaker-role"> — Director, Plug and Play Uzbekistan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Olga Skorokhodova</span>
+      <span class="speaker-role"> — Head of Government Relations and Public Policy for Emerging Markets at Google</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Pedro Santos Vieira</span>
+      <span class="speaker-role"> — Managing Partner, 500 Global</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Muhannad Tashlak</span>
+      <span class="speaker-role"> — Chief Investment Officer, Alchemist Qatar</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Shams Imran</span>
+      <span class="speaker-role"> — Executive Director of the Accelerate Prosperity initiative</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed the transformation of accelerators from mentorship/funding tools into ecosystem architects working with governments and corporations. Emphasis was placed on scaling strategies from frontier markets without premature expansion, early AI integration, and cloud-first/free cross-border data policies. It examined mechanisms for attracting capital and building founder resilience (simulations, mental health) and pathways for developing deep tech through university and international partnerships.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Define how next-generation accelerators should work with government and corporations to grow the ecosystem.</li>
+<li>Formulate policy (cloud-first, cross-border data flows) that unlocks venture capital in Central Asia.</li>
+<li>Identify proven internationalization strategies and avoid premature scaling.</li>
+<li>Outline an approach to developing deep tech in the region through the diaspora, universities, and industry partnerships.</li>
+<li>Embed AI and resilience/psychological support practices into acceleration programs.</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How have the roles and models of accelerators changed in recent years, and what is an “Accelerator 2.0”?</li>
+<li>Which government policies are critical for the globalization of startups (cloud-first, cross-border data, funds of funds)?</li>
+<li>How can startups from frontier markets scale without premature expansion into the US/EU, and where should they validate PMF?</li>
+<li>Which practices help attract international capital (storytelling, relationship “lines,” local traction)?</li>
+<li>How do you build founder resilience in volatile markets (normalizing failure, simulation labs, mental health)?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Accelerators have evolved into platforms that reshape the landscape: they work with regulators, corporations, and infrastructure, not just mentorship/checks.</li>
+<li>Early AI integration and moving to the cloud are mandatory for global scale; the region needs an AI-first strategy.</li>
+<li>Key policies: the cloud-first principle and easing cross-border data flows; without this it is hard to scale from Central Asia.</li>
+<li>Governments are increasing their role via funds of funds, sector priorities, and partnerships (Qatar as an example) — support without excessive control.</li>
+<li>The main internationalization mistake is premature scaling; first achieve PMF and traction in regional markets.</li>
+<li>Choosing an accelerator is choosing people and a network: who is inside the program and what bridges to target markets it provides matter.</li>
+<li>Deep tech in the region requires linkage with universities and the diaspora, industry accelerators, and ecosystem programs (example: Alchemist + University of Chicago).</li>
+<li>Attracting capital: strong storytelling, local validation, and building relationship “lines” with investors rather than one-off “points.”</li>
+<li>Founder resilience is a strategic factor: normalizing failure, crisis simulations in programs, and attention to mental health.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Investors invest in lines, not points.” — <span class="author">Pedro Santos Vieira</span></blockquote>
+
+
+  <blockquote>“We need to normalize that failure is part of learning.” — <span class="author">Shams Imran</span></blockquote>
+
+
+  <blockquote>“You need to make all your decisions based on data — use AI to analyze that data.” — <span class="author">Muhannad Tashlak</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>A consensus emerged: accelerators should act as ecosystem system integrators together with governments and corporations.</li>
+<li>Early AI and cloud infrastructure are essential for global growth; regulatory barriers around data require priority removal.</li>
+<li>Scaling should be based on local/regional validation and a support network, avoiding early entry into complex markets.</li>
+<li>Founder resilience is a competitive advantage of frontier markets; accelerators should implement simulations and mental health support.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Support the development of regional programs (e.g., Silk Way) with enhanced modules on AI, storytelling, and working with international investors.</li>
+<li>Develop expert recommendations for Central Asian governments on implementing cloud-first policy and easing cross-border data flows.</li>
+<li>Include resilience simulation labs and a founder mental health component in acceleration tracks.</li>
+<li>Expand partnerships with industry and international hubs (Alchemist, 500 Eurasia, Astana Hub) to build bridges to target markets and develop deep tech.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Prepare a policy brief for Central Asian regulators on cloud-first and cross-border data, incorporating Qatar’s practices.</li>
+<li>Create a map of regional and international investors/accelerators and establish relationship “line” channels for founders.</li>
+<li>Launch pilot modules “Storytelling & Fundraising” and “AI-by-default” in regional accelerators.</li>
+<li>Organize a roadshow/founder delegations to Doha, Astana, and Tashkent with pre-arranged B2B meetings.</li>
+<li>Deploy simulation labs for crisis scenarios in acceleration programs (cash shortfalls, recession, regulatory risks).</li>
+<li>Create an initiative to engage the deep tech diaspora (mentorship, co-founding, R&D nodes with universities).</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Silk Way Accelerator (Google for Startups + Astana Hub, demo session)</li>
+<li>Google First AI Accelerator (EMEA/MENA)</li>
+<li>500 Global and the 500 Eurasia initiative</li>
+<li>Alchemist Accelerator (incl. the Volt program), Qatar</li>
+<li>Alchemist partnership with the University of Chicago for high-tech acceleration</li>
+<li>Accelerate Prosperity (Tajikistan, Kyrgyzstan, Afghanistan, Pakistan)</li>
+<li>Cloud-first policy and Qatar’s practice</li>
+<li>Fund of funds in Doha (a tool for attracting venture funds)</li>
+<li>Astana Hub (Kazakhstan)</li>
+<li>InDrive case as an example of a “do it better, not new” strategy</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

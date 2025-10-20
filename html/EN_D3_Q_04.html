@@ -1,0 +1,314 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI and smart cities: human-centricity, air quality, and cultural heritage — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>AI and smart cities: human-centricity, air quality, and cultural heritage</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Indira Makhmetova</span>
+      <span class="speaker-role"> — Founder of Archica Congresses</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zhuldyz Saulebekova</span>
+      <span class="speaker-role"> — Director of Almaty Air Initiative</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Rikkardo Marini</span>
+      <span class="speaker-role"> — Founder of Urban Living, Almaty</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Bashaar Tarabai</span>
+      <span class="speaker-role"> — Head of research projects</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Stantsa</span>
+      <span class="speaker-role"> — Independent artist</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how AI and AIoT are changing city governance and quality of life: from adaptive transport to air monitoring. Speakers argued for human-centricity and a “happy city” instead of technocentrism, as well as for the sovereignty of urban data. A separate emphasis was placed on the digitization of cultural heritage as a protection of identity amid climate risks and technological homogenization. Practical steps for Almaty were discussed: sensors, predictive analytics, and open dashboards.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Understand how AI and AIoT practically improve city management and quality of life</li>
+<li>Define human-centric principles and metrics for smart projects (“happy city”)</li>
+<li>Formulate an approach to urban data sovereignty and ethics, avoiding vendor monopolies</li>
+<li>Determine how digitizing heritage strengthens the identity and resilience of cities</li>
+<li>Assemble a set of actionable steps for Almaty (air quality, transport, open data)</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How is AI already transforming city governance and improving urban quality of life?</li>
+<li>How can we ensure that smart cities are not only technological but also human-centric and inclusive?</li>
+<li>How can we digitize and protect cultural heritage without losing the identity of cities?</li>
+<li>What fundamental processes and competencies must be in place before large-scale AI deployment?</li>
+<li>How can citizens and communities participate in decision-making and change everyday practices?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI as the “brain” of the city and AIoT as the “body”: vision (sensors), thinking (analytics), action (automation) — the foundation of smart operations.</li>
+<li>AIoT practices: adaptive traffic lights (Barcelona), safety and incident prediction (New York, Shenzhen), blockchain electricity trading for EVs (Shenzhen), energy consumption management (Amsterdam), smart bins (Singapore).</li>
+<li>Almaty: severe air pollution and traffic jams are a single problem; a wide sensor network, dashboards, and predictive analytics are needed (wind, temperature, fires, pollen).</li>
+<li>Human-centricity before technology: the goal is a “happy city”; if technology doesn’t make people happier and healthier, it has failed.</li>
+<li>Data sovereignty: urban data should belong to citizens; it is unacceptable to give full control to a single vendor (risk of lock-in and inefficiency).</li>
+<li>Critical use of AI: the tool is “dumb” without training; hallucinations and errors are possible. Authorship, verifiability, and professional accountability are needed.</li>
+<li>Cultural heritage as the soul of the city: without understanding the past, a sustainable future is impossible. AI helps analyze risks (satellites, big data), but there is a risk of homogenization and loss of identity.</li>
+<li>Climate challenges are already reshaping cities (example of Ghadames, Libya); solutions must take local context into account (example of Oman, rejection of skyscrapers in favor of traditions).</li>
+<li>Art and data: the city as an interwoven collaborative space; artistic practices with sensors and visualizations reveal invisible layers of data and the ethical risks of “surveillance capitalism.”</li>
+<li>Changing citizen behavior is part of the solution: walking, cycling, recycling, exerting pressure on authorities through manifestos, and demanding air quality as a human right.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“If AI is the brain of the city, then the body is devices and sensors: AIoT that enables the city to see, think, and act.” — <span class="author">Zhuldyz Saulebekova</span></blockquote>
+
+
+  <blockquote>“Why a smart city and not a happy city? If technologies don’t make people happy, you have failed the task.” — <span class="author">Rikkardo Marini</span></blockquote>
+
+
+  <blockquote>“It is impossible to build the future if you don’t have an understanding of the past.” — <span class="author">Bashaar Tarabai</span></blockquote>
+
+
+  <blockquote>“In a democratic society, a city’s data belongs to its citizens, and data is money.” — <span class="author">Rikkardo Marini</span></blockquote>
+
+
+  <blockquote>“AI is a tool, like a knife in the hands of a doctor or in the hands of a criminal — we make the decisions.” — <span class="author">Zhuldyz Saulebekova</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI and AIoT significantly expand the capabilities of urban management, but their effectiveness depends on human-centric design and the maturity of foundational processes.</li>
+<li>Preserving identity through digitization and storytelling of heritage is a strategic necessity amid climate and technological challenges.</li>
+<li>Data sovereignty and openness, rejection of single-vendor dependence, and citizen engagement are key to a sustainable and equitable digital transformation of the city.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Adhere to a human-centric approach and the “happy city” metric when evaluating the effects of AI projects.</li>
+<li>Enshrine the principle that urban data belongs to citizens; prevent transferring full control to a single vendor.</li>
+<li>Expand the air quality sensor network in Almaty, and develop dashboards and predictive analytics (including for fires and pollen).</li>
+<li>Launch programs for digital recording and storytelling of cultural heritage with the participation of communities and museums.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Conduct an audit of basic city processes and data before automation; train teams to work with AI and verify results.</li>
+<li>Develop a city manifesto (walking, cycling, emission reduction) and an air roadmap with measurable target indicators.</li>
+<li>Launch a pilot of adaptive traffic lights on key corridors (e.g., Al-Farabi), taking into account pedestrian and traffic flows in real time.</li>
+<li>Create a data sovereignty policy: a registry of sensors, open APIs, access levels, and rules for reinvesting data revenues back into the city.</li>
+<li>Organize a public behavior-change program: campaigns for walking/cycling, separate waste collection, and voluntary avoidance of unnecessary trips.</li>
+<li>Together with Iconem and museums, launch a pilot for 3D scanning of heritage sites and creating digital exhibitions with AI storytelling.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Barcelona — adaptive traffic lights and the principle that “data belongs to citizens”</li>
+<li>Shenzhen — full transition to electric transport; blockchain electricity trading for EVs</li>
+<li>Amsterdam — AI systems to match energy consumption with weather</li>
+<li>New York — use of data and AI for incident prevention</li>
+<li>Singapore — smart bins for waste management</li>
+<li>WHO air quality guidelines</li>
+<li>Iconem — cultural heritage digitization projects</li>
+<li>Gehl Architects — human-centric city design</li>
+<li>ALPR in the UK — automatic number plate recognition systems</li>
+<li>Velocity app (Stantsa) and an API for visualizing urban data (since 2017)</li>
+<li>The Age of Surveillance Capitalism, Shoshana Zuboff</li>
+<li>Archicad and other tools for architectural design</li>
+<li>IoT/AIoT — the internet of things with AI</li>
+<li>GPT — generative AI models mentioned as a tool</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Басты баяндама: AI Platform — әзірлеу тәжірибесі жоқ адамға 15 минутта ЖИ‑агентті құру, оқыту және бейімдеу — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>Басты баяндама: AI Platform — әзірлеу тәжірибесі жоқ адамға 15 минутта ЖИ‑агентті құру, оқыту және бейімдеу</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Рамиль Мухоряпов</span>
+      <span class="speaker-role"> — Choco Holding компаниясының бірлескен негізін қалаушы және CEO, FreedomAI басшысы</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Рамиль Мухоряпов Freedom AI стратегиясын таныстырды: Freedom GPT арқылы топ модельдерге тегін қолжетімділік, Freedom экожүйесіндегі 49+ функциясы бар ақылды ассистент және қазақ тілінің эталондық моделін әзірлеу. Негізгі екпін — 10–15 минутта кодсыз ЖИ‑агенттерді құрастыруға мүмкіндік беретін платформа, ол қазірдің өзінде Freedom‑ның 25 компаниясының ішінде қолданылады. Жол картасы — келесі жылдың басында платформаны сыртқы пайдаланушыларға ашу және «prompt‑to‑agent» пен «prompt‑process»-ті өрістету.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>ЖИ‑ға қолжетімділікті демократияландыру: Freedom GPT арқылы Қазақстан азаматтарына топ модельдерге тегін қолжетімділік беру</li>
+<li>Дауыспен/чатта операцияларды орындайтын, генеративті UI және банк деңгейіндегі қауіпсіздігі бар көп функциялы дос‑ассистент жасау</li>
+<li>Сыртқы провайдерлерге тәуелсіздік үшін қазақ тілінің эталондық моделін (ҚТМ) әзірлеу</li>
+<li>Әзірлеуші емес адамдарға ЖИ‑агенттерді 10–15 минутта құрастыруға мүмкіндік беретін платформаны құру</li>
+<li>Freedom компанияларының бизнес‑процестерін автоматтандыру және кейін платформаны нарыққа ашу</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>Қазақстан азаматтары үшін шектеусіз, тегін және жаппай қолжетімділікті GPT‑тің топ модельдеріне қалай қамтамасыз етуге болады?</li>
+<li>Ассистенттің банк және eGov сценарийлерінде қауіпсіз жұмыс істеуі үшін қандай функциялар мен сенім шаралары қажет?</li>
+<li>AI‑агентті әзірлеуді 30 күннен 10–15 минутқа дейін қалай қысқартуға және мұны техникалық емес мамандарға қалай қолжетімді етуге болады?</li>
+<li>Неліктен дербес қазақ тілі моделі қажет және ол қазіргі сыртқы провайдерлерден қалай асып түседі?</li>
+<li>Платформаны сыртқы пайдаланушыларға ашудың және интеграцияларды кеңейтудің (Telegram, Instagram, eGov) жол картасы қандай?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>Freedom GPT қазақстандықтарға топ модельдерге тегін қолжетімділік береді және пайдалану шектеулерін алып тастайды</li>
+<li>Freedom Assistant қазірдің өзінде 49+ функцияны орындайды: банктегі аударымдар, eGov арқылы құжаттармен жұмыс, сатып алулар (Freedom Mobile қоса), дәрігерге жазылу, тамақ жеткізу — барлығы генеративті UI арқылы</li>
+<li>Ассистент жекелей бапталады: талғамдарды есте сақтайды, жоспарлайды және күрделі тапсырмаларды бір ғана пәрменмен (дауыс/мәтін) орындайды</li>
+<li>Сыртқы провайдерлерге тәуелді болмас үшін эталондық қазақ тілі моделін (ҚТМ) әзірлеу іске қосылды; бүгінде ең үздік модель — Яндекс‑те, бұл жергілікті экожүйе үшін «оғаш»</li>
+<li>Freedom AI платформасы ботты 10–15 минутта жинауға мүмкіндік береді: ~30 модельдің ішінен таңдау, температураны, промптты баптау, файлдардан жылдам білім базасы, плейграунд</li>
+<li>Вебхуктар арқылы бір рет басып интеграциялар: Telegram бар, Instagram‑ды бизнес‑командалар сұрады; субагенттер және логиканы байланыстыру қолдау табады</li>
+<li>Практикалық әсер: алғашқы агентті 30 күнде жасадық, қазір — 10–15 минут; оқытылған HR мамандары процестерді өз бетінше автоматтандыра алады</li>
+<li>Freedom ішінде платформаны 25 компания қолданады, >100 агент жасалды, күніне ~10 000 сұрау өңделеді</li>
+<li>Жол картасы: «prompt‑to‑agent» қазірдің өзінде жұмыс істейді; келесі қадам — бір‑бірімен байланысты агенттер армиясымен тұтас процестерді іске қосатын «prompt‑process»</li>
+<li>Платформаның көпшілікке арналған релизі келесі жылдың басына жоспарланған; Chocofood Freedom Дом болып ребрендинг жасалатыны алдын ала жарияланды</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+  <blockquote>“Біз GPT‑ті әрбір қазақстандыққа қолжетімді еткіміз келеді.” — <span class="author">Рамиль Мухоряпов</span></blockquote>
+
+
+  <blockquote>“Ол шын мәнінде сенің досыңа айналуы үшін.” — <span class="author">Рамиль Мухоряпов</span></blockquote>
+
+
+  <blockquote>“Электр энергиясы — бұл оңай, ЖИ — бұл да оңай.” — <span class="author">Рамиль Мухоряпов</span></blockquote>
+
+
+  <blockquote>“Біз қандай да бір сыртқы провайдерлерге тәуелді бола алмаймыз.” — <span class="author">Рамиль Мухоряпов</span></blockquote>
+
+
+  <blockquote>“Агентті он‑он бес минутта жасау мүмкіндігі.” — <span class="author">Рамиль Мухоряпов</span></blockquote>
+
+
+      <h2>Қорытындылар</h2>
+      <ul><li>Freedom AI толық стек құрып жатыр: тұтынушылық сервистерден (GPT, ассистент) агенттер құру платформасына және жергілікті қазақ тілі моделіне дейін</li>
+<li>AI‑агенттерді жасау және енгізу тек әзірлеушілердің емес, бизнес‑мамандардың да міндетіне айналып, цифрлық трансформацияны жеделдетеді</li>
+<li>Қазақ тілі бойынша жергілікті тілдік құзырет — сервистер сапасы мен технологиялық тәуелсіздік үшін стратегиялық басымдық</li>
+<li>Платформа Freedom ішіндегі нақты кейстерде құндылығын дәлелдеді және сыртқы нарыққа масштабтауға дайындалып жатыр</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>Freedom GPT‑ті Қазақстан азаматтары үшін топ модельдерге тегін қолжетімділікпен іске қосу</li>
+<li>Freedom Assistant‑ті сапа мен сенімділікті жетілдіргеннен кейін шығару (банк — жоғары сенім аймағы)</li>
+<li>Сыртқы провайдерлерге тәуелділікті азайта отырып, эталондық қазақ тілі моделін (ҚТМ) әзірлеу және енгізу</li>
+<li>Платформаны Freedom‑ның барлық компанияларында ішкі масштабтауды жалғастыру, кейін келесі жылдың басында платформаны сыртқы пайдаланушыларға ашу</li>
+<li>Ассистент пен агенттердің интеграцияларын кеңейту: Telegram (қазірдің өзінде), Instagram, eGov, банктік операциялар мен төлемдер</li>
+<li>«prompt‑to‑agent»-ті дамыту және тұтас бизнес‑процестерді автоматтандыру үшін «prompt‑process»-ке көшу</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>Freedom GPT‑ті жетілдіруді аяқтау және супер‑қосымшада әрі вебте тұрақты жұмысын қамтамасыз ету</li>
+<li>Ассистент функцияларын кеңейту және тестілеу (аударымдар, eGov, сатып алулар, медицина), релиз алдында қауіпсіздік пен комплаенс‑аудит жүргізу</li>
+<li>ҚТМ‑нің алғашқы нұсқасын дайындау (синтез және түсіну), жабық тесттер өткізу және жергілікті корпустарда қосымша оқытуды бастау</li>
+<li>Платформаны көпшілікке іске қосуға дайындау: құжаттама, агент үлгілері, техникалық емес рөлдерге (HR, операциялар, маркетинг) арналған оқыту материалдары</li>
+<li>Жаңа арналар мен коннекторларды қосу және баптау: Instagram, қосымша вебхуктар, төлем шлюздері және eGov‑пен интеграциялар</li>
+<li>Ішкі метрикалар мен сапа мониторингін (дәлдік, жауап уақыты, конверсия) >25 компания және >10k сұрау/күн үшін кеңейту</li>
+<li>Дайын «prompt‑process» сценарийлерінің кітапханасын дайындау (кадрларды іріктеу, сервис, сату) және командалардың жылдам онбордингін қамтамасыз ету</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>БАӘ бастамасы: азаматтарға ChatGPT Plus‑қа тегін әрі шексіз қолжетімділік</li>
+<li>Яндекс — қазақ тілі бойынша ең үздік модельдердің ағымдағы провайдері (спикердің айтуынша)</li>
+<li>eGov (Қазақстанның мемлекеттік қызметтер порталы)</li>
+<li>Telegram және BotFather (боттар құру және токендер алу)</li>
+<li>Instagram (бизнес сұраған арна интеграциясы)</li>
+<li>Агенттердің білім базасын толықтыруға арналған кадрларды іріктеу бойынша үздік кітаптар</li>
+<li>Freedom Mobile және Chocofood (Freedom Дом‑қа ребрендинг туралы алдын ала анонс)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөзі негізінде жасанды интеллект технологиялары арқылы дайындалған. Мәтінде қателіктер болуы мүмкін және ол ресми стенограмма болып табылмайды.
+  </div>
+</body>
+</html>

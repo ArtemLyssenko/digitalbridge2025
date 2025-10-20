@@ -1,0 +1,316 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Law — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>AI Law</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ekaterina Smyshlyayeva</span>
+      <span class="speaker-role"> — Member of the Mazhilis of the Parliament of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Dmitry Emelev</span>
+      <span class="speaker-role"> — Vice Minister of the Ministry of Artificial Intelligence and Digital Development of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Shapak Unzila</span>
+      <span class="speaker-role"> — Member of the Committee on Legislation and Judicial-Legal Reform of the Parliament of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Utegen Dana</span>
+      <span class="speaker-role"> — Director of Digital Rights Center Qazaqstan at MNU</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Salikhov Damir</span>
+      <span class="speaker-role"> — Head of the legal support group for regulatory initiatives at Yandex LLC</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Midkhat Shapakov</span>
+      <span class="speaker-role"> — IT expert, proponent of an open-source approach to AI development</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed what the model of AI regulation should be—global or local—and converged on a combined approach. They examined the technological nature of AI (large language models and AI agents) and the shift of regulatory focus toward dataset quality. Particular attention was paid to biometrics, emotions, and risks of discrimination, as well as the need for legal predictability for business. They also touched on training talent at the intersection of law and IT and corporate practices for complying with different jurisdictions.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Form a coherent model of AI regulation that combines national rules and international coordination</li>
+<li>Determine what exactly to regulate in AI: algorithms, datasets, testing processes, and content labeling</li>
+<li>Define the boundaries of permissible use of biometrics and emotion analytics with protection of human rights</li>
+<li>Strengthen legal and digital literacy: bridging the competencies of lawyers and IT specialists</li>
+<li>Develop guidelines for predictable enforcement and corporate compliance</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Should AI law be built globally first and then locally, or the other way around?</li>
+<li>What does AI represent today (LLMs and AI agents), and which applications pose the greatest risks for regulators?</li>
+<li>Is a transformation of basic codes (Civil Code, Criminal Code, Code of Administrative Offenses) for the digital environment needed, or are special laws sufficient?</li>
+<li>Where is the line between security and rights violations when using biometrics, emotions, and behavioral analytics?</li>
+<li>What should regulation focus on: algorithms or the data and datasets on which models are trained?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Consensus: effective AI regulation requires a combination of national rules and international coordination; a number of issues (e.g., labeling of AI-generated content) require global standards</li>
+<li>Technologically, it is important to distinguish between large language models and fine-tuned AI agents; these are different objects of development and regulation</li>
+<li>The regulatory trend is shifting toward the quality and provenance of datasets, accuracy metrics, and testing procedures, rather than disclosure of “inexplicable” algorithms</li>
+<li>Breakthrough AI applications: drug discovery and networks of AI agents (e.g., an HR agent building chains of assistants and operating 24/7)</li>
+<li>Biometrics and emotions have a dual effect: from security and identification to risks of discrimination, manipulation, and deepfakes (cases of Cambridge Analytica, Clearview AI)</li>
+<li>Legal predictability and the ability to run pilots are critical for business; excessive regulation drives developers out (example discussed in the EU)</li>
+<li>Open source and data sharing (including corpora for the Kazakh language) accelerate model development and enable local markets to participate in the global ecosystem</li>
+<li>Basic codes will require targeted adaptation to the digital environment (digital evidence, cyber-judges, platform employment), in parallel with special laws</li>
+<li>Data subjects’ rights are being strengthened: the right to be forgotten, obligations to notify of breaches, liability for “dropper” activity, and cyber hygiene</li>
+<li>Education at the intersection of IT and law: electives and training programs for IT investigators, cyber-lawyers, and IT judges</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Where will a self-driving car run? Where it is created or where it is allowed? The obvious answer is: where it is allowed.” — <span class="author">Salikhov Damir</span></blockquote>
+
+
+  <blockquote>“Technology must be used properly and ethically, especially when working with biometrics and emotions.” — <span class="author">Utegen Dana</span></blockquote>
+
+
+  <blockquote>“The main challenge is legal and technological literacy: without it, managing data and consents is impossible.” — <span class="author">Salikhov Damir</span></blockquote>
+
+
+  <blockquote>“I am sure: never. AI will not become a subject of law and will not replace humans.” — <span class="author">Salikhov Damir</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI regulation should combine local frameworks and international rules on key issues (content labeling, cross-border data) while maintaining predictability for the industry.</li>
+<li>The focus of regulation is shifting to data quality and model performance metrics; requirements for datasets and testing procedures are needed, as well as enhanced protection of biometrics and data subjects’ rights.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>A combined approach to AI regulation was supported: national rules with implementation and alignment with international standards.</li>
+<li>The development of requirements for datasets and testing metrics within the national AI platform was initiated to ensure the quality of AI agents.</li>
+<li>Agreed to strengthen educational programs at the intersection of law and IT (electives and specialized courses for lawyers and developers).</li>
+<li>Recognized the need to restrict unethical use of biometrics and emotions, including control of deepfakes and manipulative analytics.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Prepare methodological guidelines for datasets (requirements for volume, verification, non-discrimination) and standard accuracy metrics for AI models and agents.</li>
+<li>Launch pilots on AI content labeling together with major developers and the regulator to develop applicable standards.</li>
+<li>Conduct an audit of current practices of biometrics use (schools, law enforcement, HR) and propose legal restrictions and mechanisms of public oversight.</li>
+<li>Expand training programs for IT investigators, cyber-lawyers, and IT judges; introduce mandatory modules on digital law for IT specialists and on technology for lawyers.</li>
+<li>Develop industry guides on breach notification and consent management, including cyber hygiene practices for platforms and users.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Law of the Republic of Kazakhstan “On Artificial Intelligence” (new edition, 2nd reading)</li>
+<li>EU AI Act (EU law on artificial intelligence)</li>
+<li>Italian National Act on AI</li>
+<li>China’s approaches to AI regulation</li>
+<li>Draft law on AI in Brazil</li>
+<li>Smart Data Ukimet project (Kazakhstan)</li>
+<li>Cambridge Analytica case</li>
+<li>Clearview AI (collection and sale of biometric images)</li>
+<li>Meta platform (photo tags and image processing)</li>
+<li>GitHub and open-source models (e.g., DeepSeek)</li>
+<li>Kai-Fu Lee’s talks on networks of AI agents</li>
+<li>Cyber School of the Center for Digital Rights, Maqsut Narikbayev University</li>
+<li>Information Security Committee of the Ministry of Artificial Intelligence and Digital Development of the Republic of Kazakhstan</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

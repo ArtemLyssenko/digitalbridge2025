@@ -1,0 +1,260 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Era of AI Agents: from Chatbots to Autonomous Super-Employees — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>The Era of AI Agents: from Chatbots to Autonomous Super-Employees</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Kai-Fu Lee</span>
+      <span class="speaker-role"> — CEO of Sinovation Ventures and 01.ai</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The speaker made the case for the shift from chatbots and tools to autonomous AI agents with reasoning, planning, and memory. They showed the value of multi-agent systems using HR automation as an example and demonstrated creating a travel website for Kazakhstan in 5 minutes. Emphasis was placed on open models and on-prem deployment, as well as partnerships and practical implementation formats for companies without their own AI teams.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Show the strategic shift to autonomous AI agents and their impact on productivity and GDP</li>
+<li>Demonstrate multi-agent scenarios and practical business value</li>
+<li>Justify the choice of open models and local deployment for security and flexibility</li>
+<li>Offer a platform and collaboration formats for companies without AI engineers</li>
+<li>Define metrics for agent effectiveness through business outcomes rather than replacing people</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How to measure the effectiveness of AI agents: by economic outcomes or by role substitution?</li>
+<li>What architecture and feedback are needed for multi-agent systems in real business?</li>
+<li>Where are the boundaries of agent autonomy and what role remains for humans in the loop?</li>
+<li>What are the risks and advantages of open models and on-prem deployment for enterprises?</li>
+<li>How can companies without AI teams quickly start and scale agent implementation?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Modern models have shifted from prediction to reasoning: mathematical thinking, code, planning, and an analogue of slow thinking.</li>
+<li>Evolution: chatbots → tools → copilots → autonomous agents with memory and access to applications, devices, and data.</li>
+<li>Agents as "super-employees": they accept goals, decompose tasks, and execute them end-to-end.</li>
+<li>Two classes of agents: workflow (process) and thinking (capable of solving new, uncertain tasks).</li>
+<li>Multi-agent systems make it possible to automate entire functions (example of a full HR loop with five agents and a feedback loop).</li>
+<li>Agents are scalable, replicable, operate 24/7, are multilingual; the cost of their work will drop by orders of magnitude.</li>
+<li>Agent effectiveness should be assessed by value created: profitability, growth, efficiency, not by the number of employees replaced.</li>
+<li>Open models and local deployment provide control over data, transparency, and flexibility (analogies: Linux, Android).</li>
+<li>Demo: an AI agent created a travel website about Kazakhstan in three languages in 5 minutes, including content and images.</li>
+<li>For business, three implementation formats are offered: self-service on the platform, co-development, and turnkey project; partnerships with Alio and Kazakhtelecom already exist.</li></ul>
+
+      <h2>Quotes</h2>
+      
+
+      <h2>Conclusions</h2>
+      <ul><li>AI agents are moving into the phase of autonomous task executors and can automate entire business functions with measurable economic impact.</li>
+<li>For sustainable adoption, open models, on-prem deployment, and a feedback loop that improves agents based on outcomes are critical.</li>
+<li>Human involvement remains for empathy and oversight, but the operational part is increasingly shifting to multi-agent systems.</li>
+<li>Partnerships and flexible implementation formats accelerate the digital transformation of companies without their own AI teams.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Launch pilot projects with Kazakh partners (Alio and Kazakhtelecom) to implement AI agents.</li>
+<li>Provide the platform in three engagement formats: self-service, co-development, and turnkey project.</li>
+<li>Orient projects toward open models and local deployment to meet security and data sovereignty requirements.</li>
+<li>Evaluate agents’ contribution by business outcomes (profitability, revenue growth, efficiency), not by staff replacement metrics.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Select 2–3 priority processes for the pilot (e.g., recruiting/HR) and define target KPIs.</li>
+<li>Prepare data sources and integrations: corporate databases, LinkedIn, email, calendars, booking services.</li>
+<li>Define the stack: a base open LLM, on-prem/private cloud infrastructure, access and logging policy.</li>
+<li>Design a multi-agent architecture and a feedback loop (quality evaluations, learning from outcomes).</li>
+<li>Run a quick demonstration case (website/content generation in multiple languages) to engage stakeholders.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Sequoia Capital publication on AI agents</li>
+<li>Linux (example of an open ecosystem)</li>
+<li>Android and iPhone (comparison of open and closed ecosystems)</li>
+<li>LinkedIn (source of resumes in the recruiting scenario)</li>
+<li>Corporate databases (internal company sources)</li>
+<li>Booking.com (example of a booking service in agent tasks)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using AI technologies based on live speech from speakers at the Digital Bridge 2025 forum. It may contain minor inaccuracies and does not represent the official transcript.
+  </div>
+</body>
+</html>

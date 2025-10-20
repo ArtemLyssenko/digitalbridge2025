@@ -1,0 +1,296 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art and Simulation: Future Professions in Gamedev and Education — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Art and Simulation: Future Professions in Gamedev and Education</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">David Tuganov</span>
+      <span class="speaker-role"> — Board Member of the Alliance of Creative Industries of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Sergey (last name not specified)</span>
+      <span class="speaker-role"> — gamedev expert, 19 years in the industry; CG artist/mentor, GCA Community</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Aleksandra Knysheva</span>
+      <span class="speaker-role"> — Head of GameLab KBTU</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The session combined an overview of creative professions in gamedev with a discussion of simulation as a new language of education. Sergey showed the full spectrum of 2D/3D artist roles and highlighted pathways into the industry without academic drawing skills. Aleksandra revealed how games model physical and social systems, influence thinking (the Super Mario and Proteus effects), and why we should develop Game Studies. Participants were invited to research and mentoring programs, as well as to take part in the Central Asia DiGRA conference.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Show a map of artist professions in 2D/3D gamedev and real entry trajectories.</li>
+<li>Dispel the myth that you can only get into gamedev if you can draw "classically."</li>
+<li>Explain the role of simulation in learning and research (physical and systemic).</li>
+<li>Present Game Lab KBTU and Central Asia DiGRA initiatives and engage the audience in research.</li>
+<li>Build a community and a mentorship/pilot funnel between industry and education.</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Which artistic roles are in demand in 2D and 3D projects, and what skills are critical for them?</li>
+<li>Do you need to know how to draw to become a CG artist, and what alternative technical roles exist?</li>
+<li>How do games model reality and people (Super Mario and Proteus effects), and how can this be used in education?</li>
+<li>How can we ethically research and apply games’ behavioral effects without causing harm?</li>
+<li>How to develop gamification in medicine and education, and what evidence-based effectiveness metrics should be applied?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Gamedev projects are divided into 2D and 3D; in 2D, raster and vector graphics are important, where UI/UX, 2D animation (Spine), and FX can be done without classical drawing.</li>
+<li>There are specialized roles in the 3D pipeline: concept artist, character artist, ZBrush sculptor, clothing artist (Marvelous Designer), animator/rigger, environment/vegetation artist, VFX (node-based systems), texturing (Substance Painter/Designer), level artist.</li>
+<li>Some artistic tasks are solved technically: skeletal animation, procedural materials in node editors, cloth simulation — this lowers the entry barrier for those who do not "draw by hand."</li>
+<li>A level designer builds playable "grey" geometry, while a level artist turns it into a final, visually rich environment.</li>
+<li>The 3D generalist role is in demand but requires accumulating adjacent competencies and experience.</li>
+<li>Games as a medium are unique in that they model systems that players can influence; simulations can be physical (piloting, surgery) or systemic (economy, relationships).</li>
+<li>Super Mario effect: players perceive failure as a step toward success, forming a resilient learning mindset.</li>
+<li>Proteus effect: identification with an avatar transfers its qualities into the player’s real behavior — this opens both educational and ethical questions.</li>
+<li>Cases of influence and mirroring reality: Plague Inc., The Sims, localized worlds (Grand Mobile), representations in AAA projects and media narratives.</li>
+<li>Game Lab KBTU develops learning tracks, mentorship, gamification projects with UNICEF, and conducts research on identification with a character; in February — the Central Asia DiGRA conference.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Games can model reality — the kind we can influence.” — <span class="author">Aleksandra Knysheva</span></blockquote>
+
+
+  <blockquote>“Failure is not the opposite of success; it is a necessary step on the way to it.” — <span class="author">Aleksandra Knysheva</span></blockquote>
+
+
+  <blockquote>“This isn’t just the future anymore; it’s already reality.” — <span class="author">David Tuganov</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Artists can enter gamedev through a wide range of roles, including technical positions that do not require academic drawing.</li>
+<li>Simulations in games are a powerful tool for learning and studying behavior; their impact requires an ethical framework and evidence-based evaluation.</li>
+<li>The regional ecosystem (GCA, Game Lab KBTU, Central Asia DiGRA) provides platforms for mentorship, research, and publications, accelerating industry growth.</li>
+<li>Gamification goes beyond entertainment: education, medicine, and neurotechnology already use game mechanics and interfaces.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Support and expand recruitment for the Game Lab research project on identification with a character.</li>
+<li>Open and promote submissions for the February Central Asia DiGRA conference with subsequent academic publications.</li>
+<li>Strengthen communication and networking via the GCA Community (Telegram) and Digital Bridge events.</li>
+<li>Recommend implementing simulations and gamification in educational and medical pilots in the local market.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Scan the QR code and join the GCA Community Telegram for networking and mentorship.</li>
+<li>Visit the game zone, try residents’ projects, and play the Game Lab experimental game (participate in the study).</li>
+<li>Apply to Central Asia DiGRA and the February conference (for researchers and practitioners).</li>
+<li>Form a personal competency track: choose 2–3 roles (e.g., UI/UX, VFX, texturing) and start portfolio projects.</li>
+<li>Learn basic tools for the chosen roles (Spine/Marvelous Designer/ZBrush/Substance/Blender or 3ds Max) and complete 1–2 public tutorials.</li>
+<li>Plan a mini pilot of gamification/simulation in your educational or medical practice with effectiveness metrics.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>GCA Community (Telegram, QR code mentioned)</li>
+<li>Game Lab KBTU (educational and research tracks)</li>
+<li>Central Asia DiGRA / DiGRA Global (Digital Games Research Association)</li>
+<li>UNICEF — education gamification projects (ДПГ Сим)</li>
+<li>Microsoft Flight Simulator (physical simulation)</li>
+<li>Plague Inc. (systemic simulation of epidemics)</li>
+<li>The Sims (simulation of needs, relationships, economy)</li>
+<li>Grand Mobile (Kazakh GTA-like game)</li>
+<li>Ready Player One / metaverse projects (Roblox festival case)</li>
+<li>StarCraft (mentioned as a marker of management skills)</li>
+<li>GTA: San Andreas and the "Criminal Russia" mod</li>
+<li>Terraria; Nyan Cat (2D cases)</li>
+<li>Escape from Tarkov; Inside; Horizon; Cyberpunk 2077 (examples of 3D games)</li>
+<li>Rust (references for environments)</li>
+<li>Tools: 3ds Max, Blender, ZBrush, Marvelous Designer, Spine</li>
+<li>Substance Painter / Substance Designer (texturing, node-based materials)</li>
+<li>Concepts: Super Mario effect (Mark Rober), Proteus effect</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

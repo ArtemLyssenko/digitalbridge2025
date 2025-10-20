@@ -1,0 +1,290 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drones and Artificial Intelligence: from Security to Logistics and Infrastructure — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Drones and Artificial Intelligence: from Security to Logistics and Infrastructure</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Dmitry Ivanov</span>
+      <span class="speaker-role"> — Director of Aardvark</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Darkhan Akhmediev</span>
+      <span class="speaker-role"> — Deputy Minister of Defense of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Yerlan Yesimseitov</span>
+      <span class="speaker-role"> — Executive Director of Freedom Lifestyle</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ablaihan Ospanov</span>
+      <span class="speaker-role"> — Managing Director for Digitalization at Samruk-Kazyna</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel showed how the combination of drones and AI is already changing security, logistics, and infrastructure: the Ministry of Defense of the Republic of Kazakhstan has deployed operator training and is streamlining NLAs; Freedom Lifestyle has launched R&D and the first deliveries by cargo drones; Kazakhtelecom uses a fleet of UAVs for road control, flood response, and ecology; all participants agreed on the need for a national UTM system and updated rules for mass flights in cities.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Discuss the shift from pilots to scaling the use of AI-enabled drones in defense, logistics, and urban management.</li>
+<li>Align regulation (registration, licensing, flight zones) and define requirements for the national UTM system.</li>
+<li>Expand training of UAV operators and technical specialists through «Сарбас плюс» and private schools.</li>
+<li>Establish industry–government cooperation via Defence Tech for pilots and deployments.</li>
+<li>Assess the prerequisites for local production/assembly of drones given consolidated demand.</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How is the Ministry of Defense of the Republic of Kazakhstan structuring UAV development and AI integration, including operator training and NLAs?</li>
+<li>What mechanisms are needed to legalize and scale the number of operators in the civil sector?</li>
+<li>Is drone delivery hype or an operationally and economically realistic service?</li>
+<li>What regulatory barriers in Astana and Almaty impede mass flights, and how can they be removed?</li>
+<li>How to ensure safety with hundreds of simultaneous flights, and what role will a national UTM system play?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>A UAV development department has been established within the Ministry of Defense of the Republic of Kazakhstan; civil regulation is handled by the Ministry of Transport/Civil Aviation Committee (CAC), and military regulation by the MoD (especially in wartime).</li>
+<li>The «Сарбас плюс» program has been launched: training UAV operators, communications specialists, and technical personnel based at an Air Defense unit in Almaty; applications via MyArmy.kz, upgraded infrastructure, and employment opportunities.</li>
+<li>Defence Tech acts as a “bridge” between the security/defense sector and startups: incubation, acceleration, and piloting of solutions; expanding presence in Astana Hub and launching an office in Almaty.</li>
+<li>Freedom Lifestyle is conducting R&D on cargo drones, has completed theory for 3rd-category operators, and is launching practice and licensing jointly with the Aviation Administration of Kazakhstan (AAK); the goal is regular deliveries within a 3–4 km radius from warehouses by the end of the year.</li>
+<li>Delivery economics are still in R&D: technologies are expected to become cheaper over a 2–3 year horizon; the key bottleneck is a dense network of dark stores and standardized 10×10 m pads.</li>
+<li>Platforms used: DJI and ARC; customization is required (winch, rain resistance) for local conditions and scenarios.</li>
+<li>Kazakhtelecom operates ~60 drones for road enforcement (recording illegal overtakes), flood monitoring, forest fires, and detecting nighttime dumps in Astana; AI helps build 3D models and track dynamics.</li>
+<li>Mass flights in megacities are impossible without updating rules, simplifying permits, and launching an independent national low-altitude UTM system; the industry is ready to develop a UTM and hand it over to the state.</li>
+<li>Demand consolidation in national companies can justify local assembly/production, but there are questions of cost and safety requirements.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“We have launched the «Сарбас плюс» program, where we train UAV operators and technical specialists.” — <span class="author">Darkhan Akhmediev</span></blockquote>
+
+
+  <blockquote>“In Astana, drones record illegal dumps at night — it pays off.” — <span class="author">Ablaihan Ospanov</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>The combination of drones and AI already delivers measurable benefits in security, ecology, and logistics; scaling is constrained by talent and rules.</li>
+<li>Mass urban flights require updated NLAs, simplified permitting procedures, and a national UTM system.</li>
+<li>Industrial cooperation via Defence Tech and the participation of national companies accelerate adoption and reduce risks.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Launch joint work with the AAK and the Ministry of Transport to shape requirements for the national UTM system and simplify permitting procedures in megacities.</li>
+<li>Open the Defence Tech platform to receive AI/UAV startups and organize pilots in the security/defense sector.</li>
+<li>Freedom Lifestyle continues obtaining 3rd-category operator status and begins regular deliveries within a 3–4 km radius from warehouses by the end of the year.</li>
+<li>Samruk-Kazyna JSC consolidates intra-holding demand for UAVs to assess the feasibility of local assembly.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Form an industry working group (MoD, Ministry of Transport/CAC/AAK, Samruk, Freedom, Kazakhtelecom, associations) on VLL and UTM rules.</li>
+<li>Prepare a technical UTM roadmap: architecture, identification, corridors and buffers, integration with the CAC, reliability requirements.</li>
+<li>Scale training: expand intake into «Сарбас плюс», accredit private schools, develop unified standards for 3rd-category operators.</li>
+<li>Run urban BVLOS/cargo flight pilots in Almaty and on the periphery of Astana with safe routes and risk measurements.</li>
+<li>Standardize pad infrastructure at warehouses (10×10 m), safety regulations, and pre-flight procedures.</li>
+<li>Assemble a pool of needs from national companies and telecom operators to calculate TCO and the techno-economic justification of local assembly.</li>
+<li>Prepare proposals for API submission and SLA processing of flight applications for mass delivery services.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>MyArmy.kz portal (applications for «Сарбас плюс»)</li>
+<li>Defence Tech (Astana Hub, Army House) — incubation/acceleration of UAV solutions</li>
+<li>Civil Aviation Committee of the Ministry of Transport of the Republic of Kazakhstan</li>
+<li>Aviation Administration of Kazakhstan (AAK)</li>
+<li>Address by the President of the Republic of Kazakhstan on revising drone legislation</li>
+<li>Kazakhtelecom pilot projects: traffic police, flood monitoring (North Kazakhstan Region), forest fires, monitoring of dumps in Astana</li>
+<li>Platform manufacturers: DJI, ARC</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

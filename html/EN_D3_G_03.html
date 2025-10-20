@@ -1,0 +1,318 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The GPT Generation: How to Live and Think in the Age of AI — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>The GPT Generation: How to Live and Think in the Age of AI</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Tolkyn Nurusheva</span>
+      <span class="speaker-role"> — Director for Key Accounts, Microsoft Казахстан</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Arman Nurushev</span>
+      <span class="speaker-role"> — Head of the representative office of VK Цифровые Технологии in Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Asel Mashanova</span>
+      <span class="speaker-role"> — Kazakh entrepreneur, founder of the popular cosmetics chain LULU</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zaure Rozmat</span>
+      <span class="speaker-role"> — CEO of STEPPE, a Kazakhstani multiplatform media outlet</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Sanzhar Mustafin</span>
+      <span class="speaker-role"> — Media manager, producer, investor, and communications expert. Founder of Musan Group</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Dinara Satzhan</span>
+      <span class="speaker-role"> — Media manager, fashion producer, businesswoman</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The discussion showed that AI has already reshaped media, healthcare, and everyday life: from phygital clinics and wearables to generative content and new creative professions. Speakers emphasized the need for balance between algorithmic efficiency and human leadership — critical thinking, empathy, and responsibility. Risks (regulation, fakes, dependency, AGI) and digital hygiene practices for children were discussed. Media and creators see GPT as an accelerator, not a replacement, while the value of “live” human creativity is growing.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Define the role of humans and media in the age of AI and preserve the leadership of human judgment</li>
+<li>Show practical opportunities for integrating AI into content, business, and medicine</li>
+<li>Formulate approaches to critical thinking, fact-checking, and digital hygiene (especially for children)</li>
+<li>Outline ethical boundaries and the need for regulation (AI “red lines”)</li>
+<li>Encourage the participation of young people and women in creating algorithms and AI startups</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How do we preserve human leadership in a world of algorithms and avoid handing key decisions over to AI?</li>
+<li>Can the GPT generation self-govern through technology, or does mindfulness remain decisive?</li>
+<li>What role should media play in the age of AI, and what should they steer when algorithms shape the agenda?</li>
+<li>Is GPT a threat to industries or a new era of growth opportunities?</li>
+<li>How can we foster focus and critical thinking in children amid information noise and easily accessible AI tools?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI needs “red lines”: humans must retain control and practice fact-checking and critical thinking in decision-making.</li>
+<li>Healthcare is rapidly becoming phygital: collecting personal data from wearables and home sensors will speed up diagnostics and personalize therapy.</li>
+<li>Media are already integrating generative tools (example: Hixfield) to accelerate content production and visualizations, but the creative idea remains with humans.</li>
+<li>The entertainment industry is migrating from TV to digital platforms; GPT accelerates processes, reduces routine, and makes teams more productive.</li>
+<li>AI risks include fakes/disinformation, deepfake voices/videos, dependency, and the need for interstate regulation (analogous to nuclear energy).</li>
+<li>The value of “live” experience and craft will grow: music, cooking, art, and offline interactions are becoming premium.</li>
+<li>For children, digital hygiene (notification settings, “no-phones” rules), gamified learning, and the practice of open-ended questions are critical.</li>
+<li>Generation Z/Alpha perceives AI as a natural tool on which startups and educational solutions are built.</li>
+<li>Women’s participation in algorithm development is necessary to minimize bias and broaden perspectives in AI.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“We cannot hand everything over to AI unchecked.” — <span class="author">Arman Nurushev</span></blockquote>
+
+
+  <blockquote>“A patient's health is the patient's own responsibility.” — <span class="author">Asel Mashanova</span></blockquote>
+
+
+  <blockquote>“I believe no one will replace humans: ideas and art still belong to humans.” — <span class="author">Zaure Rozmat</span></blockquote>
+
+
+  <blockquote>“GPT is god and king. It simplifies, accelerates, and improves work.” — <span class="author">Sanzhar Mustafin</span></blockquote>
+
+
+  <blockquote>“Artificial intelligence has everything, but it doesn't have our soul.” — <span class="author">Dinara Satzhan</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI is an accelerator, not a replacement: human leadership is based on critical thinking, empathy, and responsibility.</li>
+<li>Media, business, and healthcare benefit from AI integration, but require ethical boundaries, fact-checking, and sound regulation.</li>
+<li>Digital hygiene and focus skills in children are key to safe and productive coexistence with technology.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Support the principle of AI “red lines” and the need for cross-industry and government regulation.</li>
+<li>Media will continue integrating AI tools (video and text generation) with an emphasis on fact-checking and ethics.</li>
+<li>Launch/scale a phygital approach in clinics using wearables data for personalized medicine.</li>
+<li>Develop and promote educational content on critical thinking and digital hygiene for schools and families.</li>
+<li>Promote the participation of women and youth in developing algorithms and creating AI startups (mentorship, awards, hackathons).</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Form a working group on AI ethics and regulation (media, IT companies, doctors, lawyers) and prepare recommendations.</li>
+<li>Implement newsroom standards for fact-checking content created with AI, and AI-generated labels.</li>
+<li>Launch a pilot in clinics: collect sleep/glucose/activity data (Whoop, Garmin, Oura, glucose monitors) and integrate into treatment plans.</li>
+<li>Create a series of short TikTok/YouTube Shorts videos on digital hygiene: “dinner without phones,” how to turn off notifications, how to spot fakes.</li>
+<li>Hold workshops for Gen Z/Alpha creators on prompt engineering, AI ethics, and the legal risks of deepfakes.</li>
+<li>Launch a mentorship program for girls in AI/data together with media and IT companies.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Open letter at the UN General Assembly on “red line AI”</li>
+<li>Research by Peking University on AGI and a humanoid child</li>
+<li>VK Cloud / VK Цифровые технологии</li>
+<li>Hixfield — a Kazakhstani AI product for video generation</li>
+<li>Step Awards (October 29, Almaty State Academic Opera and Ballet Theatre) and finalists’ cases (neuroscience, music therapy, parkinsonism)</li>
+<li>World Economic Forum in Davos (AI agenda)</li>
+<li>Platforms: YouTube, TikTok, Instagram</li>
+<li>Wearable devices: Whoop, Garmin, Oura; smart home systems (Яндекс Алиса)</li>
+<li>Medications mentioned by patients: Ozempic, Mounjaro</li>
+<li>Media projects: Gakku, Той Думан</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

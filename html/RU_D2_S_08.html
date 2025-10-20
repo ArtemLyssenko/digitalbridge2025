@@ -1,0 +1,311 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цифровая трансформация корпораций — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>Цифровая трансформация корпораций</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Елдан Абдрашим</span>
+      <span class="speaker-role"> — Директор по искусственному интеллекту в Allosta AI</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Меирбек Мукатов</span>
+      <span class="speaker-role"> — Член общественного совета г. Астаны</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Алексей Шаравар</span>
+      <span class="speaker-role"> — Генеральный директор QazCode</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Альфредо Гомес Сория</span>
+      <span class="speaker-role"> — Директор, Plug and Play Tech Center</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Мира Агишева</span>
+      <span class="speaker-role"> — Руководитель команды Дата Инженерии, ТОО 'Тенгизшевройл'</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Панель обсудила, как крупные корпорации и государство выстраивают ответственное внедрение ИИ: от открытости данных и API до рамок безопасности и аудита. ТШО показала практические кейсы применения Data Science и ИИ в добыче, логистике и безопасности труда с подходом human-in-the-loop. Kascode представила путь создания казахстанской LLM через партнерства с университетами и регуляторами и её открытое распространение. Plug and Play акцентировала ROI-ориентированную работу со стартапами и культуру «экспериментировать и учиться на неудачах».</p>
+
+      <h2>Цели</h2>
+      <ul><li>Определить рамки и политику ответственного использования ИИ и доступа к данным для крупных корпораций и госорганов</li>
+<li>Показать реальные корпоративные кейсы по модернизации дата-инфраструктуры и масштабированию аналитических решений</li>
+<li>Выявить барьеры и условия масштабирования LLM и AI-пилотов, особенно для низкоресурсных языков</li>
+<li>Сформировать модели партнерства между государством, корпорациями, университетами и стартапами</li>
+<li>Сфокусировать инновации на измеримом ROI и безопасности операций</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Какие регуляторные рамки нужны для ответственного внедрения ИИ и открытия государственных API?</li>
+<li>Как модернизировать корпоративную инфраструктуру данных для масштабного применения Data Science и ИИ?</li>
+<li>Какие ключевые вызовы у команд, создающих LLM для низкоресурсных языков, и как их масштабировать?</li>
+<li>Как выстроить эффективный мост между стартапами и корпорациями и отфильтровать «шум» на входе?</li>
+<li>Как внедрять культуру экспериментов и управлять рисками так, чтобы провалы становились источником знаний, а не барьерами?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>Открытость данных и государственных API — критическое условие для ускорения цифровой трансформации; худший сценарий — ведомственное «запирание» данных и избыточная регуляция.</li>
+<li>ТШО применяет ИИ в операционной оптимизации: прогнозирование ремонтов, планирование добычи, безопасность труда, оптимизация цепочек поставок, компьютерное зрение с дронов и корпоративные чат-боты (HR и инженерный).</li>
+<li>Подход human-in-the-loop и строгие практики data governance (конфиденциальность, аутентификация, аудит, качество данных и логирование) — обязательны при масштабировании ИИ.</li>
+<li>Модернизация дата-инфраструктуры включает облачные ресурсы, централизованный сбор/очистку данных и «цифровых чемпионов» как мост между доменными департаментами и ИТ.</li>
+<li>Kascode создаёт казахстанскую LLM через уникальное партнерство (университеты, Astana Hub, министерство), делает её open-source и мультинациональной по применению.</li>
+<li>Главные барьеры для ИИ-продуктов — не таланты, а регулирование и доступ к качественным данным; ни одна организация не справится в одиночку.</li>
+<li>Plug and Play выстраивает ROI-ориентированные открытые инновации: воронка пилотов, корпоративная валидация готовности и поддержка региональной интеграции ЦА.</li>
+<li>Культура допускаемой неудачи ускоряет инновации: пилоты без коммерциализации тоже создают знания и закладывают основу для следующих успешных запусков.</li>
+<li>Корпорациям важно сначала настроить внутреннее управление инновациями (стратегия, пилотные песочницы, процессы), а уже затем выходить к стартапам.</li>
+<li>Центральная Азия может выступать единым фронтом в ИИ-сценариях, обмениваясь наработками и масштабируя лучшие практики между странами.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+  <blockquote>“Казахстану необходимо открывать API государства по китайскому образцу.” — <span class="author">Меирбек Мукатов</span></blockquote>
+
+
+  <blockquote>“Мы усиливаем людей, чтобы они принимали правильные решения с использованием инструментов искусственного интеллекта.” — <span class="author">Мира Агишева</span></blockquote>
+
+
+  <blockquote>“Давайте вместе провалимся, чтобы вместе достичь успеха.” — <span class="author">Альфредо Гомес Сория</span></blockquote>
+
+
+  <blockquote>“Мы не стремимся к использованию ИИ ради ИИ; решения принимаются человеком.” — <span class="author">Мира Агишева</span></blockquote>
+
+
+      <h2>Выводы</h2>
+      <ul><li>Открытые данные и межсекторальные партнерства — ключ к масштабированию ИИ в корпоративном и государственном секторах.</li>
+<li>Безопасность, конфиденциальность и аудит данных должны быть встроены в архитектуру ИИ-решений с первого дня.</li>
+<li>Культура экспериментов и системная валидация ROI через пилоты ускоряют путь от идеи к внедрению.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Запустить совместную рабочую группу при Astana Hub по открытию и стандартизации государственных API и доступов к данным для ИИ-пилотов.</li>
+<li>Масштабировать практику «цифровых чемпионов» в ТШО и расширить линейку чат-ботов на новые функции и департаменты.</li>
+<li>Поддержать дальнейший open-source выпуск и локализацию казахстанской LLM Kascode и организовать пилоты с крупными корпорациями и госорганами.</li>
+<li>Организовать региональную программу Plug and Play в Центральной Азии с отбором стартапов и корпоративной валидацией готовности решений.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Провести круглый стол по ответственному ИИ (регуляторы, корпорации, университеты, инвесторы) и подготовить свод принципов и чек-листов применения.</li>
+<li>Выполнить аудит качества данных, логирования и доступа в критических процессах ТШО; утвердить план улучшений и периодичность аудитов.</li>
+<li>Опубликовать «книгу рецептов» по запуску LLM-проектов для низкоресурсных языков на основе казахстанского и каталонского кейсов.</li>
+<li>Создать межкорпоративную песочницу пилотов с обезличенными наборами данных через Astana Hub для ускорения PoC и отбраковки «шума».</li>
+<li>Сформировать календарь хакатонов, корпоративных демо-дней и инвест-сессий Plug and Play в Астане/Алматы с участием 5+ корпораций.</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>Kaspi (как положительный корпоративный кейс)</li>
+<li>eGov.kz (Электронное правительство)</li>
+<li>НИИТек (упомянутый пример в госTech-экосистеме)</li>
+<li>2ГИС</li>
+<li>Яндекс Навигатор</li>
+<li>Beeline Казахстан</li>
+<li>Astana Hub</li>
+<li>Министерство цифрового развития РК</li>
+<li>Nazarbayev University (доступ к специализированным датасетам)</li>
+<li>GSMA / MWC (Mobile World Congress)</li>
+<li>Barcelona Supercomputing Center (кейс каталонской LLM)</li>
+<li>Опыт Каталонии и «книга рецептов» для цифровых министерств</li>
+<li>Датасет «KazRoberta/Deepert» (~2 млрд токенов), размещённый на Hugging Face</li>
+<li>Корпоративные чат-боты ТШО (HR и инженерный; ~300 процедур)</li>
+<li>Дроновая визуальная аналитика для мониторинга объектов ТШО</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой. Для подтверждения фактов и деталей рекомендуется обращаться к официальным материалам форума.
+  </div>
+</body>
+</html>

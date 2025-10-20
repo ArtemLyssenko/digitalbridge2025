@@ -1,0 +1,297 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Өнер және симуляция: ойын әзірлеу мен білім берудегі болашақ мамандықтар — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>Өнер және симуляция: ойын әзірлеу мен білім берудегі болашақ мамандықтар</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Давид Туганов</span>
+      <span class="speaker-role"> — Альянса Креативных индустрий Казахстана басқарма мүшесі</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Сергей (тегі көрсетілмеген)</span>
+      <span class="speaker-role"> — геймдев-эксперт, индустрияда 19 жыл; CG-суретші/ментор, GCA Community</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Александра Кнышева</span>
+      <span class="speaker-role"> — GameLab ҚБТУ жетекшісі</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Сессия ойын әзірлеудегі шығармашылық мамандықтарға шолу мен симуляцияны білім берудің жаңа тілі ретінде талқылауды біріктірді. Сергей 2D/3D-суретшілерінің рөлдерінің толық спектрін көрсетті және академиялық сурет салу дағдысынсыз индустрияға кіру жолдарын атап өтті. Александра ойындардың физикалық және әлеуметтік жүйелерді қалай модельдейтінін, ойлауға қалай әсер ететінін (Super Mario және Протеус әсерлері) және неге Ойын зерттеулерін дамыту керегін ашып көрсетті. Қатысушыларды зерттеу және менторлық бағдарламаларға, сондай-ақ Central Asia DiGRA конференциясына қатысуға шақырды.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>2D/3D ойын әзірлеудегі суретшілер мамандықтарының картасын және нақты кіру траекторияларын көрсету.</li>
+<li>Ойын әзірлеуге тек «классикалық» сурет сала білсең ғана кіруге болады деген мифті жоққа шығару.</li>
+<li>Симуляцияның білім беруде және зерттеулерде (физикалық және жүйелік) рөлін түсіндіру.</li>
+<li>Game Lab ҚБТУ және Central Asia DiGRA бастамаларын таныстырып, аудиторияны зерттеулерге тарту.</li>
+<li>Индустрия мен білім беру арасында қауымдастық құрып, менторлық пен пилоттық жобаларға тарту воронкасын қалыптастыру.</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>2D және 3D жобаларында қандай көркем рөлдер сұранысқа ие және олар үшін қандай дағдылар аса маңызды?</li>
+<li>CG-суретші болу үшін сурет сала білу қажет пе, және қандай баламалы техникалық рөлдер бар?</li>
+<li>Ойындар шындықты және адамдарды қалай модельдейді (Super Mario және Протеус әсерлері) және мұны білім беруде қалай қолдануға болады?</li>
+<li>Зиян келтірмей, ойындардың мінез-құлық әсерлерін этикалық түрде қалай зерттеп және қолдану керек?</li>
+<li>Медицинада және білім беруде геймификацияны қалай дамыту керек және дәлелді тиімділік метрикаларын қандай қолдану қажет?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>Ойын әзірлеу жобалары 2D және 3D болып бөлінеді; 2D-де растырлық және векторлық графика маңызды, мұнда UI/UX, 2D-анимация (Spine) және FX классикалық суретсіз де орындалуы мүмкін.</li>
+<li>3D тізбегінде маманданған рөлдер бар: концепт-суретші, character artist, ZBrush-скульптор, киім суретшісі (Marvelous Designer), аниматор/риггер, environment/vegetation artist, VFX (нодтық жүйелер), текстуринг (Substance Painter/Designer), level artist.</li>
+<li>Көркем тапсырмалардың бір бөлігі техникалық жолмен шешіледі: сүйектердегі анимация, нодтық редакторларда процедуралық материалдар, мата симуляциясы — бұл «қолмен сурет салмайтын» адамдар үшін кіру шегін төмендетеді.</li>
+<li>Деңгей дизайнері ойнауға болатын «сұр» геометрияны құрады, ал деңгей суретшісі оны соңғы визуалды қанық ортаға айналдырады.</li>
+<li>3D generalist рөлі сұранысқа ие, бірақ іргелес құзыреттер мен тәжірибені жинауды талап етеді.</li>
+<li>Ойындар медиа ретінде ойыншы әсер ете алатын жүйелерді модельдеуімен ерекшеленеді; симуляциялар физикалық (пилоттау, хирургия) және жүйелік (экономика, қатынастар) болады.</li>
+<li>Super Mario әсері: ойыншылар сәтсіздікті табысқа апарар қадам ретінде қабылдайды, бұл тұрақты оқыту майндсетін қалыптастырады.</li>
+<li>Протеус әсері: аватармен идентификация оның қасиеттерін ойыншының нақты мінез-құлқына көшіреді — бұл әрі білім беру, әрі этикалық сұрақтарды ашады.</li>
+<li>Шынайылыққа әсер ету және айнадай көрсету кейстері: Plague Inc., The Sims, локализацияланған әлемдер (Grand Mobile), AAA-жобалардағы репрезентациялар және медиялық нарративтер.</li>
+<li>Game Lab ҚБТУ оқыту тректерін, менторлықты, UNICEF-пен геймификация жобаларын дамытып, кейіпкермен идентификация бойынша зерттеу жүргізуде; ақпанда — Central Asia DiGRA конференциясы.</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+  <blockquote>“Ойындар біз әсер ете алатын шындықты модельдей алады.” — <span class="author">Александра Кнышева</span></blockquote>
+
+
+  <blockquote>“Фейл — табыстың қарсы құбылысы емес; ол соған апарар қажетті қадам.” — <span class="author">Александра Кнышева</span></blockquote>
+
+
+  <blockquote>“Қазір бұл болашақ емес, бұл — қазірдің өзінде шындық.” — <span class="author">Давид Туганов</span></blockquote>
+
+
+      <h2>Қорытындылар</h2>
+      <ul><li>Суретшілер үшін ойын әзірлеуге кіру академиялық сурет салуды талап етпейтін техникалық позициялар да бар кең ауқымды рөлдер арқылы мүмкін.</li>
+<li>Ойындардағы симуляциялар — оқыту мен мінез-құлықты зерттеудің қуатты құралы; олардың ықпалы этикалық шеңберді және дәлелді бағалауды қажет етеді.</li>
+<li>Аймақтық экожүйе (GCA, Game Lab ҚБТУ, Central Asia DiGRA) менторлыққа, зерттеулерге және жарияланымдарға алаңдар құрып, индустрияның өсуін жеделдетеді.</li>
+<li>Геймификация ойын-сауық шекарасынан шығып кетті: білім беру, медицина және нейротехнологиялар қазірдің өзінде ойын механикалары мен интерфейстерін қолдануда.</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>Game Lab-тың кейіпкермен идентификация бойынша зерттеу жобасына қатысушыларды қолдап, іріктеуді кеңейту.</li>
+<li>Central Asia DiGRA ақпандағы конференциясына өтінім қабылдауды ашып, ілгерілету және кейінгі ғылыми жарияланымдарды қамтамасыз ету.</li>
+<li>GCA Community (Telegram) және Digital Bridge іс-шаралары арқылы коммуникация мен нетворкингті күшейту.</li>
+<li>Жергілікті нарықтағы білім беру және медициналық пилоттық жобаларға симуляциялар мен геймификацияны енгізуді ұсыну.</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>QR-ды сканерлеп, нетворкинг пен менторлық үшін GCA Community Telegram-ына қосылу.</li>
+<li>Гейм-зонаға барып, резиденттердің жобаларын сынап көру және Game Lab эксперименттік ойынын өту (зерттеуге қатысу).</li>
+<li>Зерттеушілер мен практиктер үшін Central Asia DiGRA-ға және ақпандағы конференцияға өтінім беру.</li>
+<li>Жеке құзыреттер трегін қалыптастыру: 2–3 рөлді таңдау (мыс., UI/UX, VFX, текстуринг) және портфолио-жобаларды бастау.</li>
+<li>Таңдалған рөлдерге арналған базалық құралдарды меңгеру (Spine/Marvelous Designer/ZBrush/Substance/Blender немесе 3ds Max) және 1–2 ашық туториалдан өту.</li>
+<li>Өзінің білім беру немесе медицина практикасында геймификация/симуляция бойынша шағын пилотты тиімділік метрикаларымен жоспарлау.</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>GCA Community (Telegram, QR-код аталып өтті)</li>
+<li>Game Lab ҚБТУ (оқыту және зерттеу тректері)</li>
+<li>Central Asia DiGRA / DiGRA Global (цифрлық ойын зерттеушілерінің қауымдастығы)</li>
+<li>UNICEF — білім беруді геймификациялау жобалары (ДПГ Сим)</li>
+<li>Microsoft Flight Simulator (физикалық симуляция)</li>
+<li>Plague Inc. (індеттердің жүйелік симуляциясы)</li>
+<li>The Sims (қажеттіліктер, қатынастар, экономика симуляциясы)</li>
+<li>Grand Mobile (Қазақстандық GTA-ға ұқсас ойын)</li>
+<li>Ready Player One / метаверс-жобалар (Roblox фестиваль кейсі)</li>
+<li>StarCraft (басқару дағдыларының маркері ретінде аталды)</li>
+<li>GTA: San Andreas және «Криминальная Россия» моды</li>
+<li>Terraria; Nyan Cat (2D-кейстер)</li>
+<li>Escape from Tarkov; Inside; Horizon; Cyberpunk 2077 (3D-ойындардың мысалдары)</li>
+<li>Rust (қоршаған ортаға референстер)</li>
+<li>Құралдар: 3ds Max, Blender, ZBrush, Marvelous Designer, Spine</li>
+<li>Substance Painter / Substance Designer (текстуринг, нодтық материалдар)</li>
+<li>Түсініктер: Super Mario әсері (Mark Rober), Протеус әсері</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөздеріне негізделген жасанды интеллект технологияларының көмегімен дайындалды. Мәтінде аздаған қателер немесе дәлсіздіктер болуы мүмкін және ол ресми стенограмма болып табылмайды. Фактілер мен мәліметтерді растау үшін форумның ресми материалдарына жүгіну ұсынылады.
+  </div>
+</body>
+</html>

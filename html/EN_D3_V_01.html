@@ -1,0 +1,312 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gender Biases and AI Regulation — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Gender Biases and AI Regulation</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Asem</span>
+      <span class="speaker-role"> — session moderator</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ilmira Yuldasheva</span>
+      <span class="speaker-role"> — Partner at the law firm Zan Hub (Almaty)</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Alena Tkachenko</span>
+      <span class="speaker-role"> — Vice President for Global Markets, Sergek Group</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Titi Akinsanmi</span>
+      <span class="speaker-role"> — Public thought leader in digital economy public policy, Partnership for Global Digital Inclusion, Member of the Supervisory Board of the Tech Diplomacy Forum</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Madina Dusmagambetova</span>
+      <span class="speaker-role"> — Co-founder of Soft Creation, Senior member of WOMEN IN TECH, Head of the Women in innovations and AI program</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zhanara</span>
+      <span class="speaker-role"> — Expert in biometrics and digital identification; participated in launching Digital ID on eGov.kz</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed two focal points: the shortage of women in AI and systemic gender/ethnic distortions in data and algorithms; as well as AI practices and regulation — from data quality standards and bias audits to a risk-based approach and human-in-the-loop. The participants insisted on inclusive teams along the entire chain — from education to corporate AI centers, and proposed mechanisms: AI impact assessment, the right to explanation, an AI ethics council, and sandboxes for innovation. As a result, the preparation of a declaration with recommendations for the government and the AI Council was announced.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Reduce gender and other biases in data, models, and AI deployment</li>
+<li>Increase the share of women at all levels of the AI pipeline (education, R&D, product, governance)</li>
+<li>Implement data quality standards, mandatory bias audits, and AI impact assessment in the public sector</li>
+<li>Enshrine risk-based regulation with human oversight and the right to explanation</li>
+<li>Create sustainable programs for education, (re)skilling, and role models for girls and women</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>What systemic measures in education and corporate practice will actually increase the share of women in AI?</li>
+<li>How to design regulatory policy to eliminate discriminatory outcomes (for example, in biometrics) already at the testing and deployment stage?</li>
+<li>What data standards (quality, privacy, governance) and transparency mechanisms are needed in Kazakhstan right now?</li>
+<li>How to combine the stimulation of innovation (sandboxes) with responsibility and safety (high-risk classification, human-in-the-loop)?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI is not neutral: it reflects the data and assumptions of its creators; team diversity reduces the risk of distortions.</li>
+<li>Globally, only ~22% of AI specialists are women; in Kazakhstan this figure is even lower, which increases the risk of bias in products.</li>
+<li>Inclusivity is needed at all stages: data collection and labeling, design, development, subgroup testing, deployment, and audit.</li>
+<li>Data requires governance: quality standards, representativeness, transparent methodologies, accountability for use and deletion.</li>
+<li>Mandatory bias audits and AI impact assessment (including socio-economic and human rights) are basic mechanisms in the public sector.</li>
+<li>A risk-based approach to AI with a registry of high-risk systems and mandatory human-in-the-loop reduces harm from errors.</li>
+<li>The right to explanation and user-understandable decision transparency are critical, especially for access to services and in biometrics.</li>
+<li>Regulatory sandboxes allow front-line testing of innovations in controlled conditions without slowing progress.</li>
+<li>Role models (Fei-Fei Li, Mira Murati, etc.) and early exposure to STEM/STEAM increase girls' engagement.</li>
+<li>Corporate incentives and metrics (for example, sex-differentiated effects) help identify and correct bias where “money and data” show the benefit of inclusivity.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“We tend to design in ways that replicates the world of the innovator.” — <span class="author">Titi Akinsanmi</span></blockquote>
+
+
+  <blockquote>“Common sense is not so common — it's a luxury.” — <span class="author">Alena Tkachenko</span></blockquote>
+
+
+  <blockquote>“In Kazakhstan, there are practically no women working in artificial intelligence... certainly no more than five percent.” — <span class="author">Madina Dusmagambetova</span></blockquote>
+
+
+  <blockquote>“We will not allow fully automated AI products with no human oversight.” — <span class="author">Ilmira Yuldasheva</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Without recognizing and addressing gender and ethnic biases, AI will scale offline stereotypes online.</li>
+<li>Systemic AI regulation should combine data standards, audit, transparency, and human oversight with support for innovation through sandboxes.</li>
+<li>Education and reskilling are the continuous foundation for expanding women's participation and strengthening competencies among developers and regulators.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Prepare and submit to the government, AI Council and relevant agencies a declaration with recommendations on AI ethics and regulation.</li>
+<li>Recommend introducing mandatory bias audits and AI impact assessment for government AI systems, starting with biometrics.</li>
+<li>Support the creation of a national AI ethics council with mandatory gender balance and participation from industry, academia, and civil society.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Form a working group (Women in Tech Kazakhstan, Zang Hub, and industry experts) to consolidate the panel's proposals and materials.</li>
+<li>Develop a package of methodologies: data quality standards and subgroup testing, procedures for AI Impact Assessment, human-in-the-loop requirements and the right to explanation, ethical baseline requirements for government AI procurement.</li>
+<li>Coordinate with the Ministry of Digital Development, AI Council, the Presidential Administration, and financial sector regulators on a roadmap for piloting the implementation of bias audits.</li>
+<li>Launch pilot independent bias audits of 2–3 high-risk government systems (biometric identification, scoring) and publish the reports.</li>
+<li>Expand educational tracks and reskilling for women and regulator teams; prepare corporate recommendations for inclusive AI teams and competence centers.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>World Economic Forum: Women in AI (about 22% of specialists are women)</li>
+<li>MIT Media Lab — study on face recognition and gender-ethnic biases (Gender Shades)</li>
+<li>UNESCO Recommendation on the Ethics of Artificial Intelligence (2021)</li>
+<li>EU AI Act — risk-based approach and system classification</li>
+<li>eGov.kz Digital ID (biometric identification, Kazakhstan)</li>
+<li>Fei-Fei Li's initiatives on 3D data</li>
+<li>Mira Murati (OpenAI) — role model and practice in LLMs</li>
+<li>Android/Google: features for accurate skin tone rendering (mentioned as True Tone)</li>
+<li>Women in Tech Kazakhstan / WomenEdTech — educational programs</li>
+<li>Tech Diplomacy Forum; Digital Inclusion Partnership</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

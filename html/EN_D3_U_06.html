@@ -1,0 +1,280 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamedev in Uzbekistan — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Gamedev in Uzbekistan</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Akmal Salikhov</span>
+      <span class="speaker-role"> — Director of Business Development, East Games</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The session showed how in recent years the gamedev ecosystem in Uzbekistan has taken shape: tax incentives and exports, growth in the number of studios, and an indie uptick. The results of a survey of indie teams (composition, genres, engines, pain points) were presented and gaps in last‑mile financing and education were discussed. Special emphasis was placed on practical cases and trends: profitable genres, a 2D renaissance, as well as the synergy of AI (Claude MCP) and Unity to accelerate prototyping and production.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Provide an overview of the state of Uzbekistan’s gamedev and its export potential against the backdrop of reforms and incentives</li>
+<li>Identify key barriers for indie teams: financing, education, visibility</li>
+<li>Share indie survey data and practical recommendations on genres, engines, and production</li>
+<li>Show the capabilities of AI tools (Claude MCP + Unity) for small teams</li>
+<li>Consolidate the community around an open report and further joint steps</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Why does it make sense to build a career and studios in Uzbekistan instead of relocating?</li>
+<li>How can indies close the 'last mile' of financing and correctly assess a project for investors?</li>
+<li>Which genres and platforms are more rational for indies today (and what to avoid)?</li>
+<li>What government support measures and educational initiatives does Uzbekistan’s gamedev need?</li>
+<li>How do AI (Claude MCP) and Unity change prototyping efficiency and team size?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Demographics and safety create the foundation: 38 million population, 55% youth; a multinational environment and affordable daily life.</li>
+<li>Government reforms and IT Park Uzbekistan incentives substantially reduce the payroll burden, which attracts exporters.</li>
+<li>The gamedev sector is visible in IT exports: according to IT Park — about 600 employed; on GameDevMap for Tashkent — ~12 companies; total residents with the activity type 'games' — around 27 (noisy data).</li>
+<li>East Games is the first large studio with an office 'not in a basement'; content outsourcing chains are forming for major titles (example: the contribution of a Tashkent team to World of Warships).</li>
+<li>Survey of ~50 indie teams: average team size — 3 people; profiles are diverse, but there is an oversupply of 'self‑declared' game designers; there are no women in 70% of teams.</li>
+<li>Indie genre plans diverge from market monetization: few city‑builders, an excess of platformers; the fact of platformer oversaturation on Steam is ignored.</li>
+<li>Engines: Unity dominates; Unreal is unpopular; stylized 3D prevails; the potential of modern 2D is underestimated (cases like Dave the Diver).</li>
+<li>Main release barriers: lack of money for the final phase, team breakups, underestimation of scope and a shortage of time/motivation; critical 'bridge' funding of $5–10k for polishing.</li>
+<li>Education and visibility are weak spots: no specialized gamedev grants and schools in Uzbek; Russian‑language content is not accessible to everyone.</li>
+<li>Compensation: in large studios, a premium to market and release bonuses; for indies — lower fixed pay but possible options; a benchmark for a junior in Tashkent is ~$400–600.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Canada would make not 100 games a year, but 101. And if there was one game in Uzbekistan, thanks to me there are three — that’s impact.” — <span class="author">Akmal Salikhov</span></blockquote>
+
+
+  <blockquote>“The money is in city‑builders, not in platformers. Everyone knows: never make platformers — there are thousands of them on Steam.” — <span class="author">Akmal Salikhov</span></blockquote>
+
+
+  <blockquote>“AI and Unity are like bread and Rama: made for each other.” — <span class="author">Akmal Salikhov</span></blockquote>
+
+
+  <blockquote>“Teams are small — three people on average — and that’s good for the coming AI revolution.” — <span class="author">Akmal Salikhov</span></blockquote>
+
+
+  <blockquote>“It’s very frustrating: there’s already smoke, but we can’t get it to fire — we’re short of the notorious ten thousand dollars for release.” — <span class="author">Akmal Salikhov</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Uzbekistan’s gamedev ecosystem has formed and is growing thanks to incentives and exports, but it runs into a shortage of specialized education and targeted funding for indies.</li>
+<li>The market needs 'last‑mile' instruments (micro‑grants, seed checks) and genre‑market discipline among indies (fewer platformers, more economically sustainable genres).</li>
+<li>AI (Claude MCP) paired with Unity radically accelerates prototyping, reducing team size and the cost of experiments.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Publish an open report on the survey of Uzbekistan’s indie teams by the end of October and distribute it through East Games/incubator channels.</li>
+<li>Hold an open roundtable on October 20 to discuss the survey results and develop support measures.</li>
+<li>Initiate the development of a targeted gamedev grant with IT Park/sectoral institutes, separate from the general presidential grants.</li>
+<li>Continue updating GameDevMap and call on regional studios (including Astana) to add themselves to the directory.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Compile and send out the full indie survey report; prepare infographics (studios, employment, engines, genres, finances).</li>
+<li>Launch a pilot of micro‑grants ($5–10k) for projects with a vertical slice/Steam page/wishlists.</li>
+<li>Organize a series of workshops on genre validation and unit economics (city‑builders, the 2D renaissance, service metrics LTV/CAC).</li>
+<li>Run a practical masterclass on Claude MCP + Unity (installation, a prototype in 1–3 days, editor‑script pipeline).</li>
+<li>Launch a mentoring program on game design and production in Uzbek/English; prepare a basic course.</li>
+<li>Compile and publish an annual salary benchmark for Uzbekistan’s gamedev (by grades and roles).</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>IT Park Uzbekistan (benefits, statistics on residents and employment)</li>
+<li>GameDevMap (list of game studios by city, Tashkent/Almaty/Bishkek)</li>
+<li>Astana Hub (comparison of conditions and tax regimes)</li>
+<li>Steam (wishlists, genre saturation, platformers)</li>
+<li>Unity (engine, editor‑script ecosystem)</li>
+<li>Unreal Engine</li>
+<li>Godot Engine</li>
+<li>Claude MCP (Anthropic): plugins/code assistant for Unity and prototyping</li>
+<li>Valve — bonus model</li>
+<li>Wargaming: World of Warships (example of content outsourcing)</li>
+<li>Subnautica — a case with a publisher and bonuses</li>
+<li>Dave the Diver — an example of successful modern 2D</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>
