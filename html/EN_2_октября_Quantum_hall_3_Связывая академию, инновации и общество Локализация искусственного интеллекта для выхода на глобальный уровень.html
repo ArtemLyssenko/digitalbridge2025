@@ -1,0 +1,307 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connecting academia, innovation, and society: Localizing artificial intelligence to go global — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Connecting academia, innovation, and society: Localizing artificial intelligence to go global</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Pradeep Khosla</span>
+      <span class="speaker-role"> — Chancellor of the University of California San Diego, higher education leader, strategic thinker, board member</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Elmira Obri</span>
+      <span class="speaker-role"> — Founder of Foody AI</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Varol Husein Atakan</span>
+      <span class="speaker-role"> — Professor at Nazarbayev University</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Leysan Akhmadullina</span>
+      <span class="speaker-role"> — Director of the Department of Development and Corporate Innovation at Innopolis University</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how to localize AI for the Kazakh language and context, relying on open models and trusted data. Big Tech (Meta) urged Kazakhstan to join international alliances (AI Alliance, MLCommons, PAI) and develop open datasets/benchmarks. Startups highlighted practical barriers—shortage of local data, the need for sovereign models, and investor education. Universities and platform approaches were named key to advancing industry solutions and global competitiveness.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Formulate a strategy to localize AI for the Kazakh language, culture, and industry domains</li>
+<li>Expand partnerships with AI Alliance, MLCommons, and Partnership on AI for safety, transparency, and open innovation</li>
+<li>Create and open “trusted” national datasets and benchmarks (including safety) for training and evaluating models</li>
+<li>Strengthen compute and energy infrastructure (data centers, energy efficiency) and access to it for researchers and startups</li>
+<li>Ensure a human-centered and ethical framework for AI development with balanced regulation</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Which partnerships are most effective for synchronizing Big Tech, the state, and the private sector on AI safety?</li>
+<li>What are the key barriers for AI startups in Kazakhstan: data, talent, investors, or regulation?</li>
+<li>How should universities build cooperation with startups and Big Tech so that graduates and research are globally competitive?</li>
+<li>Which single government initiative would most strengthen Kazakhstan’s AI ecosystem in the next 1–2 years?</li>
+<li>How to build benchmarking for model performance and safety while avoiding overregulation?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI Alliance (initiated by IBM and Meta) is open for Kazakhstani institutions to join; the alliance focuses on open data, ethics, and methodologies for working with AI</li>
+<li>LLaMA as an open platform supports local languages (including Kazakh) and breaks the monopoly of a single company in AI</li>
+<li>Investments in AI infrastructure have already exceeded $75 billion; model training runs on tens of thousands of clusters, and models are rapidly becoming multimodal</li>
+<li>Meta’s focus on “personal superintelligence” and new devices (Ray‑Ban smart glasses, neuro‑bracelet) as interfaces to AI</li>
+<li>Safety and transparency: broad evaluations of LLaMA‑4 (trained on ~3 trillion tokens), a call for government safety benchmarks via MLCommons; orienting to G7 and OECD frameworks instead of heavy regulation</li>
+<li>Startup practice: shortage of local data (e.g., Central Asian dishes), need for sovereign models for privacy, educating investors on AI‑first</li>
+<li>The market is shifting to vertical domain models, “product‑in‑use” launches, and trends of single‑founder, prompt engineering, and tokenomics</li>
+<li>Universities as the core of localization: KAZLLM/local datasets (KazakhSpeech Corpus 2), chat model «Ойлян», plans for industry submodules (geodata, medicine, education)</li>
+<li>Energy factor: the growth of data center consumption stimulates investment in VVER/solar power plants; “data is oil, compute is the refinery”; it is important to ensure youth access to resources</li>
+<li>Innopolis’s platform approach («Конвейер»): breaking into microservices reduces cost, standardizes deployment, and links science, business, and development</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Artificial intelligence is too powerful a technology to be controlled by a single company.” — <span class="author">Pradeep Khosla</span></blockquote>
+
+
+  <blockquote>“Meta believes in open data: open technologies accelerate innovation and benefit the ecosystem.” — <span class="author">Pradeep Khosla</span></blockquote>
+
+
+  <blockquote>“We live in an AI world: those who don't keep up with AI will be left behind.” — <span class="author">Elmira Obri</span></blockquote>
+
+
+  <blockquote>“Data is the new oil, and compute is the refinery.” — <span class="author">Varol Husein Atakan</span></blockquote>
+
+
+  <blockquote>“The problem is not AI but our approach: we need a unified digital platform.” — <span class="author">Leysan Akhmadullina</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Localization of models (language, culture, domains) based on open and trusted data is the key to Kazakhstan’s global competitiveness in AI.</li>
+<li>An effective ecosystem requires synergy among universities, startups, and international alliances, with balanced regulation and an emphasis on safety, transparency, and green energy.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Start negotiations on deploying a local open-source model for Kazakhstan’s private sector (post-session).</li>
+<li>Recommend that the government launch a national initiative for Kazakhstan’s “trusted” open datasets for training and validating models.</li>
+<li>Join/strengthen the participation of Kazakhstani organizations in AI Alliance, MLCommons, and Partnership on AI.</li>
+<li>Prepare and apply AI safety benchmarks through MLCommons to evaluate local and deployed models.</li>
+<li>Continue developing «Ойлян 5.0» and release industry submodules in 2025 (geospatial, medicine, education).</li>
+<li>Adopt human-centricity, ethics, and environmental sustainability as mandatory principles for AI projects in the country.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Create a working group on open and “trusted” data (catalog, licensing, access, quality, privacy).</li>
+<li>Conduct an audit of AI compute/energy needs and develop a green power plan (data centers, solar/nuclear, energy efficiency).</li>
+<li>Launch educational programs for investors on AI-first and methods for technical validation of AI products.</li>
+<li>Organize pilots of sovereign models in sensitive domains (health, education) with local storage and protection of personal data.</li>
+<li>Open API/SDK of university models and corpora (e.g., KazakhSpeech, KAZLLM/«Ойлян») for startups; formalize SLAs and documentation.</li>
+<li>Join MLCommons and prepare local robustness/safety benchmarks (including multilingual scenarios).</li>
+<li>Test the «Конвейер» platform on 2–3 cases in the public sector/large business to reduce costs and scale AI.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>AI Alliance (IBM + Meta)</li>
+<li>LLaMA (Meta)</li>
+<li>Meta AI Assistant</li>
+<li>Ray‑Ban Meta Smart Glasses</li>
+<li>Meta neuro‑bracelet (EMG interface)</li>
+<li>MLCommons (performance and safety benchmarks)</li>
+<li>Partnership on AI (transparency, standards)</li>
+<li>Content Credentials / C2PA (content labeling, Adobe and others)</li>
+<li>KazakhSpeech Corpus 2</li>
+<li>KAZLLM (localized LLM) / «Ойлян 5.0»</li>
+<li>G7 and OECD AI frameworks</li>
+<li>Insight AI Institute (Nazarbayev University)</li>
+<li>«Конвейер» platform (Innopolis University)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

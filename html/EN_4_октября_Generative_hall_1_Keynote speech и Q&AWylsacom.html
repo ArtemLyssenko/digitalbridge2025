@@ -1,0 +1,281 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What comes after smartphones: neural networks, wearables, and the future of personal electronics — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>What comes after smartphones: neural networks, wearables, and the future of personal electronics</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Wylsacom</span>
+      <span class="speaker-role"> — Blogger and tech reviewer</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The speaker showed how neural networks are already embedded in everyday devices and content workflows, and why the next stage is wearables with agents and memory. Practical use cases were discussed (Adobe, auto-generation of timecodes, music models), the shift from "searching for answers" to task execution by agents, as well as constraints—hallucinations, ethics, and the issue of power consumption/batteries.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Show the practical value of neural networks in real content production.</li>
+<li>Describe the technological trajectory from smartphones to wearables with AI agents.</li>
+<li>Break down current limitations (hallucinations, power supply, UX) and ways to work around them.</li>
+<li>Build motivation to implement AI tools in business processes and personal productivity.</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>What will come after smartphones, and what will the interface for interacting with computing look like?</li>
+<li>How will AI agents with long-term memory change search, services, and personal devices?</li>
+<li>What methods can reduce LLM hallucinations and increase answer reliability?</li>
+<li>How constrained are wearables by battery and power consumption, and when will this shift?</li>
+<li>Where is the line between marketing 'AI' and real neural networks in products?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Neural networks are already embedded in consumer products: glasses, smartphones, banks, autopilots, search services, and browsers with agents.</li>
+<li>The evolution of interfaces is moving from screens and tapping to voice and natural language—the dream of 'talking to a computer like a person' is becoming the norm.</li>
+<li>Production practice: Generative Fill in Adobe Photoshop, neural frame inpainting in Premiere, and auto-generation of timecodes cut hours of work down to minutes.</li>
+<li>Hallucinations remain a risk; 'deep thinking' mechanisms, verification, and human post-checking help.</li>
+<li>The next qualitative leap is AI agents with long-term personal memory and the user's context.</li>
+<li>Wearables (AI glasses) are promising but limited by battery life: always-on voice standby drains the battery quickly.</li>
+<li>Market and ecosystems: partnerships (e.g., Samsung–Google), diverse approaches by Chinese brands, and Apple Intelligence stalling outside the US.</li>
+<li>The infrastructure driver is hardware accelerators (NVIDIA and alternatives); the DeepSeek case showed efficiency on more modest hardware.</li>
+<li>The content of the future will be increasingly generated and personalized (video, music), but 'manual' labor and analog formats retain value.</li>
+<li>Regulation and ethics will catch up with practice: from complete freedom to responsible use, as happened with the Internet.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Neural networks are already our everyday reality. It's not some wow factor.” — <span class="author">Wylsacom</span></blockquote>
+
+
+  <blockquote>“The phone is still a crutch; the next step is glasses and wearables with neural networks.” — <span class="author">Wylsacom</span></blockquote>
+
+
+  <blockquote>“Today you can't do without a neural network.” — <span class="author">Wylsacom</span></blockquote>
+
+
+  <blockquote>“Generative Fill is my favorite tool.” — <span class="author">Wylsacom</span></blockquote>
+
+
+  <blockquote>“I earnestly ask you not to call Silicon Valley 'Silicone' and not to call neural networks artificial intelligence.” — <span class="author">Wylsacom</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI has become a foundational layer of user services and devices; the value lies in agency and context, not in 'answers' as such.</li>
+<li>The main barriers to mass adoption of AI wearables are energy, UX, and model quality/reliability.</li>
+<li>Companies and content creators integrating neural tools now gain in speed, cost, and quality.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Recommend systematic implementation of neural networks into content pipelines (generative graphics/video, auto-timecoding, search and summarization).</li>
+<li>Focus on testing and using AI agents with extended memory to personalize workflows.</li>
+<li>Continue experiments with AI wearables (glasses) given limitations in battery life and voice UX.</li>
+<li>Maintain terminological precision in communications: distinguish neural networks from marketing 'AI'.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Rebuild the production pipeline using Adobe Generative Fill and neural inpainting in Premiere; measure time savings.</li>
+<li>Implement auto-generation of timecodes and short video descriptions via an LLM with mandatory manual verification.</li>
+<li>Pilot an AI agent (Perplexity/Comet, Gemini, ChatGPT) for research and material preparation with 'deep thinking' enabled.</li>
+<li>Try and compare AI glasses (Meta, options with ChatGPT/Gemini, HTC) in real scenarios and assess battery life.</li>
+<li>Develop internal guidelines for combating hallucinations: fact-checking chains, sources, confidence thresholds.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>ChatGPT (OpenAI)</li>
+<li>Google Gemini and AI answers in search</li>
+<li>Perplexity and the Comet browser (agent scenarios)</li>
+<li>Meta AI glasses; HTC glasses</li>
+<li>Apple Intelligence</li>
+<li>Samsung + Google (partner AI features in smartphones)</li>
+<li>DeepSeek (Chinese LLM model)</li>
+<li>NVIDIA (GPU/AI infrastructure)</li>
+<li>Adobe Photoshop Generative Fill; Adobe Premiere neural frame inpainting</li>
+<li>Sora AI (music generation, as mentioned in the session)</li>
+<li>Grok (X) and the character Rudy</li>
+<li>App Store (evolution of services), iPhone</li>
+<li>Motorola DynaTAC; first mobile phone call (1973)</li>
+<li>Whoop, Oura (wearable trackers)</li>
+<li>Kaspi, Freedom Finance (mobile banks)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

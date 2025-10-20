@@ -1,0 +1,314 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Киберспорт – трендтер, бизнес, әлеует — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>Киберспорт – трендтер, бизнес, әлеует</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Әлішер Қайырбеков</span>
+      <span class="speaker-role"> — ALLINNERS киберспорт ұйымының бас директоры</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Евгений Богатырев</span>
+      <span class="speaker-role"> — Pinger.pro бас директоры</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Келли Клифф</span>
+      <span class="speaker-role"> — Киберспорт іс-шараларының продюсері, киберспортқа инвестициялар жөніндегі сарапшы</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Абылайхан Жақанов</span>
+      <span class="speaker-role"> — Game of Drones бас директоры</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Арыстан Тоқтар</span>
+      <span class="speaker-role"> — CS2 Flick бойынша киберспортшы, Дания, Копенгаген</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Панель киберспорт дамуы ойындарды шығарушылар мен контентке құқықтарға байланысты айқындалатынын талқылады; мемлекеттің рөлі — жағдай жасау және құқық иелерінің ережелеріне қайшы келмеу. Қазақстан CS2-нің «халықтық» ПК-сценаcы мен жаппай мобильді сегмент (PUBG Mobile, MLBB) арасында тепе-теңдік ұстап тұр, бұл ретте инфрақұрылым (серверлер, пинг) мен клубтық модель мәселелері шешуші мәнге ие. Жеке блоктар инвестициялар мен монетизацияға, әйелдер киберспортына (Female Pro League), білім беру/академиялар арқылы жастарды тартуға және халықаралық экспансияға (PGL әсері, Game of Drones франшизасы) арналды.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>ҚР киберспортын дамытуда мемлекеттің оңтайлы рөлін және шығарушылармен өзара іс-қимылды айқындау</li>
+<li>Ең перспективалы инвестиция бағыттарын анықтау (ПК, мобильді сегмент, әйелдер лигалары, инфрақұрылым)</li>
+<li>Халықаралық деңгейге шығу жолдарын және инфрақұрылымдық кедергілерді азайтуды талқылау (серверлер, пинг, ЕО-дағы буткемптер)</li>
+<li>Монетизацияға (турнирлер, брендтер, продакт-плейсмент, франшиза) және клубтық экожүйені өсіруге арналған тәсілдерді қалыптастыру</li>
+<li>Инклюзия мен оқытудың механизмдерін айқындау: әйелдер лигалары, мектеп-студент лигалары, академиялар және медиа-құзыреттер</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>Ойындарды шығарушыларға негізгі құқықтар тиесілі индустрияда мемлекет пен федерациялар қандай рөл атқаруы тиіс?</li>
+<li>Қазақстанда инвестиция үшін ең перспективалы сегменттер мен пәндер қайсы: ПК әлде мобильді киберспорт?</li>
+<li>Инфрақұрылым мәселесін (жергілікті серверлер, пинг) қалай шешу керек және командаларға Еуропаға көшу қажет пе?</li>
+<li>Нарық үшін қай модель тиімдірек: клубтық жүйе ме, әлде ұлттық құрамалар мен мемлекеттік бағдарламаларға акцент пе?</li>
+<li>Киберспорттың жаңа формаларына қандай жұмыс істейтін монетизация модельдері қолданылады (Game of Drones мысалы)?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>Шығарушылар — киберспорттағы басты күш: ойындарға құқықтар жарыстар форматын және турнирлерге қойылатын талаптарды айқындайды</li>
+<li>Мемлекеттік бағдарламалар құқық иелерімен ынтымақтастықта ғана өміршең; әйтпесе іске асыру тұралайды</li>
+<li>CS2 — ҚР-дағы «халықтық» дисциплина, бірақ жаппайлық метрикалары бойынша көшбасшы — PUBG Mobile; мобильді сегмент жедел өсіп келеді</li>
+<li>Инфрақұрылым шешуші: негізгі ПК-тайтлдарда жергілікті серверлердің болмауы және Еуропаға жоғары пинг өсуге шектеу қояды</li>
+<li>PUBG Mobile-дегі Tencent тәсілі (жергілікті серверлер мен бөлінген слоттар) халықаралық сахнаға жолды жеңілдетеді</li>
+<li>Әйелдер киберспорты жүйелі қолдауды қажет етеді: Female Pro League іске қосылуы ESL Impact-тен кейін пайда болған вакуумды толтырады</li>
+<li>Монетизация: брендтер, продакт-плейсмент және «free to play/paid to compete» гибридті модельдері (Game of Drones кейсі)</li>
+<li>Клубтық модель мен жергілікті ұйымдарды дамыту нарықты «құрамаларға» басымдық беруден күштірек ынталандырады</li>
+<li>Медиакапитал нәтижелерден кем емес маңызды: ойыншыларға, комментаторларға және клубтарға контент стратегиясы қажет</li>
+<li>«PGL әсері» мемлекет пен брендтердің қызығушылығын арттырды; ірі ТО мен туризмді тарту әлеуеті дәлелденді</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+  <blockquote>“Ойынды шығарушы қалай айтса, сол болады; ойынның айналасын дамытуының жалғыз жолы — шығарушымен ынтымақтастық.” — <span class="author">Евгений Богатырев</span></blockquote>
+
+
+  <blockquote>“Киберспорт — спорт, технологиялар және бизнестің тоғысы.” — <span class="author">Келли Клифф</span></blockquote>
+
+
+  <blockquote>“Біз Интернет арқылы нақты машинкаларды, роботтарды, дрондарды басқару технологиясын жасадық.” — <span class="author">Абылайхан Жақанов</span></blockquote>
+
+
+  <blockquote>“Менің деректерім бойынша, Қазақстандағы ең танымал ойын — PUBG Mobile, ал CS — бұл біздің халықтық ойынымыз.” — <span class="author">Евгений Богатырев</span></blockquote>
+
+
+  <blockquote>“Турнирден кейін бізде тұрақты тіркес пайда болды — PGL әсері.” — <span class="author">Әлішер Қайырбеков</span></blockquote>
+
+
+      <h2>Қорытындылар</h2>
+      <ul><li>Қазақстандық киберспортқа шығарушы–инфрақұрылымдық байланыс (жергілікті серверлер, слоттар) және клубтық экожүйені күшейту қажет.</li>
+<li>Нарықтың өсуін әйелдер лигалары, клубтардың медиа-стратегиялары және жаңа гибридті дисциплиналар (нақты ареналарды және франшизаны қоса) жеделдетеді.</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>ALINERS Female Pro League-ке қатысу үшін әйелдер құрамын құрайды.</li>
+<li>Game of Drones қос стратегияны бекітеді: жарыстық онлайн-жарыстар және сюжеттік өнімдер; франшиза бойынша ауқымдау.</li>
+<li>Қатысушылар мемлекеттік бастамалар мен турнирлерді жоспарлауда шығарушылармен ынтымақтастыққа басымдық беруді қолдайды.</li>
+<li>Индустрияның фокусы — құрамалық модельдерге сүйенудің орнына клубтар мен жергілікті ұйымдарды дамыту.</li>
+<li>Негізгі дисциплиналарда жергілікті серверлер мен бөлінген слоттарды орналастыруға шығарушылармен келіссөздер арқылы қол жеткізу ұсынылды.</li>
+<li>Маңызды турнирлердің қазақстандық күнтізбесін кеңейтуді, халықаралық операторларды тартуға акцентпен (PGL 2026-ны қоса) қолдау.</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>ҚР/ОА үшін жергілікті серверлер мен слоттар бойынша шығарушылармен (Valve, Tencent, Moonton) жұмыс топтарын бастау.</li>
+<li>Клубтарды еуропалық іріктеулерге дайындау: буткемптер жоспары, көшу логистикасы және ЕО-ареналарымен әріптестіктер.</li>
+<li>Female Pro League маусымына (ALINERS және басқа клубтар) әйелдер құрамдарына іріктеу мен қабылдауды іске қосу.</li>
+<li>Game of Drones: франшизалық модельді пакеттеу, 2–3 пилот халықаралық алаңды таңдау және продакт-плейсментке арналған бренд-пакеттерді дайындау.</li>
+<li>Мектептер мен ата-аналар үшін әдістемелік нұсқаулықтар жасау: балалардың киберспортқа қауіпсіз кіруі, оқу мен жаттығу балансын сақтау, дисциплиналарды таңдау.</li>
+<li>Ойыншылар/кастерлер үшін медиа-жоспарлар әзірлеу: портфолио, комьюнити-касттар, Paragon/MySkill-ге өтінімдер; таланттарды іріктеудің орталықтандырылған пішіні.</li>
+<li>HLTV қамтумен және жаһандық брендтер интеграцияларымен жергілікті/ОА-турнирлер күнтізбесін қалыптастыру (реттеу шеңберіндегі беттингті қоса алғанда).</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>ҚР киберспортты дамыту тұжырымдамасы 2025–2029 (маусымда қабылданған)</li>
+<li>PGL CS2 Major Astana 2024 және PGL 2026 анонсы (жүлде қоры $1.5 млн)</li>
+<li>Valve: Counter-Strike 2, Dota 2</li>
+<li>Tencent: PUBG Mobile</li>
+<li>Moonton: Mobile Legends: Bang Bang</li>
+<li>Female Pro League (халықаралық әйелдер лигасы, CS2)</li>
+<li>ESL Impact (әйелдер турнирлік циклі, бағыттың жабылғаны айтылды)</li>
+<li>HLTV (CS бойынша жергілікті және халықаралық турнирлерді қамту)</li>
+<li>Major by Hobbit академиясы (Астана)</li>
+<li>Клубтар мен студиялар: All Inners (ALINERS), NOVAC, Aurora, Paragon, MySkill, QCF</li>
+<li>chess.com (кең түсініктегі киберспорт платформасының мысалы ретінде)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөздеріне негізделген жасанды интеллект технологияларының көмегімен дайындалды. Мәтінде аздаған қателер немесе дәлсіздіктер болуы мүмкін және ол ресми стенограмма болып табылмайды. Фактілер мен мәліметтерді растау үшін форумның ресми материалдарына жүгіну ұсынылады.
+  </div>
+</body>
+</html>

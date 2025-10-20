@@ -1,0 +1,326 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Development of GovTech and the application of AI: challenges and solutions for the public sector — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Development of GovTech and the application of AI: challenges and solutions for the public sector</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Асет Абдуалиев</span>
+      <span class="speaker-role"> — Founder and CEO of Silkroad Innovation Hub</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Евгений Глотов</span>
+      <span class="speaker-role"> — Deputy Mayor of Astana</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Олег Пекось</span>
+      <span class="speaker-role"> — First Deputy Minister of Digital Technologies of Uzbekistan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Томас Прамотедхама</span>
+      <span class="speaker-role"> — Chief Executive Officer of Presight AI</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Аблайхан Оспанов</span>
+      <span class="speaker-role"> — Managing Director for Digitalization at «Самрук‑Казына»</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Айдарбек Ходжаназаров</span>
+      <span class="speaker-role"> — Member of the Mazhilis of the Parliament of the Republic of Kazakhstan, Chairman of the 'Respublica' party</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel showed how cities and countries of Central Asia are moving from simple digitalization to data- and algorithm-driven governance, and further to proactive urban models. Astana presented a plan to consolidate fragmented services into the Astana KZ platform and move toward a Large City Model/Self‑Driving City. Uzbekistan outlined a human‑centric AI strategy, free GPUs and data for social projects and science. The corporate sector (Самрук‑Казына) demonstrated AI deployment in heavy industries and a unique case — a digital voting member of the board of directors.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Synchronize the vision of GovTech and the role of AI in government services across the region</li>
+<li>Identify barriers: system fragmentation, talent shortage, data quality, and regulation</li>
+<li>Exchange practices: urban AI models, compute infrastructure, and accelerators</li>
+<li>Define the balance of AI regulation: citizen safety while preserving innovation</li>
+<li>Outline joint projects and infrastructure (data, supercomputers, R&D) for scale</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How to overcome fragmentation of government and urban IT systems and move to a unified platform architecture?</li>
+<li>What AI regulatory model will protect citizens and businesses without slowing adoption?</li>
+<li>How to ensure access to compute and data for the social sphere, universities, and startups?</li>
+<li>What metrics should measure the real value of AI in city governance and everyday life?</li>
+<li>How to build a talent pipeline and improve input data quality for reliable models?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Astana has gone through three stages: from digital services to data‑driven governance, and further to a proactive “smart city” and a Large City Model/Self‑Driving City.</li>
+<li>The unified Astana KZ platform will create a single entry point, end‑to‑end data integration, and a human‑centric UX for residents.</li>
+<li>Existing urban solutions: iKomek 109 (>2 million requests per year), «Хала хизмет» (~120 services, ~200 thousand requests/year), Smart Astana app (>70 services).</li>
+<li>AI already in use: predictive analytics in healthcare and real‑time forecasting of transport route loads.</li>
+<li>Lowering the barrier to AI adoption: according to the Stanford AI Index, hardware costs are falling by ~30%/year, energy efficiency is growing by >40%, and the cost of launching GPT‑3.5‑level models has dropped by ~280x.</li>
+<li>Uzbekistan is advancing human‑centric AI: free GPUs and data for social areas and science; public services are available in bank and operator apps (My.gov.uz, >800 services, >11 million users).</li>
+<li>Orchestration of GPU clusters (Kubernetes + Run:AI) with flexible sharding accelerates training and use of models; a cluster on Blackwell GPUs is planned.</li>
+<li>Presight/G42 localizes projects: 66% of Smart City work is performed by local companies; they emphasize applied applications that improve everyday life.</li>
+<li>«Самрук‑Казына»: 62 AI projects in production; cases — waterflooding management for oil production (increase in output up to +100 thousand tons/year when scaled), forecasting in power grids (KEGOC) to prevent accidents.</li>
+<li>Launch of Kazakhtelecom’s commercial supercomputer (50 DGX on H200, 400 GPUs) for market rental; as well as the introduction of a digital voting member of the board of directors trained on laws, internal regulations, and historical decisions.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Today we are already building city management based on data and algorithms, and tomorrow we will move to a Self‑Driving City.” — <span class="author">Евгений Глотов</span></blockquote>
+
+
+  <blockquote>“Artificial intelligence enters commercializable areas very quickly, but in the social sphere — not as quickly as we would like.” — <span class="author">Олег Пекось</span></blockquote>
+
+
+  <blockquote>“Garbage in — garbage out: data quality is critical for AI‑based management decisions.” — <span class="author">Айдарбек Ходжаназаров</span></blockquote>
+
+
+  <blockquote>“We have implemented a virtual digital voting member of the board of directors based on an uploaded regulatory framework and decision histories.” — <span class="author">Аблайхан Оспанов</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>The region is shifting from “digitalization for its own sake” to human‑centric, data‑ and AI‑driven governance with a platform approach.</li>
+<li>AI ecosystem enablers — open data, accessible GPUs, local accelerators, and R&D — are accelerating applied solutions in healthcare, transport, and industry.</li>
+<li>Regulation should enshrine principles of transparency, AI labeling, explainability, and the right to human review, while supporting innovation.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Launch the unified Astana KZ city platform as the main entry point and for data/service integration.</li>
+<li>Open Astana’s city data to universities and partners via the Alem AI National Center and a joint R&D laboratory with Presight.</li>
+<li>Uzbekistan continues the tender and phased expansion of a GPU cluster (based on Blackwell) with access for universities, startups, and business.</li>
+<li>«Самрук‑Казына» scales 62 AI projects across production assets and launches a digital voting member of the board of directors.</li>
+<li>Presight/G42 expands local competencies and investments in Smart City and applied AI applications for residents.</li>
+<li>«Казахтелеком» provides the market with rental access to compute resources of the new supercomputer (H200, 400 GPUs).</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Consolidate fragmented urban IT systems into Astana KZ, implementing unified identification, a service catalog, and data integration buses.</li>
+<li>Define and publish standards for the quality and exchange of city data; start pilots of a digital twin and a Situation Center.</li>
+<li>Expand access to GPUs for social projects, universities, and startups (vouchers/quotas, compute grants).</li>
+<li>Form a package of AI bills: labeling, explainability, the right to human review, risk assessment, and algorithm audits.</li>
+<li>Launch regional accelerators (Astana Innovations Accelerator, Meta Llama Accelerator) with tasks drawn from real urban and industry cases.</li>
+<li>Conduct a data audit in the public and quasi‑public sector: cleaning, verification, metadata, and input quality monitoring.</li>
+<li>Scale successful industrial AI cases (oil, energy, transport) with target KPIs for safety and economic impact.</li>
+<li>Deploy workforce training programs (30–50 thousand specialists/year) and upskilling for civil servants in data and AI tools.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>ЕГАУ / eGov of Kazakhstan (about 95% of public services online)</li>
+<li>iKomek 109 (Astana city service)</li>
+<li>Service «Хала хизмет»</li>
+<li>Smart Astana mobile app</li>
+<li>Astana KZ platform (single entry point)</li>
+<li>Stanford AI Index (statistics on costs and energy efficiency)</li>
+<li>Alem AI (national center) and joint R&D laboratory with Presight</li>
+<li>Large City Model / Self‑Driving City (concept)</li>
+<li>Digital twin of the capital and Astana Situation Center</li>
+<li>My.gov.uz (Uzbekistan portal; >800 services, >11 million users)</li>
+<li>Kubernetes and Run:AI (GPU orchestration)</li>
+<li>GPU Blackwell (B‑series) — planned cluster of Uzbekistan</li>
+<li>Datavolt (investments in GPU clusters and data centers in Uzbekistan)</li>
+<li>«Казахтелеком» supercomputer (50 NVIDIA DGX H200, 400 GPUs)</li>
+<li>Presight (G42) — Smart City and investments in R&D/venture</li>
+<li>Astana Innovations Accelerator; Meta Llama Accelerator</li>
+<li>Cases of «Самрук‑Казына»: АБАИ/ABAI (КазМунайГаз), KEGOC (forecasting)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using AI technologies based on live speech from speakers at the Digital Bridge 2025 forum. It may contain minor inaccuracies and does not represent the official transcript.
+  </div>
+</body>
+</html>

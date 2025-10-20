@@ -1,0 +1,308 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond Sound: AI, AR/VR/XR and the Future of User Experience — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Beyond Sound: AI, AR/VR/XR and the Future of User Experience</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Almagul Menlibayeva</span>
+      <span class="speaker-role"> — Contemporary artist</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Yuldus Bakhtiozina</span>
+      <span class="speaker-role"> — Director, artist</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Kristina Khara</span>
+      <span class="speaker-role"> — Multimedia artist, educator, curator</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Hugo</span>
+      <span class="speaker-role"> — Media artist, founder of a platform for AI media (international guest)</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Aleksandr Mezin</span>
+      <span class="speaker-role"> — Coordinator of the KBTU Game Lab mentorship program</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how AI accelerates development and changes UX in VR/AR/XR and games, while the experience remains constrained by platforms. The central theme was the boundaries of authorship and machine co-authorship: AI as a tool and as a collaborator. They examined cultural and ethical challenges—the need for local datasets, labeling of bots, and preserving collective experience amid personalization. Forecasts for the next 5–10 years were voiced: growth of interactive and empathic environments, institutional legitimation of digital art, and a priority on self-education.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Understand how AI transforms user experience in AR/VR/XR and gaming</li>
+<li>Define the boundaries of authorship and the artist's control when working with generative tools</li>
+<li>Identify cultural and ethical risks in AI- and virtual environments</li>
+<li>Discuss the role of institutions (museums, galleries, universities) in legitimizing and implementing digital art</li>
+<li>Formulate adaptation practices: local datasets, personalization without loss of collective experience, and educational approaches</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How is AI changing the user experience in VR/AR/XR and the game industry?</li>
+<li>Where is the boundary of authorship and the artist's control when working with AI?</li>
+<li>How does AI support the development of personalized scenarios and learning environments in games?</li>
+<li>What ethical and cultural challenges arise in AI-based virtual worlds?</li>
+<li>What will the future of AI combined with AR/VR/XR look like over a 5–10 year horizon?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI accelerates iterations and prototyping and improves development quality, but UX is still limited by platform capabilities (platform bottleneck).</li>
+<li>In art, AI turns passive viewing into an interactive experience (chatbots, quests, generative works), strengthening the link between the physical and the digital.</li>
+<li>Authorship is a spectrum: from tool to collaborator; training models on your own data and maintaining control over the narrative and language helps preserve style.</li>
+<li>Media complexity affects AI's role: in 'simple' media the sense of presence is valuable, in 'complex' ones (games) greater automation of code, dialogues, and assets is acceptable.</li>
+<li>AI adoption faces a psychological barrier: creators often return to familiar tools so as not to lose a sense of control.</li>
+<li>Cultural relevance of data is critical: Taiwan's example with 21 LLMs for 21 languages; for Kazakhstan it is important to account for the multilingual context.</li>
+<li>We need to preserve collective experience amid personalization and explicitly label where it's a human and where it's a bot to avoid role confusion.</li>
+<li>LLMs are not only a tool but also a new medium; specialized 'creative' models are still rare and remain underground.</li>
+<li>Institutions and markets must legitimize digital art: integrating digital practices into museums/galleries and developing new forms of distribution (including games).</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“I see AI not as a tool but as a collaborator—a facilitator of the process.” — <span class="author">Kristina Khara</span></blockquote>
+
+
+  <blockquote>“In AI cinema, it's important to write the script based on an understanding of the tool's capabilities—you can't just jump in 'from scratch'.” — <span class="author">Yuldus Bakhtiozina</span></blockquote>
+
+
+  <blockquote>“Work with AI as an artistic material—like wood or metal.” — <span class="author">Hugo du Plessis</span></blockquote>
+
+
+  <blockquote>“For me, Instagram died with the arrival of Reels.” — <span class="author">Aleksandr Mezin</span></blockquote>
+
+
+  <blockquote>“We must humanize technology, otherwise only commercial clichés will remain.” — <span class="author">Almagul Menlibayeva</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI expands creative and UX capabilities but requires mindful control of authorship and narrative.</li>
+<li>Local and culturally relevant datasets are key to high-quality and ethical content in a multilingual environment.</li>
+<li>LLMs form a new medium while reinforcing existing ones; ideas and experience matter more than the toolset.</li>
+<li>The legitimation of digital art depends on the active role of museums, galleries, and educational practices, as well as on mass self-education.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Focus museum and gallery programs on integrating interactive and AI-assisted practices.</li>
+<li>Promote the use of locally relevant datasets and language models for the Kazakhstani context.</li>
+<li>Formulate transparency principles: explicit labeling of 'human/bot' interactions in artistic and educational projects.</li>
+<li>Support self-education and knowledge-sharing practices (open tutorials, workshops) as the primary mechanism of adaptation.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Develop prototypes of personalized museum chatbots and run pilot showcases with visitor feedback.</li>
+<li>Collect and curate local datasets (Kazakh, Russian, etc.) for text and multimodal models relevant to the cultural context.</li>
+<li>Prepare methodological materials for artists: a guide on authorship, quality control, and ethics when working with AI.</li>
+<li>Organize a series of workshops on creating interactive XR experiences with AI (dialogues, multi-agent characters, asset generation).</li>
+<li>Implement a transparency policy: label bots and automated content in exhibition and educational environments.</li>
+<li>Create a practitioner community (lab/club) at KBTU and partner institutions for exchanging developments and expertise.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Marshall McLuhan — the concept of media as extensions of man</li>
+<li>Taiwan's example: 21 LLMs for 21 languages (multilingual local models)</li>
+<li>ChatGPT and other LLMs as tools and a new medium</li>
+<li>YouTube — open tutorials for self-education</li>
+<li>Telegram chatbots for interactive exhibitions and game quests</li>
+<li>DxO PhotoLab (AI tools for photo post-processing)</li>
+<li>Instagram/Reels as a platform and its limitations for photographers</li>
+<li>Higgsfield lecture on the future share of AI-generated video content</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

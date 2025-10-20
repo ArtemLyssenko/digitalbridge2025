@@ -1,0 +1,311 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИИ-стартапы: от посевной стадии до масштабирования — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>ИИ-стартапы: от посевной стадии до масштабирования</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Чингиз Даулетбаев</span>
+      <span class="speaker-role"> — Генеральный директор и основатель TrustMe</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Жан Карсыбаев</span>
+      <span class="speaker-role"> — Соучредитель и управляющий партнер Big Sky Capital</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Робберт Аббанат</span>
+      <span class="speaker-role"> — Генеральный директор в GloCoach</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ягыз Карадениз</span>
+      <span class="speaker-role"> — DOMiNO Ventures – Управляющий партнёр</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Мират Ахметсадыков</span>
+      <span class="speaker-role"> — Сооснователь и генеральный директор MOST Holding</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Панель обсудила, почему ИИ — это не хайп, а инфраструктурная технология, и как инвесторы оценивают ранние ИИ-команды прежде всего по качествам фаундеров. Спикеры разобрали риски «надстроек над LLM» и важность конкурентных преимуществ через собственные данные и IP. Центральная Азия признана перспективным хабом с сильной инженерной базой, но стартапам необходим глобальный фокус и английский. Отдельно рассмотрена роль Фонда фондов Казахстана и «умных денег» в прохождении стадий от посевной к масштабированию.</p>
+
+      <h2>Цели</h2>
+      <ul><li>Понять, почему ИИ сейчас и как он трансформирует отрасли, а не является краткосрочным трендом</li>
+<li>Определить ключевые критерии оценки ранних ИИ-стартапов инвесторами</li>
+<li>Обсудить риски зависимости от Big Tech и способы выстраивания защитимости (данные, IP, нишевость)</li>
+<li>Выявить пути для стартапов Центральной Азии к глобальному масштабированию и роли Фонда фондов</li>
+<li>Сформулировать, какую ценность должны приносить смарт-инвесторы помимо капитала</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Почему ИИ и почему именно сейчас для стартапов и инвесторов?</li>
+<li>На что смотрят венчурные фонды при отборе ИИ-стартапов на ранних стадиях?</li>
+<li>Как снижать риск, что обновления Big Tech/LLM «убьют» продукт, построенный поверх API?</li>
+<li>Какие сектора и модели наиболее перспективны для Центральной Азии с выходом на глобальные рынки?</li>
+<li>Как повлияет казахстанский Фонд фондов на зрелость и глобальность региональной экосистемы?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>ИИ — базовая технология уровня «электричества»: ценность — в прикладных внедрениях по вертикалям, а не в самой LLM.</li>
+<li>Инвестиционное решение на ранней стадии делают вокруг фаундера: настойчивость, широкий взгляд, готовность к пивотам и стратегическое мышление.</li>
+<li>Защитимость ИИ-продукта создают собственные данные, методологии, IP и доменная глубина; LLM — лишь технологический слой.</li>
+<li>Риски платформенной зависимости от OpenAI/Big Tech нивелируются агностичным стеком и акцентом на уникальные датасеты.</li>
+<li>Портфельный подход закрывает часть технологических рисков; дополнительно оценивается копируемость решения и барьеры входа.</li>
+<li>Пример нишевой глубины: ИИ-симуляторы «пациентов» для медвузов с тысячами сценариев — высокие барьеры копирования и локальные протоколы.</li>
+<li>Центральная Азия обладает сильной инженерной базой; стратегия — держать R&D локально, продавать глобально, с HQ в дружественных юрисдикциях.</li>
+<li>«Смарт-деньги» — это синергия, интро и помощь в масштабировании; фаундеры должны выбирать инвесторов так же тщательно, как инвесторы их.</li>
+<li>Фонд фондов способен закрыть разрыв на поздних стадиях и создать мост для последующих раундов, но ранняя стадия требует предпринимательской смелости.</li>
+<li>Масштабированию предшествует PMF: на ранней фазе больше времени на клиентов и выручку, меньше — на бесконечный фандрейзинг.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+  <blockquote>“Не смотрите на венчурных капиталистов как на богов — относитесь к ним как к стратегическим партнёрам.” — <span class="author">Жан Карсыбаев</span></blockquote>
+
+
+  <blockquote>“Стартапы на ранних стадиях тратят слишком много времени, пытаясь привлечь деньги у инвесторов, в то время как они должны пытаться привлечь деньги у клиентов.” — <span class="author">Робберт Аббанат</span></blockquote>
+
+
+  <blockquote>“ИИ — это как электричество: технология, которая позволит всё остальное сделать.” — <span class="author">Мират Ахметсадыков</span></blockquote>
+
+
+  <blockquote>“Нужно быть смелее: продавайте локально, но сразу выходите на глобальные рынки и добавляйте английский язык.” — <span class="author">Ягыз Карадениз</span></blockquote>
+
+
+  <blockquote>“Если кто-то в Казахстане говорит, что денег нет, — это не предприниматель; задача предпринимателя — найти путь и убедить инвестора.” — <span class="author">Мират Ахметсадыков</span></blockquote>
+
+
+      <h2>Выводы</h2>
+      <ul><li>ИИ-проекты выигрывают не благодаря самой LLM, а за счёт уникальных данных, методологий и глубокой доменной экспертизы, создающей защитимость.</li>
+<li>Региону необходим глобальный менталитет: английский как стандарт, ранняя валидация на внешних рынках, и выбор инвесторов с реальной добавленной стоимостью.</li>
+<li>Казахстанский Фонд фондов способен улучшить доступ к капиталу на более поздних стадиях и выстроить эстафету раундов при наличии PMF и трекшена.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Фокусироваться на инвестициях в фаундеров с высокой устойчивостью и готовностью к пивотам, а не на «хайпе» ИИ.</li>
+<li>Оценивать и поддерживать ИИ-стартапы с явной защитимостью за счёт собственных данных и IP, а также технологической агностики.</li>
+<li>Выстраивать мосты между ранними фондами и крупными инвесторами (включая Фонд фондов) для последующих раундов масштаба.</li>
+<li>Системно продвигать глобал‑first подход среди стартапов Центральной Азии (английский, продажи за рубеж с раннего этапа).</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Стартапам: валидировать PMF через платящих клиентов до активного масштабирования и крупных раундов.</li>
+<li>Проработать стратегию защитимости: собрать/создать собственные датасеты, формализовать IP и доменные методологии.</li>
+<li>Построить технологический стек, агностичный к конкретным LLM/API, чтобы уменьшить платформенный риск.</li>
+<li>Вывести коммуникации и материалы на английский язык и начать целенаправленные продажи в ЕС/США через LinkedIn/прямые аутрич‑кампании.</li>
+<li>Инвесторам ранней стадии: наладить ко‑инвесторские отношения с более крупными фондами/Фондом фондов для предсогласованных мостов на Series A+.</li>
+<li>Фаундерам: осознанно выбирать «смарт-инвесторов» с релевантными интро и поддержкой в GTM; проводить референсы по портфельным компаниям.</li>
+<li>Экосистеме: продвигать программы ментального и психологического сопровождения фаундеров для снижения «страха глобализации».</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>OpenAI / ChatGPT (LLM-платформа)</li>
+<li>GloCoach и агент Lens (практика внедрения ИИ в лидерство и HR)</li>
+<li>Big Sky Capital VC (подход к ранним инвестициям в Enterprise SaaS)</li>
+<li>Dominus Ventures (стратегия инвестиций в ИИ/DeepTech на развивающихся рынках)</li>
+<li>Most Holding (кейсы вертикальных ИИ, в т.ч. симуляторы пациентов для медвузов)</li>
+<li>TrustMe (B2B-экосистема документов и e-sign, опыт модерации)</li>
+<li>Выступление Андрея Дороничева: аналогия «ИИ как электричество» (упомянуто на панели)</li>
+<li>NASA Aerospace (как корпоративный заказчик/партнёр GloCoach)</li>
+<li>LinkedIn (канал глобального B2B‑аутрича, упомянутый как стандарт)</li>
+<li>Казахстанский Фонд фондов (инициатива для поздних стадий и роста экосистемы)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой. Для подтверждения фактов и деталей рекомендуется обращаться к официальным материалам форума.
+  </div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поколение GPT: как жить и мыслить в эпоху ИИ — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>Поколение GPT: как жить и мыслить в эпоху ИИ</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Толкын Нурушева</span>
+      <span class="speaker-role"> — Директор по работе с ключевыми клиентами Microsoft Казахстан</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Арман Нурушев</span>
+      <span class="speaker-role"> — Глава представительства VK Цифровые Технологии в Казахстане</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Асель Машанова</span>
+      <span class="speaker-role"> — Казахстанская предпринимательница, основательница популярной сети косметики LULU</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Зауре Розмат</span>
+      <span class="speaker-role"> — Генеральный директор STEPPE, казахстанского мультиплатформенного медиа</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Санжар Мустафин</span>
+      <span class="speaker-role"> — Медиаменеджер, продюсер, инвестор и эксперт в области коммуникаций. Основатель Musan Group</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Динара Сатжан</span>
+      <span class="speaker-role"> — Медиаменеджер, fashion-продюсер, бизнесвумен</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Дискуссия показала, что ИИ уже переформатировал медиа, медицину и быт: от фиджитал-клиник и wearables до генеративного контента и новых креативных профессий. Спикеры подчеркнули необходимость баланса между эффективностью алгоритмов и человеческим лидерством — критическим мышлением, эмпатией и ответственностью. Обсуждены риски (регуляция, фейки, зависимость, AGI) и практики цифровой гигиены для детей. Медиа и креаторы видят в GPT ускоритель, а не замену, при этом растет ценность «живого» человеческого творчества.</p>
+
+      <h2>Цели</h2>
+      <ul><li>Определить роль человека и медиа в эпоху ИИ и сохранить лидерство человеческого суждения</li>
+<li>Показать практические возможности интеграции ИИ в контент, бизнес и медицину</li>
+<li>Сформулировать подходы к критическому мышлению, фактчекингу и цифровой гигиене (особенно для детей)</li>
+<li>Обозначить рамки этики и потребность в регулировании («красные линии» ИИ)</li>
+<li>Стимулировать участие молодых и женщин в создании алгоритмов и AI-стартапов</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Как сохранить лидерство человека в мире алгоритмов и не передать ключевые решения ИИ?</li>
+<li>Может ли поколение GPT управлять собой с помощью технологий или решающей остается осознанность?</li>
+<li>Какую роль медиа должны играть в эпоху ИИ и чем управлять, когда алгоритмы формируют повестку?</li>
+<li>Является ли GPT угрозой для индустрий или новой эрой возможностей для роста?</li>
+<li>Как воспитать у детей фокус и критическое мышление в условиях инфошума и легкодоступных AI-инструментов?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>Необходимы «красные линии» для ИИ: человек должен сохранять контроль, практиковать фактчекинг и критическое мышление при принятии решений.</li>
+<li>Медицина стремительно становится фиджитал: сбор персональных данных с носимых устройств и домашних датчиков ускорит диагностику и персонализацию терапии.</li>
+<li>Медиа уже интегрируют генеративные инструменты (пример Hixfield) для ускорения производства контента и визуализаций, но креативная идея остается за человеком.</li>
+<li>Индустрия развлечений мигрирует из ТВ в цифровые платформы; GPT ускоряет процессы, снижает рутину и делает команды более продуктивными.</li>
+<li>Риски ИИ включают фейки/дизинформацию, deepfake-голоса/видео, зависимость и необходимость межгосударственного регулирования (аналог атомной энергии).</li>
+<li>Ценность «живого» опыта и ремесла будет расти: музыка, кулинария, искусство и офлайн-взаимодействия становятся премиальными.</li>
+<li>Для детей критичны цифровая гигиена (режим уведомлений, правила «без телефонов»), геймифицированное обучение и практика открытых вопросов.</li>
+<li>Поколение Z/Альфа воспринимает ИИ как естественный инструмент, на котором строятся стартапы и образовательные решения.</li>
+<li>Участие женщин в разработке алгоритмов необходимо для минимизации предвзятости и расширения перспектив в ИИ.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+  <blockquote>“Мы не можем все бесконтрольно передавать в руки AI.” — <span class="author">Арман Нурушев</span></blockquote>
+
+
+  <blockquote>“Здоровье пациента находится в ответственности самого пациента.” — <span class="author">Асель Машанова</span></blockquote>
+
+
+  <blockquote>“Я верю, что человека никто не заменит: идеи и искусство пока ещё за человеком.” — <span class="author">Зауре Розмат</span></blockquote>
+
+
+  <blockquote>“GPT — бог и царь. Он упрощает, ускоряет, улучшает работу.” — <span class="author">Санжар Мустафин</span></blockquote>
+
+
+  <blockquote>“У искусственного интеллекта есть всё, но нет нашей души.” — <span class="author">Динара Сатжан</span></blockquote>
+
+
+      <h2>Выводы</h2>
+      <ul><li>ИИ — это ускоритель, а не замена: лидерство человека основано на критическом мышлении, эмпатии и ответственности.</li>
+<li>Медиа, бизнес и медицина выигрывают от интеграции ИИ, но требуют этических рамок, фактчекинга и грамотного регулирования.</li>
+<li>Цифровая гигиена и навыки фокуса у детей — ключ к безопасному и продуктивному сосуществованию с технологиями.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Поддержать принцип «красных линий» для ИИ и необходимость межотраслевого и государственного регулирования.</li>
+<li>Медиа продолжат интеграцию AI-инструментов (видео- и текст-генерация) с акцентом на фактчекинг и этику.</li>
+<li>Запустить/масштабировать фиджитал-подход в клиниках с использованием данных wearables для персонализированной медицины.</li>
+<li>Разработать и продвигать образовательный контент о критическом мышлении и цифровой гигиене для школ и семей.</li>
+<li>Продвигать участие женщин и молодежи в разработке алгоритмов и создании AI-стартапов (менторство, премии, хакатоны).</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Сформировать рабочую группу по этике и регуляции ИИ (медиа, ИТ-компании, врачи, юристы) и подготовить рекомендации.</li>
+<li>Внедрить в редакциях стандарты фактчекинга для контента, созданного с помощью ИИ, и метки AI-generated.</li>
+<li>Запустить пилот в клиниках: сбор данных сна/глюкозы/активности (Whoop, Garmin, Oura, глюкомониторы) и интеграция в назначения.</li>
+<li>Создать серию коротких роликов для TikTok/YouTube Shorts по цифровой гигиене: «ужин без телефонов», как отключать уведомления, как распознавать фейки.</li>
+<li>Провести мастер-классы для креаторов Gen Z/Альфа по промт-инжинирингу, этике ИИ и юридическим рискам deepfake.</li>
+<li>Запустить программу менторства для девушек в AI/данных совместно с медиа и ИТ-компаниями.</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>Открытое письмо на Генассамблее ООН о «red line AI»</li>
+<li>Исследования Пекинского университета по AGI и гуманоидному ребёнку</li>
+<li>VK Cloud / VK Цифровые технологии</li>
+<li>Hixfield — казахстанский AI-продукт для генерации видео</li>
+<li>Step Awards (29 октября, ГАТОБ Алматы) и кейсы финалистов (нейро-наука, музыкотерапия, паркинсонизм)</li>
+<li>Всемирный экономический форум в Давосе (AI-повестка)</li>
+<li>Платформы: YouTube, TikTok, Instagram</li>
+<li>Носимые устройства: Whoop, Garmin, Oura; системы умного дома (Яндекс Алиса)</li>
+<li>Медицинские препараты, упомянутые пациентами: Ozempic, Mounjaro</li>
+<li>Медиа-проекты: Gakku, Той Думан</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой. Для подтверждения фактов и деталей рекомендуется обращаться к официальным материалам форума.
+  </div>
+</body>
+</html>

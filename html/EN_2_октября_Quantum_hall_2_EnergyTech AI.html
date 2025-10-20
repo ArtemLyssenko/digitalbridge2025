@@ -1,0 +1,314 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artificial Intelligence in the Fuel and Energy Sector: from pilots to scaling and platform transformation — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Artificial Intelligence in the Fuel and Energy Sector: from pilots to scaling and platform transformation</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ilyas Bakytzhan Nassenuly</span>
+      <span class="speaker-role"> — Vice Minister of Energy of the Republic of Kazakhstan at the Ministry of Energy of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Nigmatyanov Artur</span>
+      <span class="speaker-role"> — President of the Management Board of Honeywell in Central Asia.</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zubov Maksim Aleksandrovich</span>
+      <span class="speaker-role"> — General Director of Siemens Energy in Kazakhstan and Vice President of the subregion Turkey, Central Asia and Western Europe</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zhu Kain</span>
+      <span class="speaker-role"> — Technical Director of the Oil&Gas division at «Хуавэей Текнолоджиз» Лтд.</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Tszisin Lyan</span>
+      <span class="speaker-role"> — General Director of Smart Surveying and Mapping Company and Deputy General Director of the digital engineering division of PowerChina Chengdu Engineering Corporation Limited</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The session focuses on AI implementation in Kazakhstan’s energy sector: the Ministry of Energy presented the ENERGYTECH platform and four AI priority areas, as well as the results of three pilots with confirmed impact. International technology companies showcased cases of predictive analytics, digital twins, dispatcher AI agents, HSE, and autonomy. Emphasis is placed on reliability, cybersecurity, explainable AI, data infrastructure, and workforce training. ENERGYTECH commissioning timelines and plans to scale successful solutions through an industry alliance were announced.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Build a unified industry management platform, ENERGYTECH, and transition to automated collection of industry data</li>
+<li>Scale proven AI cases to improve reliability, efficiency, and occupational safety in the fuel and energy sector</li>
+<li>Ensure cybersecurity and the application of explainable AI in critical infrastructure</li>
+<li>Form an industry alliance with international and domestic companies and develop competencies within the country</li>
+<li>Optimize the Ministry of Energy’s business processes along the PDCA cycle, minimizing manual entry and increasing transparency</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>What are the timelines and stages for industrial commissioning of the ENERGYTECH platform and its subsystems?</li>
+<li>How to ensure cybersecurity and reliability when transitioning to automatic system-to-system data collection?</li>
+<li>Which economic impact metrics and maturity criteria should be used for selecting and scaling AI cases?</li>
+<li>How to integrate AI with legacy equipment and ensure data correctness for the models?</li>
+<li>What requirements for explainable AI and regulatory compliance should be established in the industry?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>The Ministry of Energy has deployed a digital transformation office, a digital transformation map, IS architecture and data models; the ENERGYTECH (G2B) platform is being built, integrated with KazTech</li>
+<li>Four AI priority areas: HSE and personal safety; predictive maintenance; optimization models for generation and storage; AI agents and assistants</li>
+<li>Three Ministry of Energy pilots: defectoscopy of overhead lines (annual savings of about 3.5 billion tenge when scaled); in-line diagnostics of heating pipelines (projected effect up to 43 billion tenge per year); mobile recognition of gas meter readings without telemetry (effect ~500 million tenge per year for Казахгаз Аймақ)</li>
+<li>The Ministry of Energy’s situational center shifts sector management to a risk-oriented model and automates system-to-system data exchange</li>
+<li>Honeywell: APC as industrial AI for process optimization; confirmed effect at refineries (АНПЗ, Shymkent) over 2 billion and up to 1.5 billion tenge per year; predictive analytics pilots on pumps, compressors, furnaces, heat exchangers; AI assistant inside the DCS</li>
+<li>Honeywell localized production of APCS cabinets and gas analyzers in Kazakhstan and created a network of training centers, strengthening HSE and talent capacity</li>
+<li>Siemens Energy: a dispatcher AI agent for load forecasting and peak handling; predictive diagnostics of turbines and digital twins increase lifetime by up to 20%; 10% NOx reduction through AI tuning of burners</li>
+<li>Siemens Energy is creating a service hub in Kazakhstan and relies on long-term telemetry datasets (15–20+ years) when training models; strict compliance with NIS2 and the AI Act</li>
+<li>Huawei: three pillars of scaling AI — infrastructure (sensors, channels, data centers, compute), the right choice of use cases, and talent; cases at CNPC (KunLun model, 10x acceleration of geosciences), PipeChina (DeepSeek copilot for 30 thousand employees, +20% efficiency), autonomous 5G mines with a 100% autonomous fleet</li>
+<li>PowerChina: digital twins and AI in design and construction (hydropower plants, wind power plants, pumped-storage power plants), drones and computer vision for construction monitoring, O&M robotization, an LLM assistant for pumped-storage power plants, plans for satellites for data collection</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Within three years we need to achieve the targets so that we become a fully digital country.” — <span class="author">Ilyas Bakytzhan Nassenuly</span></blockquote>
+
+
+  <blockquote>“We by no means promise that these technologies will lower tariffs for end consumers. But these technologies will certainly ensure that tariffs do not grow unjustifiably.” — <span class="author">Ilyas Bakytzhan Nassenuly</span></blockquote>
+
+
+  <blockquote>“Advance Process Control is, essentially, the first artificial intelligence that works in industry.” — <span class="author">Nigmatyanov Artur</span></blockquote>
+
+
+  <blockquote>“AI cannot solve everything. We need to identify the real cases which can maximize its value.” — <span class="author">Zhu Kain</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI already delivers measurable economic and operational impact in the fuel and energy sector, and scaling requires a data platform, cyber resilience, and regulatory support.</li>
+<li>Explainable AI, digital twins, and predictive analytics are critical for reliability and the environment; workforce training and localization of competencies accelerate adoption.</li>
+<li>Synergy among the state, international vendors, and domestic developers through an industry alliance will speed the transition from pilots to an industrial standard.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Confirmed: the ENERGYTECH platform will be put into industrial operation by the end of 2026.</li>
+<li>An industry situational center of the Ministry of Energy has been created for risk-oriented management based on digital data.</li>
+<li>Approved the scaling of three pilot AI cases (overhead lines, heating pipelines, gas meters) upon confirmed effectiveness.</li>
+<li>A decision has been made to create a Siemens Energy service hub in the Republic of Kazakhstan to support the region.</li>
+<li>An alliance has been formed between the Ministry of Energy and residents of Астана Хаб and international partners to coordinate AI deployment.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Complete the development and integration of ENERGYTECH subsystems (Smart Grid and Smart Field) and connect B2B data sources with cybersecurity ensured.</li>
+<li>Carry out pilots of a dispatching AI agent together with KEGOC and generating companies (e.g., Almaty CHPP-2, Turkestan CCGT).</li>
+<li>Deploy Honeywell predictive analytics across the full perimeter of the refineries based on the pilot results and extend to critical equipment.</li>
+<li>Prepare and submit for approval regulatory legal acts that establish the mandatory application of proven AI solutions after pilots.</li>
+<li>Approve industry requirements for AI explainability and cybersecurity, guided by NIS2 and the AI Act, and implement solution certification.</li>
+<li>Expand workforce training programs and training centers (together with universities and vendors), implement engineering LLM assistants.</li>
+<li>Scale mobile recognition of gas meter readings in regions with low telemetry to contain operating costs.</li>
+<li>Synchronize equipment modernization plans with the AI roadmap to ensure data quality for the models.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>ENERGYTECH platform (Ministry of Energy of the Republic of Kazakhstan)</li>
+<li>KazTech / GovTech (government digitalization)</li>
+<li>PDCA cycle (Deming) in sector management</li>
+<li>Астана Хаб (alliance and residents)</li>
+<li>Cases of overhead line defectoscopy and in-line diagnostics of heating pipelines</li>
+<li>Казахгаз Аймақ — mobile reading of meter readings</li>
+<li>Honeywell APC, predictive analytics and DCS with an AI assistant</li>
+<li>АНПЗ and Shymkent refinery (effects from digitalization)</li>
+<li>Siemens Energy: dispatcher AI agents, digital twins of turbines, NOx reduction</li>
+<li>NIS2 and the EU AI Act (cybersecurity and AI regulation)</li>
+<li>KEGOC, Almaty CHPP-2, Turkestan CCGT (generation and grid projects)</li>
+<li>Huawei: CNPC KunLun Large Model, PipeChina CoPilot based on DeepSeek, autonomous 5G mines</li>
+<li>PowerChina: Жичэн Цинконг, BIM, digital twins, drones and robotization</li>
+<li>Tengiz, Karachaganak, КазМунайГаз (reference sites and partnerships)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

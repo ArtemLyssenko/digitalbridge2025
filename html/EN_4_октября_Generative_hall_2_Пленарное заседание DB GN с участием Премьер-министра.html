@@ -1,0 +1,323 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Bridge 2025 Plenary Session: AI Manifesto and «Generative Nation» — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Digital Bridge 2025 Plenary Session: AI Manifesto and «Generative Nation»</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Olzhas Abayevich Bektenov</span>
+      <span class="speaker-role"> — Prime Minister of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Roman Lineytsev</span>
+      <span class="speaker-role"> — Entrepreneur, founder of the studio Grand Games, featured in the Forbes '30 Under 30' list</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Alin Baev</span>
+      <span class="speaker-role"> — representative of Hixfield AI</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Zhanadil Taldybayev</span>
+      <span class="speaker-role"> — CEO of Paradigm Shift</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Kanafin Baizhan</span>
+      <span class="speaker-role"> — Private company «Documentolog Global Limited» — Chairman of the Management Board</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Vitaliy Volyanyuk</span>
+      <span class="speaker-role"> — Media expert and co-founder of Digital Business</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Dauren Tulebayev</span>
+      <span class="speaker-role"> — founder of Seven Generation</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The AI Manifesto was presented with an emphasis on human-centricity, openness, and AI safety. The vision of «Generative Nation» was introduced: a generative state, economy, society, and culture. The Prime Minister outlined measures: a new line ministry, the launch of «Alem AI», expansion of AI education, and the goal of $1 billion in IT service exports. The event concluded with the Digital Bridge Awards ceremony, recognizing the ecosystem’s best projects.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Make Kazakhstan a leader in the development and adoption of AI within the next three years.</li>
+<li>Integrate AI into all key public services (Smart Data Ükmet, Kaz LLM, AI assistants).</li>
+<li>Strengthen AI infrastructure and the talent base through universities, a national platform, and a Research AI University.</li>
+<li>Accelerate the growth of IT service exports to $1 billion by the end of the current year.</li>
+<li>Expand international cooperation and attract technology unicorns and investors.</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How can transparency, explainability, and fairness of algorithms be ensured during large-scale AI deployment?</li>
+<li>How to balance regulatory flexibility with the protection of human rights and data security?</li>
+<li>How to deliver AI infrastructure and compute resources faster to developers, students, and startups?</li>
+<li>Which mechanisms convert AI innovations into sustainable export growth and global competitiveness?</li>
+<li>How to build interagency coordination to implement Smart Data Ükmet and Kaz LLM across all public services?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>The AI Manifesto enshrines values: human-centricity, openness, safety, and collaboration.</li>
+<li>«Generative Nation» describes four dimensions: a state without barriers, an innovation economy, an inclusive society, and a culture of AI co-authorship.</li>
+<li>Smart Data Ükmet is presented as the 'national brain' for analytics and managerial decisions.</li>
+<li>Kaz LLM is the foundation of the digital dialogue between the state and citizens; AI assistants reduce the workload on civil servants.</li>
+<li>The Ministry of Artificial Intelligence and Digital Development has been created for the next technological leap.</li>
+<li>AI programs have been launched at 20 universities; around 500,000 people are already learning using AI services.</li>
+<li>The launch of «Alem AI» is a key element of the unified digital cluster for research and acceleration.</li>
+<li>Astana Hub is strengthening venture support; Playrix, Mytona, and Netcracker have entered the country, confirming investor confidence.</li>
+<li>Kazakhstan is 24th in e-government and 10th in online services; the goal is $1 billion in IT service exports by year-end.</li>
+<li>Over 30 memorandums have been signed; Digital Bridge Awards were presented for export, AI solutions, EdTech, GovTech, Tech Media, and social impact.</li></ul>
+
+      <h2>Quotes</h2>
+      
+
+      <h2>Conclusions</h2>
+      <ul><li>The course toward «Generative Nation» has been institutionalized: the human is at the center, and AI is an open and safe driver of development.</li>
+<li>An infrastructure and education base (the ministry, «Alem AI», universities) has been formed for large-scale AI deployment.</li>
+<li>The ecosystem demonstrates maturity through international partnerships, venture financing, and award-winning projects.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Present and adopt the AI Manifesto as a framework document of values and principles for AI development.</li>
+<li>Integrate AI into all key public services, leveraging Smart Data Ükmet, Kaz LLM, and AI assistants.</li>
+<li>Strengthen the legal framework and support measures for specialists through the new line ministry.</li>
+<li>Launch and scale «Alem AI» as the core of a unified digital cluster for research and acceleration.</li>
+<li>Continue to develop Astana Hub and venture mechanisms to bring startups to the global market.</li>
+<li>Implement the strategy to achieve $1 billion in IT service exports by year-end.</li>
+<li>Concentrate interagency work in the digital headquarters under the government to promptly remove barriers.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Prepare a roadmap for AI implementation in public services with KPIs for Smart Data Ükmet, Kaz LLM, and AI assistants.</li>
+<li>Draft bills on algorithm transparency and explainability and on adaptive AI regulation.</li>
+<li>Expand access to compute resources and data infrastructure for universities, startups, and developers.</li>
+<li>Launch a national AI education platform and develop a program for the Research AI University.</li>
+<li>Organize industry pilots (fintech, healthcare, education) based on «Alem AI».</li>
+<li>Strengthen international partnerships and export programs to reach the $1 billion IT services goal.</li>
+<li>Set up ongoing monitoring and reporting by the digital headquarters on removing regulatory and infrastructure barriers.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>AI Manifesto (presentation at the plenary session)</li>
+<li>Smart Data Ükmet — national analytics platform</li>
+<li>Kaz LLM — multilingual language model</li>
+<li>«Alem AI» — the center and platform of a unified digital cluster</li>
+<li>Astana Hub — tech park and venture programs</li>
+<li>National AI education platform (Presidential initiative)</li>
+<li>Research AI University (Presidential initiative)</li>
+<li>Digital Headquarters under the Government of the Republic of Kazakhstan</li>
+<li>AI programs at 20 universities of Kazakhstan</li>
+<li>E-government ranking: 24th place; online services ranking: 10th place</li>
+<li>Playrix, Mytona, Netcracker — technology unicorn companies in the Kazakhstan market</li>
+<li>Dynamic Technologies — Grand Mobile project (Export Excellence)</li>
+<li>Hixfield AI — AI Solution of the Year</li>
+<li>Kodey Play — EdTech of the Year</li>
+<li>Documentolog Global Limited — GovTech Innovation</li>
+<li>Digital Business KZ — Tech Media Excellence</li>
+<li>Seven Generation — Social Impact Project</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

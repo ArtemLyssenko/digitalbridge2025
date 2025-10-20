@@ -1,0 +1,311 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Regions: Regions as Drivers of Generative Nation — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Digital Regions: Regions as Drivers of Generative Nation</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Asem Bolatzhan</span>
+      <span class="speaker-role"> — Advisor to the Minister of МИИЦР</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Aida Dusova</span>
+      <span class="speaker-role"> — Director of the Regional Development Office, Astana Hub</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Oraz Nurdilda</span>
+      <span class="speaker-role"> — Head of the Office of the Akim of West Kazakhstan Region</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Galiev Yerlan Sagindykovich</span>
+      <span class="speaker-role"> — Head of the Office of the Akim of Karaganda Region</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Aleksandr Doroshenko</span>
+      <span class="speaker-role"> — Founder of Wooppay Fintech</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how regional IT hubs are becoming pillars for the development of AI and tech entrepreneurship beyond the capitals. Karaganda is shifting from a “smart city” logic to a “smart region” to reduce the digital divide and strengthen cybersecurity. Astana Hub/KF PIT announced scaling AI programs (Álem AI, Tuma School) to the regions and exploring the redistribution of 1% in favor of the regions, including contributions by subsoil users. Working models of synergy among akimats, universities, and business (Terricon Valley) were presented, as well as measures to retain and attract talent locally.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Reduce the digital divide between cities and rural areas through a “smart region” approach and the development of connectivity infrastructure</li>
+<li>Replicate AI and startup training and practices from Astana Hub across all regions</li>
+<li>Strengthen IT hub ecosystems through partnerships with akimats, universities, corporations, and investors</li>
+<li>Build mechanisms to retain and attract IT talent to the regions</li>
+<li>Accelerate the entry of regional IT companies into international markets without a drain of human capital</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>What is the strategy for regional development in the context of AI and technological entrepreneurship, and why is the focus on regions critical now?</li>
+<li>What key challenges do regions face when digitizing services and IT infrastructure?</li>
+<li>How do regional IT hubs influence business development and interaction with the public sector?</li>
+<li>Is an IT hub sustainable without akimat support, and which alternative models work?</li>
+<li>What changes are needed for regional companies to enter export markets faster?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>A nationwide network of Astana Hub regional hubs has been deployed; all capital programs (including Álem AI and Tuma School) will be rolled out to the regions starting in 2025</li>
+<li>800+ startups from the regions are involved; investment cases are emerging (Shymkent, Atyrau, etc.)</li>
+<li>Karaganda Region is rethinking digitalization as a “smart region” due to uneven infrastructure and rising cybersecurity risks</li>
+<li>Akimats support hubs not only with financing (three-year contracts) but also by linking them with large enterprises and universities</li>
+<li>Terricon Valley demonstrates a “bottom-up” model: entrepreneurs’ initiative + administrative support = sustainable growth of the local IT cluster</li>
+<li>Astana Hub/KF PIT are developing the spread of tax preferences and 1% mechanisms so that part of the funds stays in the regions (including from subsoil users)</li>
+<li>Mass formats (decentralized hackathons, incubators, corporate accelerators) equalize access to opportunities: 4.5 thousand participants of «De Centraton» nationwide</li>
+<li>Retaining talent requires not only incentives and housing but also the quality of the urban environment (ecology, comfort); otherwise, regions compete not with each other but with outflow to megacities/abroad</li>
+<li>Infrastructure priority — bringing fiber-optic lines to anchor settlements and using alternative technologies where fiber is economically infeasible</li>
+<li>Practice of interregional attractiveness: participation of “legionnaires” in programs on the condition of local registration/office to anchor the effect in the region’s economy</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“AI education and development should not be only in big cities — we are rolling out programs to all regions.” — <span class="author">Aida Dusova</span></blockquote>
+
+
+  <blockquote>“Smart City is a good program, but for our region we need a “Smart Region” approach.” — <span class="author">Galiev Yerlan Sagindykovich</span></blockquote>
+
+
+  <blockquote>“When it comes to IT development, it is only possible out of love.” — <span class="author">Aleksandr Doroshenko</span></blockquote>
+
+
+  <blockquote>“Most talent comes from the regions.” — <span class="author">Oraz Nurdilda</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Regional hubs have already become a real entry point into AI and startup culture for youth outside the capitals, as evidenced by the growth of projects and investments.</li>
+<li>Infrastructure and cybersecurity are the main bottlenecks; the shift to a “smart region” addresses them systemically.</li>
+<li>Financial architecture (tax benefits, 1% for regions, participation of subsoil users) is the key to hubs’ autonomy and sustainability.</li>
+<li>The “entrepreneurs + akimats + universities + corporations” model has proven effective (the Terricon Valley example) and should be replicated.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Continue in 2025 to replicate AI programs (Álem AI Center, Tuma School) and Astana Hub’s educational initiatives across all regional hubs</li>
+<li>Complete development and submit to the ministry the “Smart Region” program for Karaganda Region</li>
+<li>Work out the expansion of tax preferences to regional hubs and enshrine the mechanism for directing 1% to the company’s region of registration</li>
+<li>Include subsoil users’ deductions in the 1% mechanism with a view to financing regional IT ecosystems</li>
+<li>Maintain and expand three-year hub support formats from akimats, including cooperation with universities and corporations</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Develop roadmaps for bringing fiber-optic lines to anchor settlements and applying alternative access technologies in hard-to-reach areas</li>
+<li>Prepare a package of amendments on tax incentives and the distribution of 1% (including subsoil users’ deductions) with targeted allocation to regional hubs</li>
+<li>Launch a series of corporate accelerators in the “hubs — large enterprises — universities” bundle with a focus on applied cases and cybersecurity</li>
+<li>Replicate the Terricon Valley model in East Kazakhstan Region and other regions: identify local anchor entrepreneurs and partner universities</li>
+<li>Expand mass formats (decentralized hackathons, incubators, Women in Tech) and formalize mechanisms to retain graduates (housing, registration, offices)</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Astana Hub and regional IT hubs</li>
+<li>Álem AI Center for Artificial Intelligence</li>
+<li>Tuma School</li>
+<li>Terricon Valley (Telecom valley, Karaganda)</li>
+<li>Wooppay</li>
+<li>«De Centraton» — a synchronous nationwide hackathon</li>
+<li>Sergek camera system</li>
+<li>EPAM; the case of acquiring Plus Micro</li>
+<li>Hoster.kz</li>
+<li>Grand Mobile (Ust-Kamenogorsk)</li>
+<li>Women in Tech initiative</li>
+<li>Smart Region program (Karaganda Region)</li>
+<li>From City to Village program (preferential housing/support for specialists)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

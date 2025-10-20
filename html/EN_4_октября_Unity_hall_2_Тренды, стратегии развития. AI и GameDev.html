@@ -1,0 +1,322 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI in game development: trends, tools, and strategies for Central Asian studios — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>AI in game development: trends, tools, and strategies for Central Asian studios</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Akmal Salikhov</span>
+      <span class="speaker-role"> — Business Development Director, East Games</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Artem Slesarenko</span>
+      <span class="speaker-role"> — Founder and co-founder: Zavod Profland, Rhinotales Studio, Inspations</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Irakliy Petrov</span>
+      <span class="speaker-role"> — Game designer, mobile game producer</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Elizaveta Morozova</span>
+      <span class="speaker-role"> — Project Lead, Solidrock</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Vladimir Barinov</span>
+      <span class="speaker-role"> — Founder of the VARDIX and DreamLight Studio group of companies, co-founder of ROQED, Mechanicum, DIMEDUS</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Adilkhan Tasimov</span>
+      <span class="speaker-role"> — Chief Operating Officer, game producer, Ogames</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel brought together Central Asian gamedev leaders to discuss the impact of AI on game production. Speakers highlighted accelerated development and increased efficiency of small teams, a shift in market trends toward indie and service models, as well as the strengthening of metaverses and UGC/VR. Real cases of AI implementation were examined (level generation, matchmaking, balance, support), organizational structures for AI pilots, and legal protection of IP.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Capture key global and regional gamedev trends with a focus on AI</li>
+<li>Show practical cases and metrics of AI adoption in production, support, and design</li>
+<li>Discuss resilient business models: service games, UGC/metaverses, mobile segment</li>
+<li>Define approaches to organizational AI adoption (skunkworks units, processes, tools)</li>
+<li>Identify legal and IP risks (patenting, licensing) and ways to mitigate them</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>Which AI trends and tools are already changing development and the economics of gamedev studios?</li>
+<li>Will AI replace developers, and what new roles will emerge (prompt engineering, etc.)?</li>
+<li>How to safely integrate AI in large companies with legacy processes?</li>
+<li>Which monetization and retention models are more resilient: AAA F2P vs indie premium vs service games?</li>
+<li>How to protect IP and architectural solutions in the era of rapid AI content generation?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>AI has become ubiquitous: used in narrative, art, code, support, and analytics; time-to-market is shrinking to a quarter and below</li>
+<li>Indie competitiveness is growing: small teams with AI deliver the workload of large studios; indie premium ROI often surpasses large multiplayer AAA experiments</li>
+<li>Mobile leads (≈55% of revenue), and the service model with regular updates and events is key to retention and LTV</li>
+<li>Metaverses and UGC/VR are strengthening: Fortnite has turned into a platform, Roblox/Minecraft/VRChat confirm the co-creation trend</li>
+<li>Big players in practice: King generates levels with AI; Supercell uses AI matchmaking; Hearthstone speeds up card balance with AI</li>
+<li>Tools: active discussion of Claude (Anthropic), Sora, Grok, Unity vs Unreal, Cursor IDE, GitHub Copilot; for vibe coding, Unity is more convenient</li>
+<li>Organizational challenge: in large companies AI is slowed by legacy; the solution is small skunkworks units (strike teams) for quick pilots</li>
+<li>Legal: the importance of patenting architectural ideas and building IP policies; AI’s legal framework is still lagging</li>
+<li>Automation cases: auto-replies to 1,000+ emails/day with training on response styles and feedback to dev teams; personal cases of building a CRM in a week with token spend</li>
+<li>Market and scale: by 2026—up to 4 billion players; in 2024, industry revenue around ≈$188 billion, half the population is the target market</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“I can hold my breath underwater for five minutes.” — <span class="author">Vladimir Barinov</span></blockquote>
+
+
+  <blockquote>“This doesn't scare me. It's like, wow!” — <span class="author">Vladimir Barinov</span></blockquote>
+
+
+  <blockquote>“Games should be services: regular updates, content, and events.” — <span class="author">Irakliy Petrov</span></blockquote>
+
+
+  <blockquote>“Not using it is a big mistake, because competitors will definitely use it.” — <span class="author">Adilkhan Tasimov</span></blockquote>
+
+
+  <blockquote>“My advice to you is to patent the idea itself.” — <span class="author">Elizaveta Morozova</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>AI radically increases productivity and reduces development costs, strengthening the position of indies and small teams.</li>
+<li>Service models, UGC, and metaverses build sustainable revenue and communities around games.</li>
+<li>Large studios need flexible AI units for pilots without risking legacy products; legal IP protection should keep pace with AI adoption.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Create and/or expand small in-studio AI skunkworks teams for rapid pilots.</li>
+<li>Launch pilots for automating support and handling player requests with feedback loop into development.</li>
+<li>Introduce AI into GDD preparation and architectural design of prototypes.</li>
+<li>Continue coordination and case sharing in the GCA Telegram group and prepare a follow-up session on AI tools.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Set up subscriptions and launch sandboxes for key tools (Claude, Cursor, GitHub Copilot) for teams.</li>
+<li>Choose 2–3 processes for rapid automation (support, level/content generation, matchmaking/balance) and set KPIs.</li>
+<li>Develop an IP policy and patent strategy for architectural solutions and AI pipelines.</li>
+<li>Audit stacks (Unity/Unreal) for vibe coding and plan AI integration into CI/CD.</li>
+<li>Explore entry into the Chinese market (partnerships, competitions in Guangzhou/Hangzhou) and UGC platforms (Fortnite, Roblox).</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Gamescom (Cologne)</li>
+<li>King — Candy Crush (AI level generation)</li>
+<li>Supercell — Clash Royale (AI matchmaking)</li>
+<li>Hearthstone (AI card balance)</li>
+<li>Fortnite (concerts, collaborations with Metallica and Marvel)</li>
+<li>Roblox and Minecraft (UGC/metaverses)</li>
+<li>VRChat (metaverse in VR)</li>
+<li>Unity vs Unreal Engine (vibe coding, C# and community stack)</li>
+<li>Claude (Anthropic), Grok (xAI), Sora (OpenAI)</li>
+<li>GitHub Copilot, Cursor IDE</li>
+<li>Stack Overflow (datasets for C#/Unity)</li>
+<li>OGAMES — Car Parking Multiplayer</li>
+<li>East Games (content for World of Warships)</li>
+<li>Astana Hub — AI PRENEURS; Astana Venture Fund (soft commit)</li>
+<li>Startup battle in Hangzhou and Global Competition in Guangzhou</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

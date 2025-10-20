@@ -1,0 +1,301 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentrathon and Robotics Competitions Award Ceremony — Digital Bridge — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Decentrathon and Robotics Competitions Award Ceremony — Digital Bridge</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Arsen Tomsky</span>
+      <span class="speaker-role"> — Founder and Chief Executive Officer of inDrive</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ruslan Esenbayev</span>
+      <span class="speaker-role"> — Chief Executive Officer of BCC iHUB (a subsidiary of Банк ЦентрКредит)</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Talgat Dosanov</span>
+      <span class="speaker-role"> — Head of Solana in Kazakhstan, Founder of Intebix</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Murzakhmetov Asylbek</span>
+      <span class="speaker-role"> — Head of the Public Foundation USTEM Foundation</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The ceremony summed up Decentrathon and the Robotics Competitions with the participation of key industry partners. Winners were announced in tracks from inDrive, BCC iHUB, and Solana (Best Web3 Solution), as well as in the FIRST Tech Challenge and the Robotics Hackathon. Partners highlighted the scale of the event, the growth of AI/Web3 ecosystems, and a leap forward in school and student robotics in Kazakhstan. Plans were announced to scale the championships and integrate the best solutions into business and blockchain ecosystems.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Recognize team achievements and present awards for the Decentrathon and Robotics tracks</li>
+<li>Strengthen collaboration among business, government, and startups for the implementation of AI/Web3 solutions</li>
+<li>Highlight the scale and prospects of school and student robotics in the country</li>
+<li>Launch further advancement of the best projects into the Solana ecosystem and corporate partners</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How to take hackathon prototypes to pilots and implementation with industrial partners?</li>
+<li>What financing and mentorship mechanisms will ensure the growth of the AI/Web3 ecosystem in Kazakhstan?</li>
+<li>How to build a continuous pathway from school robotics to university competitions and industry?</li>
+<li>What metrics should be used to assess the impact of championships and acceleration on the economy and society?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>inDrive: winners — team Sapiens (first track) and team «Ельорна» (second track).</li>
+<li>BCC iHUB (AI tracks): winners — team «208» (first track) and team «Star Wars» (second track).</li>
+<li>Solana Best Web3 Solution: winners — «Солариум» (first track) and «Нео Дэф» (second track); the high quality of applications and the interest of Solana Foundation were noted.</li>
+<li>FIRST Tech Challenge: awarded «Exlands» (Finalist Alliance Partner), «PID & Kiroshi» (Finalist Alliance Captain), «Red Lotus» (Winning Alliance Partner), and «Желто Сан» (a separate nomination).</li>
+<li>Robotics Hackathon: 3rd place — «Максат и Ко», 2nd place — «Дудакшн», 1st place — «Кинологи».</li>
+<li>BCC iHUB set tasks on personalized offers for customers and advanced AI-based text analysis.</li>
+<li>Solana Day by Decentrathon — the first large-scale Solana event of this level in Kazakhstan with the support of Blockchain Center, Astana Hub, and МЦРИАП.</li>
+<li>In robotics: 20,000 schoolchildren across the country, plan — to hold 150 championships in the season; increase in quotas for the world championship in Houston from 2 to 7.</li>
+<li>The national team of RK is preparing for the world championship in Panama; previously — three years without defeat (Singapore, Athens, Geneva).</li>
+<li>Announcement of new student leagues: launch of Robocon and RoboCup in Kazakhstan with finals in Hong Kong.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“The quality of the applications submitted was at such a high level that yesterday the president of Solana Foundation herself flew here with the vice president for all stablecoins.” — <span class="author">Talgat Dosanov</span></blockquote>
+
+
+  <blockquote>“This is a huge indicator that we in Kazakhstan have very cool, talented young people who can think very quickly, solve problems really well and, most importantly, want to develop.” — <span class="author">Talgat Dosanov</span></blockquote>
+
+
+  <blockquote>“This year we are planning a large number of championships — we want to hold 150 championships just in this season.” — <span class="author">Murzakhmetov Asylbek</span></blockquote>
+
+
+  <blockquote>“Twenty thousand children across Kazakhstan are engaged in robotics now.” — <span class="author">Murzakhmetov Asylbek</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>Decentrathon and the Robotics Competitions have strengthened Kazakhstan’s position as a platform for AI/Web3 and robotics with the participation of global actors.</li>
+<li>Winners have been determined in all categories; the best solutions are aimed at subsequent integration into the Solana ecosystem and corporate partners.</li>
+<li>Robotics in the country is reaching a new level of scale and international presence, including an increase in quotas for world tournaments.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Results confirmed and awards presented for the inDrive, BCC iHUB, and Solana Best Web3 Solution tracks.</li>
+<li>Results confirmed and awards presented in the FIRST Tech Challenge and Robotics Hackathon.</li>
+<li>Launch student competitions Robocon and RoboCup in Kazakhstan with access to finals in Hong Kong.</li>
+<li>Continue scaling the robotics season to 150 championships and preparing the national team for world tournaments.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Organizers and partners to create roadmaps for integrating winning solutions into pilots (inDrive, BCC iHUB) and into the Solana ecosystem.</li>
+<li>Solana Superteam KZ — establish grant and mentoring support for winning projects and connect them to acceleration programs.</li>
+<li>BCC iHUB — prepare pilot projects on offer personalization and text analysis with the participation of the winning teams.</li>
+<li>USAM Foundation — publish a calendar of 150 championships, form coaching staffs, and a selection plan for Houston and Panama.</li>
+<li>Universities — open tracks for Robocon and RoboCup, assemble student teams, and hold regional qualifiers.</li>
+<li>PR teams of Digital Bridge — prepare a media pack with winner case studies and reach metrics to attract new partners.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>inDrive</li>
+<li>BCC iHUB (a subsidiary of Банк ЦентрКредит)</li>
+<li>Solana Foundation</li>
+<li>Solana Superteam KZ</li>
+<li>Blockchain Center</li>
+<li>Astana Hub</li>
+<li>Ministry of Digital Development, Innovation and Aerospace Industry of the Republic of Kazakhstan</li>
+<li>Decentrathon (Best Web3 Solution, Best AI Solution)</li>
+<li>FIRST Tech Challenge</li>
+<li>Robotics Hackathon</li>
+<li>Robocon</li>
+<li>RoboCup</li>
+<li>World Robotics Championship in Houston</li>
+<li>International Championship in Panama</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using artificial intelligence technologies based on live speech from speakers at the Digital Bridge 2025 international forum. It may contain minor inaccuracies and does not represent the official transcript. For confirmation of facts and details, please refer to official forum materials.
+  </div>
+</body>
+</html>

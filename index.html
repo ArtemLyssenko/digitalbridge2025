@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Bridge 2025 - Innovation Forum</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GSAP and ScrollTrigger from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js for particle background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r160/three.min.js"></script>
+    
+    <!-- Sessions Data -->
+    <script src="data/sessions-data.js"></script>
+</head>
+<body>
+    <!-- Three.js Canvas for particle background -->
+    <canvas id="particle-canvas"></canvas>
+    
+    <!-- Language Switcher (Top Right) -->
+    <nav class="language-switcher" aria-label="Language selection">
+        <button class="language-btn active" data-language="en">EN</button>
+        <button class="language-btn" data-language="ru">РУ</button>
+        <button class="language-btn" data-language="kz">ҚЗ</button>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Hero Section -->
+        <header class="hero">
+            <h1 class="hero-title">Digital Bridge 2025</h1>
+            <p class="hero-subtitle">Explore three days of innovation and insight</p>
+        </header>
+        
+        <!-- Day Tabs -->
+        <nav class="day-tabs">
+            <button class="tab-btn active" data-day="1">Day 1<span class="tab-date">Oct 2</span></button>
+            <button class="tab-btn" data-day="2">Day 2<span class="tab-date">Oct 3</span></button>
+            <button class="tab-btn" data-day="3">Day 3<span class="tab-date">Oct 4</span></button>
+        </nav>
+
+        <nav class="hall-filters" aria-label="Hall filters">
+            <button class="hall-btn active" data-hall="all">All halls</button>
+            <button class="hall-btn" data-hall="Singularity hall">Singularity hall</button>
+            <button class="hall-btn" data-hall="Unity hall">Unity hall</button>
+            <button class="hall-btn" data-hall="Vision hall">Vision hall</button>
+            <button class="hall-btn" data-hall="Quantum hall">Quantum hall</button>
+            <button class="hall-btn" data-hall="Generative hall">Generative hall</button>
+            <button class="clear-filters-btn" id="clearFiltersBtn">Clear Filters</button>
+        </nav>
+        
+        <!-- Timeline Container -->
+        <section class="timeline-wrapper">
+            <!-- Day 1 Timeline -->
+            <div class="timeline active" id="timeline-day1">
+                <div class="timeline-line"></div>
+                <div class="timeline-sessions" id="sessions-day1">
+                    <!-- Sessions will be dynamically loaded here -->
+                </div>
+            </div>
+            
+            <!-- Day 2 Timeline -->
+            <div class="timeline" id="timeline-day2">
+                <div class="timeline-line"></div>
+                <div class="timeline-sessions" id="sessions-day2">
+                    <!-- Sessions will be dynamically loaded here -->
+                </div>
+            </div>
+            
+            <!-- Day 3 Timeline -->
+            <div class="timeline" id="timeline-day3">
+                <div class="timeline-line"></div>
+                <div class="timeline-sessions" id="sessions-day3">
+                    <!-- Sessions will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Digital Bridge — AI summaries generated with OpenAI</p>
+        </footer>
+        
+    </div>
+    
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

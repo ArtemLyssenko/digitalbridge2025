@@ -1,0 +1,319 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPI на основе искусственного интеллекта: создание инклюзивной и интеллектуальной общественной инфраструктуры — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>DPI на основе искусственного интеллекта: создание инклюзивной и интеллектуальной общественной инфраструктуры</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Азамат Баймен</span>
+      <span class="speaker-role"> — Управляющий директор по маркетингу и стратегии NITEC</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Адилет Жумаева</span>
+      <span class="speaker-role"> — Председатель правления «Тундук» (Кыргызстан)</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Фарид Нахли</span>
+      <span class="speaker-role"> — Координатор программ, Региональное отделение по СНГ, Международный союз электросвязи (ITU)</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Наджима Ноефтова</span>
+      <span class="speaker-role"> — Основатель и генеральный директор epsilon3.ai</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ричард Керби</span>
+      <span class="speaker-role"> — Международный эксперт по цифровому правительству и основатель Richard Kerby LLC</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Чарльз Бланко</span>
+      <span class="speaker-role"> — Старший специалист государственного сектора Всемирного банка</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Панель обсудила, как искусственный интеллект повышает ценность цифровой публичной инфраструктуры при наличии интероперабельных «кирпичиков», надёжного правового поля и устойчивого финансирования. Были представлены практики Кыргызстана (Тундук), инструменты и стандарты ITU, кейсы внедрения синтетических данных Epsilon 3.ai, а также поэтапный подход Всемирного банка к переводу пилотов в промышленную эксплуатацию. Ключевые акценты: инклюзивность и вовлечение граждан, кибербезопасность и защита данных, независимые аудиты и региональная кооперация.</p>
+
+      <h2>Цели</h2>
+      <ul><li>Построить инклюзивную и интероперабельную цифровую публичную инфраструктуру с применением ИИ</li>
+<li>Усилить управление данными, кибербезопасность и защиту персональных данных для роста доверия</li>
+<li>Свести к минимуму предвзятость алгоритмов и обеспечить прозрачность и объяснимость решений</li>
+<li>Перевести AI-пилоты и песочницы в устойчивые промышленные системы с понятным финансированием</li>
+<li>Обеспечить раннее и системное вовлечение граждан и гражданского общества в дизайн услуг</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Какие метрики лучше всего отражают реальный эффект ИИ для граждан: время, стоимость, качество и справедливость доступа?</li>
+<li>Как минимизировать предвзятость и обеспечить объяснимость и подотчётность алгоритмов в госуслугах?</li>
+<li>Какие механизмы финансирования и управления позволяют масштабировать пилоты до промышленной эксплуатации?</li>
+<li>Как выстроить интероперабельность и обмен данными между ведомствами и странами региона?</li>
+<li>Как и на каком этапе вовлекать гражданское общество в разработку DPI, чтобы повысить принятие и доверие?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>Кыргызстан: платформа "Тундук" связала 80+ госорганов и ~300 организаций; более 80% госуслуг оцифрованы; объём транзакций — порядка миллиарда в год при населении 7,3 млн, что привело к дебюрократизации, снижению коррупции и экономии времени.</li>
+<li>ИИ в DPI усиливает аналитику больших данных, персонализацию и автоматизацию, но требует объяснимости решений и встроенной справедливости алгоритмов.</li>
+<li>Доверие граждан невозможно без кибербезопасности и защиты персональных данных; независимые сторонние аудиты повышают качество и подотчётность.</li>
+<li>ITU продвигает нейтральный, ориентированный на общественное благо подход к ИИ через платформу AI for Good и многосторонние стандарты, акцентируя сокращение цифрового разрыва.</li>
+<li>Для снижения предвзятости национальных языковых моделей необходимо включать данные из сельских регионов, диалектов и разных сообществ.</li>
+<li>Epsilon 3.ai применяет синтетические данные (технология ZGANN) для моделирования редких/кризисных сценариев; кейсы в энергетике (Узбекистан, Казахстан, Таджикистан) достигали точности прогнозов >99% и позволяли работать при дефиците и пробелах в данных.</li>
+<li>Всемирный банк рекомендует поэтапный (staged) подход: диагностика (AI Readiness, ICT Core Gov Assessment), затем внедрение, обучение и мониторинг с учётом зрелости страны (от классических методов до ML/LLM).</li>
+<li>Ключевые вызовы: управление данными и приватность, интероперабельность (нужны базовые стандарты и соглашения), равный доступ и доступность сервисов.</li>
+<li>Практики-лидеры (Эстония, Сингапур): единое окно, развитая e-участие граждан, сильное лидерство и финансирование, что ускоряет принятие цифровых услуг.</li>
+<li>Международная кооперация, открытые стандарты и open source упрощают обмен данными и укрепляют межстрановое доверие в регионе.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+  <blockquote>“Без уверенности в безопасности нет доверия.” — <span class="author">Адилет Жумаева</span></blockquote>
+
+
+  <blockquote>“Мы бы хотели видеть искусственный интеллект как инструмент, который создаёт общественное благо и позволяет сократить цифровой разрыв.” — <span class="author">Фарид Нахли</span></blockquote>
+
+
+  <blockquote>“AI is a decision-making tool that is still in an infant state — I would hope that the hype meets the reality.” — <span class="author">Ричард Керби</span></blockquote>
+
+
+  <blockquote>“If you don't use third-party audits, you're basically auditing yourself.” — <span class="author">Ричард Керби</span></blockquote>
+
+
+  <blockquote>“AI and DPI can be hope or fear — it depends on how you deal with this technology.” — <span class="author">Чарльз Бланко</span></blockquote>
+
+
+      <h2>Выводы</h2>
+      <ul><li>Ответственное внедрение ИИ в DPI требует сильного гослидерства, прозрачного управления данными, независимых аудитов и раннего вовлечения граждан.</li>
+<li>Интероперабельность и открытые стандарты — основа для масштабируемости и межстранового обмена данными; финансирование должно сочетать государственные средства, партнёрства и инновационные механизмы.</li>
+<li>Синтетические данные и поэтапная стратегия внедрения помогают преодолеть дефицит качественных данных и переводить пилоты в промышленную эксплуатацию.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Поддержать принцип раннего вовлечения граждан и гражданского общества в дизайн и тестирование цифровых госуслуг.</li>
+<li>Рекомендовать проведение регулярных независимых (third-party) аудитов безопасности, приватности и качества алгоритмов.</li>
+<li>Принять поэтапный подход к внедрению ИИ в DPI (от диагностики до масштабирования) с приоритетом на обучение и трансфер знаний.</li>
+<li>Развивать региональные соглашения по интероперабельности и обмену данными на основе открытых стандартов.</li>
+<li>Использовать песочницы и синтетические данные для безопасной отработки высокорисковых сценариев перед масштабированием.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Создать межведомственную рабочую группу по AI/DPI для разработки единого фреймворка управления данными, приватностью и этикой.</li>
+<li>Провести оценку готовности к ИИ (AI Readiness) и цифровой зрелости (например, по инструментам Всемирного банка/GTMI) для приоритезации проектов.</li>
+<li>Запустить программу независимых аудитов алгоритмов и инфраструктуры, включая проверку на предвзятость и объяснимость.</li>
+<li>Организовать сбор и расширение обучающих датасетов с участием регионов и диалектов (включая сельские территории) для снижения алгоритмической предвзятости.</li>
+<li>Сформировать дорожную карту перевода пилотов из песочниц в промышленные системы с указанием источников финансирования и метрик эффектов.</li>
+<li>Разработать и внедрить механизм постоянной гражданской обратной связи (e-участие) по принципу «единого окна».</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>ITU AI for Good (платформа «Искусственный интеллект во благо»)</li>
+<li>Проект Giga (ITU + UNICEF) по подключению школ и образовательным траекториям</li>
+<li>АО "НИТ" Казахстан: Smart Data Government, проактивные услуги (Digital Family Card), GovTech sandboxes</li>
+<li>Платформа межведомственного обмена данными «Тундук» (Кыргызстан)</li>
+<li>Singpass (Сингапур) — единое окно и e-участие граждан</li>
+<li>Эстония — инфраструктура e-государства и e-участие</li>
+<li>World Bank: GovTech Maturity Index (GTMI), AI Readiness Assessment, ICT Core Government Assessment</li>
+<li>Кейсы Всемирного банка: Cash Management Forecast (Грузия), налоговое мошенничество (AI + synthetic data), оценка недвижимости (Южная Америка)</li>
+<li>Epsilon 3.ai (Epsilon Suri.ai): технология синтетических данных ZGANN; кейсы в энергетике Узбекистана, Казахстана и Таджикистана</li>
+<li>Starlink как элемент расширения цифровой включенности и снижения региональной предвзятости в данных</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой. Для подтверждения фактов и деталей рекомендуется обращаться к официальным материалам форума.
+  </div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+﻿
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025 жылы ойын өнімін әзірлеу және басқару — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Кестеге оралу</a>
+    <h1>2025 жылы ойын өнімін әзірлеу және басқару</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Антон Андрейченко</span>
+      <span class="speaker-role"> — Ойындар жөніндегі директор – Grand Mobile, бұрынғы CEO – AppQuantum Publishing, бұрынғы бас директор – Playrix</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Спикер пост-ковид кезеңінен кейінгі ойын нарығының динамикасын, ПК сегментінің күтпеген өсімін және мобайл-кэжуалдағы «қызыл мұхитты» талдап берді. GTA VI-дің 2026 жылы шығуы инвестицияларға және тұтынушылардың мінез-құлқына қалай әсер ететінін көрсетті. Мидкор/хардкор өнімдеріне және авторлық ойындарға қызығушылықтың артуын атап өтті. Сессияны студиялар үшін практикалық қағидалармен және әзірлеуді жеделдетіп, жақсартуға арналған құрал ретіндегі AI рөліне байыпты көзқараспен қорытындылады.</p>
+
+      <h2>Мақсаттар</h2>
+      <ul><li>2020–2025 жылдардың негізгі трендтерін және олардың кіріс пен платформаларға ықпалын түсіну</li>
+<li>Мобайл мен ПК-ның салыстырмалы перспективаларын және кэжуалда «қызыл мұхиттың» келуін бағалау</li>
+<li>GTA VI-дің шығуының нарыққа, ойыншыларға және инвестицияларға ықтимал әсерін талдау</li>
+<li>2025–2026 жылдарға арналған өнімдік стратегия қағидаларын қалыптастыру</li>
+<li>Сапаны жоғалтпай AI-ды продакшнға енгізудің практикалық тәсілдерін айқындау</li></ul>
+
+      <h2>Негізгі сұрақтар</h2>
+      <ul><li>Кэжуалдың артық қанығуы және қымбат маркетинг жағдайында мобайл сегментінде қалай табыс табуға болады?</li>
+<li>Тәуелсіз студияларға мидкор/хардкорға ауысқан жөн бе және қай нишалар жеткілікті толмаған?</li>
+<li>GTA VI-дің шығуы релиз терезелеріне, назар үшін бәсекеге және инвесторлардың жаңа жобаларды қаржыландыруға дайындығына қалай әсер етеді?</li>
+<li>Стордан бөлек қандай өсу платформалары өзекті: ПК, консольдер, мессенджерлер, сервис үлгілері?</li>
+<li>AI-ды құзыреттердің орнын басу емес, команданы күшейту құралы ретінде қалай енгізу керек?</li></ul>
+
+      <h2>Негізгі тұстар</h2>
+      <ul><li>2020–2021 жылдардағы пост-ковидтік пик түзетумен ауысты; 2025 жылы болжам бойынша шамамен +2% және ~190 млрд доллар.</li>
+<li>Мобайл-кэжуал «қызыл мұхитқа» айналды: бәсеке мен қолданушы тарту құны шағын командалар үшін хиттерді дерлік қолжетімсіз етеді.</li>
+<li>Мобайлда мидкор/хардкорға қызығушылық өсіп жатыр, бірақ сапалы әрі инновациялық релиздер аз — студиялар үшін мүмкіндік терезесі.</li>
+<li>ПК консольдік эксклюзивтіліктің әлсіреуі (Sony, Microsoft) және ковидтен кейінгі «хардкор» аудиторияның күшеюі есебінен өсіп келеді.</li>
+<li>Нарық консолидациялануда: белсенді M&A-күн тәртібі, ардагерлердің тәуелсіз әзірлемеге шығуы инвестиция тартуды жеңілдетеді.</li>
+<li>Сервис-ойындар дағдарысты бастан кешіруде: көптеген қаржылық сәтсіздіктер мен жабылулар, ойыншылар мен инвесторлардың шаршауы.</li>
+<li>Авторлық AA/инди-жобалар коммерциялық әлеуетті растап отыр: мысалдар — KCD II, Death Stranding 2, Hades II, Silksong.</li>
+<li>Бюджеті ~2 млрд GTA VI — планеталық ауқымдағы медиа-оқиға; брейк-ивен шамамен 40 млн данамен бағаланады.</li>
+<li>GTA VI уақыт үшін бәсекеде ойындармен емес, Netflix/Amazon-пен тартысады; бұл жаңа ойыншылардың воронкасын кеңейтіп, инвестицияларды жандандырады.</li>
+<li>Практика: геймдевтен тыс шабыт іздеу, ойындарда нативті жарнаманы қолдану, мессенджерлер мен AI-агенттерін зерттеу.</li></ul>
+
+      <h2>Дәйексөздер</h2>
+      
+  <blockquote>“Айтылатынның бәрі — тек менің жеке көзқарасым, ол субъективті, қате болуы мүмкін және қосымша тексеруді қажет етеді.” — <span class="author">Антон Андрейченко</span></blockquote>
+
+
+  <blockquote>“Мобайлда кэжуал жанрында «қызыл мұхиттың» қалыптасуын көріп отырмыз.” — <span class="author">Антон Андрейченко</span></blockquote>
+
+
+  <blockquote>“Аудитория әлдеқайда талғампаз болды және шынымен қызықты нәрсені іздейді.” — <span class="author">Антон Андрейченко</span></blockquote>
+
+
+  <blockquote>“Rockstar-ға нөлге шығу үшін бар болғаны қырық миллион көшірме сату керек.” — <span class="author">Антон Андрейченко</span></blockquote>
+
+
+  <blockquote>“AI — бұл керемет құрал, бірақ бәрібір құрал.” — <span class="author">Антон Андрейченко</span></blockquote>
+
+
+      <h2>Қорытындылар</h2>
+      <ul><li>Стратегиялық фокус ПК мен мидкор/хардкор мобайлға ығысып жатыр, мұнда бәсеке төменірек, ал аудиторияның төлеуге дайындығы жоғары.</li>
+<li>GTA VI-дің шығуы нарық аудиториясын кеңейтіп, инвесторлардың жаңа, тіпті тәуекелді жобаларды қаржыландыруға деген тәбетін күшейтеді.</li>
+<li>Студияларға авторлық көзқарас, аудиторияның қызығушылығы және коммерциялық өміршеңдік арасында баланс ұстау қажет.</li>
+<li>AI продакшнды жылдамдатып, арзандатады, бірақ әлсіз құзыреттердің орнын толтырмайды — құралдарды саналы онбординг қажет.</li></ul>
+
+      <h2>Қабылданған шешімдер</h2>
+      <ul><li>Кэжуалдың орнына мидкор/хардкор мобайл өнімдерді әзірлеуге фокус жасау.</li>
+<li>Геймдев шеңберінен тыс ресерчті кеңейту: сериалдар, поп-мәдениет, TikTok-трендтер — стандартты емес өнімдік шешімдер табу үшін.</li>
+<li>Қосымша табыс көзі ретінде нативті жарнама мен бренд-коллаборацияларды енгізу.</li>
+<li>Мессенджерлерді (Telegram) және ПК-ны қоса алғанда жаңа дистрибуция алаңдарын тестілеу.</li>
+<li>AI-ды өндірістік құрал ретінде пайдалану: команданы промптинг пен пайплайндардың базалық қағидаттарына үйрету.</li>
+<li>GTA VI-дің медиа-әсерін және назардың каннибализациясын ескере отырып релиз терезелерін жоспарлау.</li></ul>
+
+      <h2>Әрекеттер жоспары</h2>
+      <ul><li>Портфель мен маркетингке аудит жүргізу: кэжуалға инвестицияны қысқарту, 1–2 мидкор/хардкор вертикалін белгілеу.</li>
+<li>ПК-стратегия дайындау: порттау/кроссплейді бағалау, билдтарға қойылатын талаптар, маркетингтік арналар (Steam, EGS).</li>
+<li>Мессенджерге (Telegram) арналған ойынның прототипін жасау және Азияның пилотты аудиториясында CPI/retention метрикаларын валидтеу.</li>
+<li>Қолданыстағы флагманда нативті жарнаманың пилотын іске қосу: 1–2 бренд-коллаборация, табыс бойынша KPI және NPS анықтау.</li>
+<li>AI жол картасын қалыптастыру: арт/кодогенерация/локализация бойынша құралдарды таңдау, команданы оқыту, сапа саясаты.</li>
+<li>GTA VI іске қосылуының айналасына ±2 ай буфермен релиздер мен ірі апдейттердің күнтізбесін дайындау.</li>
+<li>Ойыннан тыс трендтер бойынша ресерч жүргізу (топ-стримингтер, поп-мәдениет, UGC) және табылғандарды контент-жоспарға интеграциялау.</li>
+<li>Инвесторларға арналған pitch-deck-ті пост-GTA өсіміне және жеткіліксіз қаныққан нишаларға акцентпен пысықтау.</li></ul>
+
+      <h2>Дереккөздер</h2>
+      <ul><li>Metacritic және OpenCritic (2025 жылғы рейтингтер)</li>
+<li>GTA V, GTA Online және күтілетін GTA VI (Rockstar Games)</li>
+<li>Red Dead Redemption (Rockstar Games)</li>
+<li>Kingdom Come: Deliverance II (Warhorse Studios)</li>
+<li>Death Stranding 2 (Kojima Productions)</li>
+<li>Hades II (Supergiant Games)</li>
+<li>Hollow Knight: Silksong (Team Cherry)</li>
+<li>Concord (сервис-ойынның жабылуына мысал)</li>
+<li>Sony және Microsoft эксклюзивтері саясаты, ПК-ның өсуі</li>
+<li>Nintendo Switch 2 (күтілетін платформа)</li>
+<li>Telegram — ойындар мен AI-агенттеріне арналған платформа</li>
+<li>«Қызыл мұхит» термині (Көк мұхит стратегиясы)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Ескерту:</strong> Бұл мәтін Digital Bridge 2025 халықаралық форумының спикерлерінің тірі сөздеріне негізделген жасанды интеллект технологияларының көмегімен дайындалды. Мәтінде аздаған қателер немесе дәлсіздіктер болуы мүмкін және ол ресми стенограмма болып табылмайды. Фактілер мен мәліметтерді растау үшін форумның ресми материалдарына жүгіну ұсынылады.
+  </div>
+</body>
+</html>

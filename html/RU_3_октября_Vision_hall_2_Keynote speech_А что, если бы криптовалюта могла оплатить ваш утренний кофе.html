@@ -1,0 +1,271 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keynote speech: А что, если бы криптовалюта могла оплатить ваш утренний кофе? — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Назад к расписанию</a>
+    <h1>Keynote speech: А что, если бы криптовалюта могла оплатить ваш утренний кофе?</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Мазурка Зенг</span>
+      <span class="speaker-role"> — Операционный директор одной из крупнейших криптовалютных платформ в мире Bybit Global</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Аннотация</h2>
+      <p>Спикер представила видение «Финансы 3.0»: повседневные платежи криптовалютой через карту и QR, совмещённые с инвестициями и кэшбэком. Показаны продукты Bybit Card и Bybit Pay, их глобальная инфраструктура и интеграции с национальными системами платежей. Обозначены тренд на стейблкоины и институциональное принятие. Объявлены планы по запуску решений в Казахстане и расширению партнёрств с банками и регуляторами.</p>
+
+      <h2>Цели</h2>
+      <ul><li>Интегрировать криптовалюту в повседневные платежи (карта и QR) без необходимости конвертации и переводов</li>
+<li>Снизить издержки и сроки международных переводов и корпоративных расчётов</li>
+<li>Расширить лицензионное покрытие и комплаенс, углубить сотрудничество с местными банками и регуляторами</li>
+<li>Запустить в Казахстане Bybit Pay с поддержкой национальных QR-платежей в ближайшем квартале</li>
+<li>Развить линейку финансовых сервисов на базе стейблкоинов (кредитные линии, взаиморасчёты, BNPL)</li></ul>
+
+      <h2>Основные вопросы</h2>
+      <ul><li>Как Bybit будет конкурировать с традиционными банками в Казахстане с учётом их сильных программ кэшбэка и низких комиссий?</li>
+<li>Как решаются вопросы обменных курсов и волатильности при оплате криптовалютой на POS и через QR?</li>
+<li>Какие регуляторные требования (KYC/AML, лицензии) покрывают повседневные криптоплатежи и корпоративные расчёты?</li>
+<li>Как обеспечивается подключение и мотивация мерчантов к приёму криптоплатежей через национальные QR-системы?</li>
+<li>Какова экономическая модель кэшбэка и доходности по стейблкоинам (8–12%) и насколько она устойчива?</li></ul>
+
+      <h2>Ключевые тезисы</h2>
+      <ul><li>Bybit позиционирует «Финансы 3.0»: единый счёт для инвестиций и расходов, где криптоактивы доступны для оплаты без промежуточных переводов.</li>
+<li>Традиционные платежи страдают от высоких комиссий, лимитов и долгих сроков переводов (SWIFT/SEPA до 5 рабочих дней); криптоплатежи призваны это устранить.</li>
+<li>Bybit имеет 75 млн зарегистрированных пользователей, лицензии в 13 юрисдикциях и ещё 5 в процессе получения.</li>
+<li>Bybit Card (Visa/Mastercard): более 2 млн выпущенных карт, приём в 90+ млн POS-терминалов (100+ млн с учётом глобальных сетей), кэшбэк до 10%, доходность по стейблкоинам до 8–12%.</li>
+<li>Bybit Pay интегрируется с национальными системами (Pix, M-PESA, MoMo, локальные QR) и уже работает/пилотируется в Бразилии, Аргентине, Вьетнаме, Филиппинах, Армении; скоро — Таиланд и Казахстан.</li>
+<li>Сценарии использования: P2P-переводы, оплата покупок и благотворительность через сканирование QR в приложении Bybit с начислением кэшбэка.</li>
+<li>Казахстан: интеграция с национальными QR-платежами при участии Нацбанка; запуск решений и сервисов оплаты инвойсов под регулированием АФСА планируется в 4 квартале.</li>
+<li>Стратегия — не конкурировать, а дополнять банки (пример: покупка крипто через местные банки, в т.ч. Банк ЦентрКредит), объединяя Web2 и Web3-экосистемы.</li>
+<li>Дорожная карта: кредитные линии, система взаиморасчётов для крупных клиентов, крипто-кредитки и BNPL.</li>
+<li>Кейсы партнёрств и стимулов: крупные мероприятия и мерч (например, в Бразилии — до 30% кэшбэка на билеты, 10% на стадионах), программа Tomorrowland Brazil 2025.</li></ul>
+
+      <h2>Цитаты</h2>
+      
+
+      <h2>Выводы</h2>
+      <ul><li>Повседневные криптоплатежи становятся практичными за счёт карт, QR-интеграций и тренда на стейблкоины.</li>
+<li>Модель «Финансы 3.0» объединяет инвестиции и расходы, предлагая экономию на комиссионных и дополнительные доходы (кэшбэк и доходность по стейблкоинам).</li>
+<li>Казахстан — один из приоритетных рынков для запуска QR-криптоплатежей и корпоративных сервисов под надзором АФСА.</li>
+<li>Успех возможен через партнёрство с банками и национальными платёжными системами, а не через прямую конкуренцию.</li></ul>
+
+      <h2>Принятые решения</h2>
+      <ul><li>Запустить в Казахстане Bybit Pay с поддержкой национальных QR-платежей в 4 квартале.</li>
+<li>Оказывать платежные услуги под регулированием АФСА, включая оплату инвойсов через сканирование и цифровые расчёты.</li>
+<li>Продолжить интеграции с национальными системами (Pix, MoMo, M-PESA) и расширить покрытие на Таиланд и Казахстан.</li>
+<li>Сохранить партнёрскую модель с местными банками (в т.ч. через прямую покупку криптовалюты в банковских приложениях).</li>
+<li>Развивать продуктовую линейку: кэшбэк-программы, доходные стейблкоины, кредитные линии и взаиморасчёты для бизнеса.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Завершить пилоты и сертификацию подключения к национальной QR-системе Казахстана и провести публичный запуск.</li>
+<li>Организовать онбординг мерчантов совместно с местными банками и эквайерами; подготовить POS-материалы и обучение.</li>
+<li>Запустить бета-сервис оплаты инвойсов под АФСА и собрать обратную связь от компаний, держащих криптоактивы.</li>
+<li>Провести кампанию просвещения пользователей по безопасности, KYC/AML, налогам и правилам использования стейблкоинов.</li>
+<li>Опубликовать дорожную карту по крипто-кредитке и BNPL, включая условия лимитов и риск-менеджмента.</li>
+<li>Настроить KPI: доля ежедневных транзакций, средняя комиссия и время перевода по сравнению со SWIFT/SEPA, NPS мерчантов.</li>
+<li>Расширить кэшбэк-оферы за счёт локальных партнёрств (мероприятия, мерч, транспорт) и интеграции с программами лояльности.</li></ul>
+
+      <h2>Источники</h2>
+      <ul><li>Bybit Card</li>
+<li>Bybit Pay (демо-видео на сессии)</li>
+<li>Visa</li>
+<li>Mastercard</li>
+<li>Pix (Бразилия)</li>
+<li>M-PESA</li>
+<li>MoMo</li>
+<li>Национальные QR-системы (Казахстан)</li>
+<li>SWIFT</li>
+<li>SEPA</li>
+<li>АФСА (регулятор МФЦА)</li>
+<li>Национальный банк Казахстана</li>
+<li>Crypto World (Brazil)</li>
+<li>Tomorrowland Brazil 2025</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Примечание:</strong> Данный текст подготовлен с использованием технологий искусственного интеллекта на основе живой речи спикеров международного форума Digital Bridge 2025. Он может содержать отдельные ошибки или неточности и не является официальной стенограммой.
+  </div>
+</body>
+</html>

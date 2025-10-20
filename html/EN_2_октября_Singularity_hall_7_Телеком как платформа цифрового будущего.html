@@ -1,0 +1,320 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel session: Telecom as a platform for the digital future — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Panel session: Telecom as a platform for the digital future</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Таир Исмаилов</span>
+      <span class="speaker-role"> — Director of Strategic Management at GSMA</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Дамир Сейсембеков</span>
+      <span class="speaker-role"> — Chairman of the Telecommunications Committee of the Ministry of AI Industry and Digital Development of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Аскар Жамбакин</span>
+      <span class="speaker-role"> — Chief Executive Officer of Kcell</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Александр Бабичев</span>
+      <span class="speaker-role"> — Chief Executive Officer of Tele2/Altel Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Алексей Шаравар</span>
+      <span class="speaker-role"> — Chief Executive Officer of QazCode</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how 5G, AI, and satellite technologies are shaping Kazakhstan's digital future. The government is betting on sovereignty in AI: local compute capacity, Kazakh-language LLMs, and an AI law. Operators showcased practical AI use cases for the network, anti-fraud, and customer experience, as well as private networks for industry. A notable segment was the role of NGSO satellites (Starlink, OneWeb, Kuiper) in closing digital "white spots" and future D2D services.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Accelerate the deployment of 5G and optical infrastructure with priority for regions and rural settlements</li>
+<li>Ensure digital sovereignty in AI: local data centers/GPUs, Kazakh-language models, and legal regulation</li>
+<li>Reduce digital risks for the population through anti-fraud and a safer internet for children</li>
+<li>Develop the B2B track: private LTE/5G networks, AI solutions, and export of digital products</li>
+<li>Form balanced regulation and spectrum policy for NGSO and promising D2D services</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How does 5G rollout change subscriber behavior, traffic, and service structure compared to LTE?</li>
+<li>What does digital sovereignty in AI consist of, and which infrastructure elements are critical for the country?</li>
+<li>How are operators applying AI in the network, customer service, and security, and where is the maximum impact?</li>
+<li>What role will private mobile networks play in industrial automation and safety?</li>
+<li>What is the optimal role of NGSO satellite constellations, and what regulatory steps are needed for their integration?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Kazakhstan has improved its position in the Ookla ranking and leads the CIS in MBB quality/speed; growth is driven by 5G, fiber, and backhaul modernization</li>
+<li>Kcell and Tele2/Altel have joint RAN and 5G spectrum development; at the same time, differences in transport, cache, VoLTE, and IT yield a different customer experience</li>
+<li>Average consumption for Kcell subscribers is ~30 GB, 5G traffic grew 3x; up to 40% of subscribers already use 5G, peak speeds at events are ~200 Mbps</li>
+<li>Tele2/Altel applies AI in SON and predictive maintenance (200+ base stations), actively develops VoLTE (35% of voice traffic)</li>
+<li>Beeline, through «Каскад», focuses on AI: KazLLM, an AI tutor in «Жанымдай», local GPU data centers ("Hyper Cloud Solutions"), and the corporate platform AVENTA</li>
+<li>The state is creating conditions for AI: a supercomputer cluster has been launched, an AI law is being developed, and a Council under the President on AI implementation has been established</li>
+<li>Anti-fraud and user protection: Kcell — blocking 2+ million calls over 9 months and 'highlighting' suspicious calls; Tele2/Altel — commercial launch of «Детской SIM»</li>
+<li>Private LTE/5G networks in industry (KazMinerals, ERG, etc.) increase productivity and safety: autonomous machinery, precise automated control systems, local cybersecurity perimeter</li>
+<li>NGSO satellites are used for backhaul and spot access: OneWeb is covering 500+ villages with Wi‑Fi, Starlink is officially in the Republic of Kazakhstan, Project Kuiper entry is being prepared; D2D is being discussed (starting with SMS/112)</li>
+<li>The spectrum and data center agenda is expanding: bands have been allocated for NGSO on a 'no-harm and no-protection' basis, and strengthening of the Committee's role with AI infrastructure is planned</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“Otherwise, you're just driving an expensive supercar on streets with a forty-kilometer-per-hour limit.” — <span class="author">Askar Zhambakin</span></blockquote>
+
+
+  <blockquote>“It's even better to connect to operators who have the fastest 5G.” — <span class="author">Aleksandr Babichev</span></blockquote>
+
+
+  <blockquote>“We in Kazakhstan launched a supercomputer cluster — today it is already functioning successfully.” — <span class="author">Damir Seisembekov</span></blockquote>
+
+
+  <blockquote>“Artificial intelligence... communicates using signals, digital signals.” — <span class="author">Damir Seisembekov</span></blockquote>
+
+
+  <blockquote>“In the third quarter, there were half as many fraudulent calls as in the first quarter.” — <span class="author">Askar Zhambakin</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>5G, fiber, and local data centers with GPUs are the foundation of digital sovereignty and a platform for mass AI adoption.</li>
+<li>The greatest short-term AI impact for operators is in customer service, anti-fraud, and network optimization; strategically, B2B and the export of IT products are growing.</li>
+<li>NGSO satellites will complement cellular networks for 'fine-tuning' coverage and critical services (including D2D/SOS), requiring thoughtful regulation and spectrum coordination.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>Official launch of Starlink in Kazakhstan: availability of equipment and services for users.</li>
+<li>Launch of the OneWeb program to connect 504 rural settlements to public Wi‑Fi by the end of the year.</li>
+<li>A roadmap was signed by the Ministry of AI Industry and Digital Development of the Republic of Kazakhstan with Amazon on the implementation of Project Kuiper; «Казахтелеком» — distributor.</li>
+<li>The Communications Law enshrined the licensing regime for NGSO; bands have been allocated for NGSO on a 'no-harm and no-protection' basis.</li>
+<li>Tele2/Altel signed a memorandum to use AONIT's GPU capacity to accelerate AI use cases.</li>
+<li>Commercial launch of the product «Детская SIM-карта» (Tele2/Altel) with content filtering and parental controls.</li>
+<li>Implementation at Kcell of an anti-fraud system and 'highlighting' of suspicious calls in the app with mass spam blocking.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>Finalize adoption of the Artificial Intelligence Law and by-laws on ethics, data protection, and liability.</li>
+<li>Accelerate connecting 3,000 villages to fiber under the agreement with «Казахтелеком» and provide backhaul for base stations.</li>
+<li>Expand 5G coverage and the share of VoLTE, scale SON/predictive maintenance to all regions.</li>
+<li>Deploy local GPU clusters and stimulate demand for AI through grants/preferences for data centers and developers.</li>
+<li>Scale anti-fraud algorithms and call risk tags; create an industry center for sharing fraud indicators.</li>
+<li>Advance D2D pilots (starting with SMS/112 in mountainous areas) jointly with NGSO operators and cellular players.</li>
+<li>Expand private LTE/5G networks in mining and metals, oil and gas, and energy; develop standard requirements for cybersecurity and local processing.</li>
+<li>Run digital literacy campaigns and encourage upgrading devices to 5G-ready models.</li>
+<li>Form a spectrum policy for mass IoT and dedicated bands for smart devices and industrial traffic.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Ookla Speedtest Global Index — ranking of mobile internet speeds</li>
+<li>GSMA study on AI adoption in the telecom industry</li>
+<li>Kazakh language model KazLLM (together with «Каскад», Astana Hub, and partners)</li>
+<li>«Жанымдай» app — AI tutor for the Kazakh language</li>
+<li>Corporate platform AVENTA (Beeline/«Каскад»)</li>
+<li>Supercomputer cluster of the Republic of Kazakhstan for AI tasks</li>
+<li>Legislative initiative of the Republic of Kazakhstan: the Artificial Intelligence Law (second reading, Mazhilis) and the Council on AI under the President</li>
+<li>Starlink (SpaceX) — services in Kazakhstan</li>
+<li>OneWeb — connecting rural localities (public Wi‑Fi)</li>
+<li>Project Kuiper (Amazon) — roadmap with the Ministry of AI Industry and Digital Development of the Republic of Kazakhstan, distribution through «Казахтелеком»</li>
+<li>Test of a Chinese operator's NGSO at the Republican Center for Space Communications (about 200 Mbps)</li>
+<li>Tele2/Altel — AONIT memorandum on the use of GPU capacity</li>
+<li>Investment agreement with «Казахтелеком» on fiber to 3,000 villages</li>
+<li>Private network cases: KazMinerals, ERG, Solidcor(e)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using AI technologies based on live speech from speakers at the Digital Bridge 2025 forum. It may contain minor inaccuracies and does not represent the official transcript.
+  </div>
+</body>
+</html>

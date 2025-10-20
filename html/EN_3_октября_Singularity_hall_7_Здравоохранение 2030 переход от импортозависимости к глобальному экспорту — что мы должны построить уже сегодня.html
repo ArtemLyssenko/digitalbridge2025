@@ -1,0 +1,314 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare 2030: moving from import dependence to global export — what must we build today? — Digital Bridge 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #10132a;
+            background-image: radial-gradient(
+                600px 500px at 15% 10%,
+                rgba(108, 186, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                800px 600px at 85% 20%,
+                rgba(155, 109, 255, 0.18),
+                transparent 70%
+              ),
+              radial-gradient(
+                900px 700px at 50% 90%,
+                rgba(33, 212, 253, 0.15),
+                transparent 70%
+              );
+            color: #f5f7ff;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #1c2245;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .back-link {
+            display: inline-block;
+            color: #6cbaff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(108, 186, 255, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover { 
+            background: rgba(108, 186, 255, 0.1);
+            border-color: #6cbaff;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #6cbaff, #9b6dff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .content h2 {
+            color: #6cbaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            padding-left: 16px;
+        }
+        .content h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 60%;
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(#6cbaff, #9b6dff);
+        }
+        .content p {
+            margin-bottom: 1rem;
+            color: #f5f7ff;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            list-style: none;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+            color: #f5f7ff;
+            position: relative;
+        }
+        .content li::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 28%;
+            background: radial-gradient(circle at top left, #6cbaff, #9b6dff);
+            box-shadow: 0 0 6px rgba(155, 109, 255, 0.6);
+        }
+        
+        .speakers {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .speaker-badge {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .speaker-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .speaker-role {
+            color: #a9afc9;
+            font-size: 14px;
+        }
+        
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #21d4fd;
+            background: #27305a;
+            border-radius: 10px;
+            color: #f5f7ff;
+            font-style: italic;
+            box-shadow: inset 0 0 6px rgba(33, 212, 253, 0.3);
+        }
+        
+        .author {
+            font-style: normal;
+            color: #6cbaff;
+            font-weight: 600;
+        }
+        
+        .note {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 215, 0, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #fff6c2;
+            line-height: 1.6;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+        }
+        
+        .note strong {
+            color: #ffd700;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-link">← Back to Schedule</a>
+    <h1>Healthcare 2030: moving from import dependence to global export — what must we build today?</h1>
+
+    <div class="speakers">
+      
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Досжан Жусупов</span>
+      <span class="speaker-role"> — CEO of Cerebra AI</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Ербол Оспанов</span>
+      <span class="speaker-role"> — Vice Minister of Health of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Д-р Санжи де Сильва</span>
+      <span class="speaker-role"> — Vice President, Clinical Informatics & Engagement, Malaffi</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Алексей Цой</span>
+      <span class="speaker-role"> — Head of the Medical Center of the Presidential Affairs Administration of the Republic of Kazakhstan</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Анна Лемякина</span>
+      <span class="speaker-role"> — Director for National and Strategic Projects, Yandex Cloud</span>
+    </div>
+  </div>
+
+
+  <div class="speaker-badge">
+    <div>
+      <span class="speaker-name">Болат Султанкулов</span>
+      <span class="speaker-role"> — CEO of Arlan Biotech</span>
+    </div>
+  </div>
+
+    </div>
+
+    <div class="content">
+      <h2>Annotation</h2>
+      <p>The panel discussed how Kazakhstan can move from import dependence to exporting medical technologies by 2030: the role of the state and the private sector, regulatory and financial conditions, data and sandboxes for AI, as well as a priority on prevention and clinical validation. The experience of Abu Dhabi (HIE, genomics, AI Academy) and concrete steps by Kazakhstani institutions (data lakes, clinical sites, sandboxes) were presented. Attention was paid to venture financing (a fund of funds) and rejecting the copying of outdated models in favor of leapfrog innovations.</p>
+
+      <h2>Goals</h2>
+      <ul><li>Reduce import dependence and create an export-oriented medtech and biotech ecosystem by 2030</li>
+<li>Establish regulatory sandboxes, standards, and secure access to data (data lakes) for AI and clinical research</li>
+<li>Attract private capital through fund-of-funds mechanisms and strengthen venture financing for biotech/medtech startups</li>
+<li>Develop human competencies in AI and clinical research to accelerate deployment and validation of technologies</li>
+<li>Launch infrastructure and processes for clinical piloting and certification of local solutions</li></ul>
+
+      <h2>Key Questions</h2>
+      <ul><li>How realistic are technological independence and Kazakhstan’s entry into exports of medical technologies and services?</li>
+<li>Is modernization needed before innovation, or should these processes run in parallel?</li>
+<li>Which format of government support is most effective: grants or venture via a fund of funds?</li>
+<li>What will healthcare look like in 2030: the role of AI, prevention, and telemedicine?</li>
+<li>What is needed to deploy world-class biotech manufacturing and laboratories in Kazakhstan?</li></ul>
+
+      <h2>Key Points</h2>
+      <ul><li>Government projects are often slowed by regulation and infrastructure constraints; the private sector is faster and should be more actively involved.</li>
+<li>Abu Dhabi experience: a unified health information exchange (HIE), AI for imaging, genomic data, and an AI Academy at Mohamed bin Zayed University — a benchmark for exportable platforms.</li>
+<li>Kazakhstan has strong starting positions: medical tourism, a priority on radiopharmaceuticals, clinical sites with JCI/ISO, a high degree of digitalization, and large data volumes.</li>
+<li>Do not copy outdated models (e.g., generics like paracetamol); build new niches and products (a leapfrog approach) with a focus on deep tech.</li>
+<li>A shift from grants to venture mechanisms (a fund of funds) is critical, following examples from Israel and South Korea; biotech deals require large rounds (Series A $10–20 million).</li>
+<li>Regulatory gaps hinder innovation: standards need modernization (including GTP alongside GMP/GLP), with transparent rules for data access and clinical piloting.</li>
+<li>The Medical Center of the Presidential Affairs Administration is deploying a sandbox (a 4-node server) and opening access to PACS/CT data for startups; the Ministry of Health is including Orlan Biotech in the pool of supported projects.</li>
+<li>By 2030, the focus will shift to prevention, personalized medicine, and telemedicine; scenarios with an “AI-powered online doctor” are possible given trust, verification, and data protection.</li>
+<li>The introduction of AI and automation often forces standardization and modernization of processes — these tracks can run in parallel.</li>
+<li>Clinical validation, trust, and algorithm transparency are key to implementing AI in practice and attracting investors.</li></ul>
+
+      <h2>Quotes</h2>
+      
+  <blockquote>“It is impossible to build something fundamental on a liquid foundation.” — <span class="author">Anna Lemyakina</span></blockquote>
+
+
+  <blockquote>“We must make a leapfrog — jump over the existing healthcare system and come out with unique products.” — <span class="author">Alexey Tsoy</span></blockquote>
+
+
+  <blockquote>“We should not try to copy — we must create new products, new niches, new markets.” — <span class="author">Bolat Sultankulov</span></blockquote>
+
+
+  <blockquote>“I want to be an optimist: in the next three to four years the first AI-based online doctors will appear.” — <span class="author">Yerbol Ospanov</span></blockquote>
+
+
+      <h2>Conclusions</h2>
+      <ul><li>An export breakthrough is possible by combining regulatory sandboxes, access to quality data, and venture capital — not by copying existing production.</li>
+<li>By 2030, AI and prevention will become the core of the healthcare system; clinical verification, safety, and data standardization are mandatory conditions for scaling.</li></ul>
+
+      <h2>Decisions Made</h2>
+      <ul><li>The Ministry of Health includes Orlan Biotech in the priority pool of projects for facilitation and support.</li>
+<li>State clinics will provide research sites and access to anonymized data for pilots and clinical testing.</li>
+<li>Launch regulatory sandboxes and revise approaches to regulation and data access for AI/medtech.</li>
+<li>The Medical Center of the Presidential Affairs Administration will deploy a 4-node server and open a sandbox for startups (access to PACS/CT and other medical data).</li>
+<li>Organize in-country B2B platforms for startups to communicate with venture investors and funds of funds.</li></ul>
+
+      <h2>Action Items</h2>
+      <ul><li>For the Ministry of Health: prepare updated rules on tariffs, data access, and the launch of regulatory sandboxes; consider adopting the GTP standard together with the existing GMP/GLP.</li>
+<li>For the Medical Center of the Presidential Affairs Administration: complete deployment of the sandbox (4 nodes), sign agreements with startups, ensure secure access to DICOM/PACS, and compliance with personal data regulations.</li>
+<li>Create a dialogue platform at the science–business–government interface and regular pitch sessions for VCs/funds of funds.</li>
+<li>Standardize and unify clinical data; build data lakes in key state medical organizations.</li>
+<li>Launch upskilling programs for medical staff in AI and digital skills in partnership with universities.</li>
+<li>Develop a roadmap of exportable solutions (HIE modules, AI diagnostics, radiopharmaceuticals, clinical trials) and mechanisms for their external certification.</li></ul>
+
+      <h2>Sources</h2>
+      <ul><li>Abu Dhabi Health Information Exchange (HIE)</li>
+<li>Global AI in Healthcare Academy, Mohamed bin Zayed University</li>
+<li>Stanford Research Institute / innovation hub (first agreement outside the USA)</li>
+<li>N.N. Petrov National Medical Research Center of Oncology</li>
+<li>JCI and ISO standards</li>
+<li>Regulatory standards GMP, GLP, GTP; EMA and FDA</li>
+<li>Astana Hub</li>
+<li>Nazarbayev University</li>
+<li>Arlan Biotech (startup), Cerebra (mentioned Kazakhstani project)</li></ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> This text was generated using AI technologies based on live speech from speakers at the Digital Bridge 2025 forum. It may contain minor inaccuracies and does not represent the official transcript.
+  </div>
+</body>
+</html>
