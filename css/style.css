@@ -32,6 +32,10 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* Three.js particle canvas */
@@ -50,8 +54,13 @@ body {
     position: relative;
     z-index: 1;
     max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem 0; /* Only top/bottom padding, no side padding */
+    width: 100%;
+    margin: 0;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* ========== HERO SECTION ========== */
@@ -245,7 +254,9 @@ body {
     min-height: 400px;
     margin-bottom: 4rem;
     overflow: visible; /* Allow glow effects to extend beyond */
-    padding: 0 2rem; /* Add padding to wrapper instead of container */
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .timeline {
@@ -268,9 +279,12 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem 2rem;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     position: relative;
     z-index: 1;
+    justify-items: center;
+    width: 100%;
+    max-width: 100%;
 }
 
 .timeline-sessions::-webkit-scrollbar {
@@ -281,6 +295,7 @@ body {
 /* Remove row line decoration and add ambient halo */
 .session-card {
     width: 100%;
+    max-width: 400px;
     position: relative;
     z-index: 0; /* stacking context for halo */
     opacity: 0;
@@ -394,20 +409,41 @@ body {
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
     .container {
-        padding: 1rem 0;
+        padding: 1rem 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .timeline-wrapper {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
+        width: 100%;
+        max-width: 100%;
     }
     
     .timeline-sessions {
-        padding: 3rem 2rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 2rem 0.5rem;
+        justify-items: center;
+        width: 100%;
+        max-width: 100%;
     }
     
     .hero {
         padding: 2rem 1rem;
+        width: 100%;
+        text-align: center;
     }
     
     .language-switcher {
@@ -429,7 +465,9 @@ body {
     }
     
     .session-card {
-        width: 280px;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
     }
     
     .session-node {
@@ -441,27 +479,55 @@ body {
         font-size: 1.1rem;
     }
     
-    .timeline-sessions {
-        gap: 1.5rem;
-        padding: 2rem 0.5rem;
+    .hall-filters {
+        padding: 0 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+    
+    .day-tabs {
+        width: 100%;
+        justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
     .container {
-        padding: 0.5rem 0;
+        padding: 0.5rem 0.25rem;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .timeline-wrapper {
-        padding: 0 0.5rem;
+        padding: 0 0.25rem;
+        width: 100%;
+        max-width: 100%;
     }
     
     .timeline-sessions {
-        padding: 2rem 1rem;
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        padding: 1.5rem 0.25rem;
+        justify-items: center;
+        width: 100%;
+        max-width: 100%;
     }
     
     .session-card {
-        width: 240px;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
     }
     
     .session-node {
@@ -489,11 +555,20 @@ body {
     
     .day-tabs {
         gap: 0.5rem;
+        width: 100%;
+        justify-content: center;
     }
     
     .tab-btn {
         padding: 0.7rem 1.2rem;
         font-size: 0.9rem;
+    }
+    
+    .hall-filters {
+        padding: 0 0.25rem;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
     }
 }
 
@@ -528,6 +603,8 @@ body {
     margin: -1rem 0 2rem;
     flex-wrap: wrap;
     padding: 0 1rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .hall-btn {
@@ -582,6 +659,74 @@ body {
 .hall-btn:focus-visible {
     outline: none;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4), 0 10px 28px rgba(255, 255, 255, 0.18);
+}
+
+/* ========== SCROLL TO TOP BUTTON ========== */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 56px;
+    height: 56px;
+    background: rgba(108, 186, 255, 0.15);
+    border: 1px solid rgba(108, 186, 255, 0.3);
+    border-radius: 50%;
+    color: #6cbaff;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(108, 186, 255, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.8);
+}
+
+.scroll-to-top-btn:hover {
+    background: rgba(108, 186, 255, 0.25);
+    border-color: rgba(108, 186, 255, 0.5);
+    color: #eaf6ff;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(108, 186, 255, 0.4);
+}
+
+.scroll-to-top-btn:active {
+    transform: translateY(0) scale(1);
+}
+
+.scroll-to-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.scroll-to-top-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.scroll-to-top-btn:hover svg {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top-btn {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .scroll-to-top-btn {
+        bottom: 1rem;
+        right: 1rem;
+        width: 44px;
+        height: 44px;
+    }
 }
 
 /* ========== CLEAR FILTERS BUTTON ========== */

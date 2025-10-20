@@ -681,6 +681,9 @@ function init() {
     // Initialize clear filters button
     initClearFilters();
     
+    // Initialize scroll to top button
+    initScrollToTop();
+    
     // Check for saved state first
     const savedState = loadFilterState();
     if (savedState && savedState.language) {
@@ -788,6 +791,38 @@ function initDraggableScroll() {
         // Set initial cursor
         timeline.style.cursor = 'grab';
     });
+}
+
+// ========== SCROLL TO TOP FUNCTIONALITY ==========
+function initScrollToTop() {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    if (!scrollToTopBtn) return;
+
+    // Show/hide button based on scroll position
+    function toggleScrollButton() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > 300) {
+            scrollToTopBtn.classList.add('visible');
+        } else {
+            scrollToTopBtn.classList.remove('visible');
+        }
+    }
+
+    // Smooth scroll to top
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Event listeners
+    window.addEventListener('scroll', toggleScrollButton);
+    scrollToTopBtn.addEventListener('click', scrollToTop);
+
+    // Initial check
+    toggleScrollButton();
 }
 
 // ========== START APPLICATION ==========
